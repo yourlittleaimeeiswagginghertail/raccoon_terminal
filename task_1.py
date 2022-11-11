@@ -1,20 +1,19 @@
-numbers = []
-
-
-for repeat in range(100):
-
-    
+def trying_1():
     try:
-        num_1 = float(input("введи число: "))
+        return float(input("введи число: "))
     except ValueError:
-        print("\n это не число")
-        num_1 = "нет значения"
+        return "было введено НЕ число"
 
-        
-    if num_1 == 0:
-        break
+numbers = []
+for masu_1 in range(100):    
+    catched_number = trying_1()
+    if type(catched_number) != float:
+        print(catched_number)
     else:
-        numbers.append(num_1)
+        if catched_number == 0:
+            break
+        else:
+            numbers.append(catched_number)
 
 
 
