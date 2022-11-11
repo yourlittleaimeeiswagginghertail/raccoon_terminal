@@ -2,7 +2,7 @@ def trying_1():
     try:
         return float(input("введи число: "))
     except ValueError:
-        return "было введено НЕ число"
+        return "значением функции является сейчас этот текст"
 
 numbers = []
 for masu_1 in range(100):    
