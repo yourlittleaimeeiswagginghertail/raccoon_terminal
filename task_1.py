@@ -1,4 +1,12 @@
 import numpy as np
 
-kit = np.array( [1,2,3] )
-print(kit)
+#создать array
+bath = np.arange(51)
+
+#c десятого индекса, до последнего, шаг два
+birthday = bath[10: :2]
+print(birthday)
+
+#в обратном порядке
+sympathy = np.flip(birthday, 0)
+print(sympathy)
