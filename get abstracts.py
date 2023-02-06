@@ -6,6 +6,7 @@ with open("павлов22.txt", "r") as text1:
     art_count = 1
     print(separator1, "article № " + str(art_count) + ": " + separator1)
     all_words1 = []
+
     while row != "":
         row = text1.readline()
         row_cat = row.split(" ")
@@ -49,11 +50,11 @@ print(df1)
 #df1.to_csv("result1.csv")
 
 '''
-    row_names = 1
-    row_title = 2
-    row_abstract = 10
-    row_keywords = 11
-    row_blank = 12 #row == "\n"
-    separator2 = "◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤"
-    print(*row_cat, sep=" ")
+row_names = 1
+row_title = 2
+row_abstract = 10
+row_keywords = 11
+row_blank = 12 #row == "\n"
+separator2 = "◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤"
+print(*row_cat, sep=" ")
 '''

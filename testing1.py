@@ -10,6 +10,16 @@ print(cat3)
 print(len(cat3))
 
 
+
+
+# два условия, в цикле - как это уместить в одну функцию?
+# функц1 - условие1
+# функц2 - условие2
+# функц3 - цикл с ф1 и ф2
+
+
+
+
 while row != "":
     row = text1.readline()
     row_cat = row.split(" ")
@@ -31,4 +41,4 @@ while row != "":
     else:
         condition2 = "else2"
 
-#def this_row_belongs_to_abstract
+
