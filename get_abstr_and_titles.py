@@ -81,6 +81,6 @@ print(words_repeat1)
 import pandas as pd
 df1 = pd.DataFrame.from_dict(words_repeat1, orient = 'index')
 print(df1)
-#df1.to_csv("result1.csv")
+#df1.to_csv("result2sum.csv")
 # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   summation   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
