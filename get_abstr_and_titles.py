@@ -32,7 +32,6 @@ print("\n\n всего слов во всех абстрактах:", len(all_ab
 '''
 oblifrodoc2  = obtained_line_from_doc2
 liwialtiwo   = list_with_all_titles_words
-oblifrodoc2  = obtained_line_from_doc2
 liwiwofrobli = list_with_words_from_obtained_line
 liwialtiwo   = list_with_all_titles_words
 '''
