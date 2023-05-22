@@ -1,0 +1,506 @@
+T.S. Usenko, A.I. Bezrukova, D.A. Bogdanova, A.E. Kopytova, K.A. Senkevich, E.V. Gracheva, A.A. Timofeeva, I.V. Miliukhina, E.Y. Zakharova, A.K. Emelyanov, S.N. Pchelina,
+Genetics variants and expression of the SCARB2 gene in the pathogenesis of Parkinson's disease in Russia,
+Neuroscience Letters,
+Volume 741,
+2021,
+135509,
+ISSN 0304-3940,
+https://doi.org/10.1016/j.neulet.2020.135509.
+(https://www.sciencedirect.com/science/article/pii/S0304394020307795)
+Abstract: Lysosomal integral membrane protein-2 (LIMP-2), encoded by the SCARB2 gene, is the specific lysosomal receptor for glucocerebrosidase enzyme. Association between rs6812193 and rs68250047 of SCARB2 with PD has been shown in genetic studies, including large genome-wide association studies. The aim of the current study was to determine whether rs6812193 and rs8475 are associated with PD in Russia. rs6812193 and rs8475 were genotyped in a total of 604 PD patients (65 PD patients with positive (fPD) and 539 PD patients with negative family history (sPD)) and 413 controls and also in 17 patients with PD associated with GBA mutations (PD-GBA) and 18 asymptomatic GBA mutation carriers (GBA-Carriers). SCARB2 expression was measured by real-time PCR in CD45+ blood cells in part of individuals in the studied groups. No linkage disequilibrium was shown between rs6812193 and rs8475 in Russian population. Increased PD risk for TT variant of rs8475 (OR = 2.02; p < 0.001) was found in sPD patients but not in fPD. rs6812193 and rs8475 were not associated with age at onset (AAO) of PD. SCARB2 expression level was decreased in GBA-PD patients and GBA-Carriers compared to PD patients (padjusted = 0.02, padjusted = 0.003, respectively) and GBA-Carriers compared to controls (padjusted = 0.013) with no significant difference in PD patients and controls. SCARB2 expression was not modified with rs6812193 and rs8475. In conclusion, rs8475 was associated with PD status. rs6812193 and rs8475 are not genetic modifier of AAO of PD and do not influence on SCARB2 mRNA level in CD45+ blood cells in studied groups. SCARB2 expression could be modified with GBA mutations and is independent of PD status.
+Keywords: Parkinson’s disease; SCARB2; ge at onset; risk; rs6812193; rs8475; GBA
+
+Sergey S. Panteleev, Ivan B. Sivachenko, Olga A. Lyubashina,
+The Buspirone-dependent Abdominal Pain Transmission Within the Nucleus Tractus Solitarius in the Rat,
+Neuroscience,
+Volume 452,
+2021,
+Pages 326-334,
+ISSN 0306-4522,
+https://doi.org/10.1016/j.neuroscience.2020.11.032.
+(https://www.sciencedirect.com/science/article/pii/S0306452220307570)
+Abstract: Buspirone, a partial agonist of the 5-HT1aR, due to potential antinociceptive properties can be useful for abdominal pain treatment in IBS patients. Pain-related effects of buspirone can be mediated by the 5-HT1aRs, located within the nucleus tractus solitarius. The 5-HT1aR involvement in pain transmission within the NTS is unclear. The objective of our study was to evaluate the involvement of the 5-HT1aR in abdominal pain transmission within the NTS. Using a model of abdominal pain on urethane-anesthetized rats, two types of NTS pain-related neurons responding to the noxious colorectal distension (CRD) with excitatory and inhibitory sustained patterns of evoked activity were revealed. Buspirone (1.0–4.0 mg kg−1, iv) has complex time- and dose-depended action on the CRD-induced NTS neuron responses. Buspirone inhibits the responses of the excitatory neurons and inverts the responses of the inhibitory pain-related neurons but at a dose of 4.0 buspirone, the effect on NTS pain-related neurons attenuates. The inhibitory effect of buspirone on the CRD-evoked responses of the excitatory NTS neurons is completely blocked by an intra-cerebroventricular administration of buspirone agonist WAY100,635. The inhibitory responses do not change by this agonist. The inhibitory action of buspirone is mediated by supraspinal 5-HT1a receptors however, its excitatory effect on inhibitory neurons does not dependents on these receptors. We proposed that the NTS pain-related neurons could be involved in anti- or pronociceptive effects of buspirone on abdominal pain.
+Keywords: irritable bowel syndrome; abdominal pain; buspirone; the nucleus tractus solitarius; neurons
+
+E.A. Polyakova, M.I. Zaraiskii, E.N. Mikhaylov, E.I. Baranova, M.M. Galagudza, E.V. Shlyakhto,
+Association of myocardial and serum miRNA expression patterns with the presence and extent of coronary artery disease: A cross-sectional study,
+International Journal of Cardiology,
+Volume 322,
+2021,
+Pages 9-15,
+ISSN 0167-5273,
+https://doi.org/10.1016/j.ijcard.2020.08.043.
+(https://www.sciencedirect.com/science/article/pii/S0167527320335701)
+Abstract: Background
+MicroRNA (miRNAs) participate in the pathogenesis of coronary artery disease (CAD).
+Objective
+To evaluate the expressions of myocardial and serum miRNA-27а, miRNA-133а, and miRNA-203 in CAD patients.
+Method
+This cross-sectional observational study comprised 100 subjects (60.9 ± 1.0 years; 67% men). The right atrial and serum expressions of miRNA-27a, miRNA -133a, and miRNA-203 in 80 patients referred for elective coronary artery bypass graft surgery (CABG) and 20 control patients scheduled for heart valve surgery were analyzed using real-time polymerase chain reaction.
+Results
+There was a positive correlation between the SYNTAX score I index and serum miRNA-203 expression level (r = 0.693; p < .001). Patients with ≥3 coronary artery lesions had significantly higher myocardial expressions of miRNA-27a, miRNA-133а, and miRNA-203 than patients with 1–2 vessel disease in the atrial myocardium (miRNA-27a: 234.62 ± 29.51 vs. 182.39 ± 19.62 relative expression unit (REU); miRNA-133а: 127.53 ± 13.41 vs. 111.35 ± 12.31 REU; and miRNA-203: 5.25 ± 0.96 vs. 4.71 ± 0.67 REU; р < 0.05); the same association was found for serum miRNA expressions (miRNA-27a: 11.41 ± 3.85 vs. 4.82 ± 1.82 REU; miRNA-133а: 8.42 ± 2.43 vs. 4.35 ± 1.23 REU; and miRNA-203: 145.71 ± 15.73 vs. 43.70 ± 9.67 REU; р < 0.05). The decision tree method established that the risk of multivessel lesions was increased five-fold if the miRNA-203 serum expression was >101.00 REU (OR, 5.90; 95% CI, 2.34–9.46; p < .001).
+Conclusions
+Both myocardial and serum miRNA-27а, miRNA-133а, and miRNA-203 expressions are higher in CABG patients than in non-CAD subjects. The serum miRNA-203 expression level corresponds to myocardial expression and is strongly correlated with the extent of coronary atherosclerosis.
+
+Alexander S. Mikherdov, Roman A. Popov, Mikhail A. Kinzhalov, Matti Haukka, Valeriy A. Polukeev, Vadim P. Boyarskiy, Andreas Roodt,
+Reaction mechanism of regioisomerization in binuclear (diaminocarbene)PdII complexes,
+Inorganica Chimica Acta,
+Volume 514,
+2021,
+120012,
+ISSN 0020-1693,
+https://doi.org/10.1016/j.ica.2020.120012.
+(https://www.sciencedirect.com/science/article/pii/S0020169320312123)
+Abstract: A series of binuclear PdII carbene complexes were synthesized via the treatment of cis-[PdCl2(CNXyl)2] (1) with benzo-1,3-thiazol-2-amines (2–6) and structurally characterized. In every case the reaction leads to the mixture of two regioisomers, which are able to interconvert. The study of the regioisomerization of the binuclear diaminocarbene species showed that it is a first-order reaction, that is, it occurs intramolecularly, and was analyzed with the Hammett function. Electron-withdrawing substituents in the benzothiazole moiety of the complexes as well as increasing the solvent polarity accelerate the reaction. The solvent donor strength correlates less well with the isomerization rates. Based on the obtained activation parameters the studied regioisomerization could be defined as the interchange/dissociative process type. A combined approach including kinetic and mass spectrometric studies allowed the conclusion that the rate-determining step of the isomerization is breaking the carbon–nitrogen bond in the carbene fragment of the binuclear complex.
+Keywords: (Diaminocarbene)PdII complexes; Regioisomerization; Kinetics; Benzothiazol-2-amines; Hammett correlation
+
+Irina Zelinskaya, Oleg Kornushin, Elizaveta Savochkina, Vyacheslav Dyachuk, Marina Vasyutina, Michael Galagudza, Yana Toropova,
+Vascular region-specific changes in arterial tone in rats with type 2 diabetes mellitus: Opposite responses of mesenteric and femoral arteries to acetylcholine and 5-hydroxytryptamine,
+Life Sciences,
+Volume 286,
+2021,
+120011,
+ISSN 0024-3205,
+https://doi.org/10.1016/j.lfs.2021.120011.
+(https://www.sciencedirect.com/science/article/pii/S002432052100998X)
+Abstract: Aims
+Type 2 diabetes mellitus (T2DM) ranks in the top 10 causes of mortality worldwide. The key factor of T2DM vascular complications is endothelial dysfunction. It is characterized by the vessels motor activity disruption and endothelium-derived factors imbalance. The blood vessels morphological and molecular heterogeneity greatly affects the changes occurring in T2DM. Therefore, we conducted a comparative study of vascular bed changes occurring in T2DM.
+Main methods
+Male Wistar rats were fed a high-fat diet for 20 weeks, followed by a single streptozotocin injection (20 mg/kg). T2DM was confirmed with an oral glucose tolerance test.
+Key findings
+A dose-dependent contraction study showed an increase in third-order mesenteric arterioles response to serotonin but not to phenylephrine. These vessels also exhibited a decrease in acetylcholine-dependent relaxation and an increase in guanylate cyclase function. At the same time, the femoral arteries showed a tendency for increased acetylcholine-dependent relaxation. The blood plasma analysis revealed low bioavailable nitric oxide and high levels of endothelin-1 and ROS.
+Significance
+This knowledge, in conjunction with the features of the T2DM course, can allow further targeted approaches development for the prevention and treatment of vascular complications occurring in the disease.
+Keywords: Type 2 diabetes mellitus; Blood vessels; Oral glucose tolerance test; Endothelium; Wire myography
+
+Sergey V. Orlov, Aglaya G. Iyevleva, Elena A. Filippova, Alexandra M. Lozhkina, Svetlana V. Odintsova, Tatiana N. Sokolova, Natalia V. Mitiushkina, Vladislav I. Tiurin, Elena V. Preobrazhenskaya, Alexandr A. Romanko, Alexandr S. Martianov, Alexandr O. Ivantsov, Svetlana N. Aleksakhina, Alexandr V. Togo, Evgeny N. Imyanitov,
+Efficacy of lorlatinib in lung carcinomas carrying distinct ALK translocation variants: The results of a single-center study,
+Translational Oncology,
+Volume 14, Issue 8,
+2021,
+101121,
+ISSN 1936-5233,
+https://doi.org/10.1016/j.tranon.2021.101121.
+(https://www.sciencedirect.com/science/article/pii/S1936523321001133)
+Abstract: Background
+Lorlatinib is a novel potent ALK inhibitor, with only a few studies reporting the results of its clinical use.
+Methods
+This study describes the outcomes of lorlatinib treatment for 35 non-small cell lung cancer patients with ALK rearrangements, who had 2 (n = 5), 1 (n = 26) or none (n = 4) prior tyrosine kinase inhibitors and received lorlatinib mainly within the compassionate use program.
+Results
+Objective tumor response (OR) and disease control (DC) were registered in 15/35 (43%) and 33/35 (94%) patients, respectively; brain metastases were particularly responsive to the treatment (OR: 22/27 (81%); DC: 27/27 (100%)). Median progression free survival (PFS) was estimated to be 21.8 months, and median overall survival (OS) approached to 70.1 months. Only 4 out of 35 patients experienced no adverse effects; two of them were the only subjects who had no clinical benefit from lorlatinib. PFS and OS in the no-adverse-events lorlatinib users were strikingly lower as compared to the remaining patients (1.1 months vs. 23.7 months and 10.5 months vs. not reached, respectively; p < 0.0001 for both comparisons). ALK translocation variants were known for 28 patients; there was no statistical difference between patients with V.1 and V.3 rearrangements with regard to the OS or PFS.
+Conclusion
+Use of lorlatinib results in excellent disease outcomes, however caution must be taken for patients experiencing no adverse effects from this drug.
+Keywords: Non-small cell lung cancer; ALK rearrangements; Lorlatinib; Brain metastases; Review
+
+Oleg V. Kornyushin, Dmitry L. Sonin, Alexander S. Polozov, Vitaly V. Masley, Maria S. Istomina, Garry V. Papayan, Daria V. Mukhametdinova, Yuri V. Cheburkin, Yana G. Toropova, Irina A. Zelinskaya, Alexander E. Neimark, Kira V. Derkach, Alexander O. Shpakov, Michael M. Galagudza,
+Effects of three types of bariatric interventions on myocardial infarct size and vascular function in rats with type 2 diabetes mellitus,
+Life Sciences,
+Volume 279,
+2021,
+119676,
+ISSN 0024-3205,
+https://doi.org/10.1016/j.lfs.2021.119676.
+(https://www.sciencedirect.com/science/article/pii/S0024320521006627)
+Abstract: Aims
+The effects of three types of bariatric interventions on myocardial infarct size were tested in the rat model of type 2 diabetes mellitus (T2DM). We also evaluated the effects of bariatric surgery on no-reflow phenomenon and vascular dysfunction caused by T2DM.
+Main methods
+Rats with T2DM were assigned into groups: without surgery, sham-operated, ileal transposition, Roux-en-Y gastric bypass, and sleeve gastrectomy. Oral glucose tolerance, glucagon-like peptide-1, and insulin levels were measured. Six weeks after surgery, the animals were subjected to myocardial ischemia-reperfusion followed by histochemical determination of infarct size (IS), no-reflow zone, and blood stasis area size. Vascular dysfunction was characterized using wire myography.
+Key findings
+All bariatric surgery types caused significant reductions in animal body weight and resulted in T2DM compensation. All bariatric interventions partially normalized glucagon-like peptide-1 responses attenuated by T2DM. IS was significantly smaller in animals with T2DM. Bariatric surgery provided no additional IS limitation compared with T2DM alone. Bariatric surgeries reversed T2DM-induced enhanced contractile responses of the mesenteric artery to 5-hydroxytryptamine. Sleeve gastrectomy normalized decreased nitric oxide synthase contribution to the endothelium-dependent vasodilatation in T2DM.
+Significance
+T2DM resulted in a reduction of infarct size and no-reflow zone size. Bariatric surgery provided no additional infarct-limiting effect, but it normalized T2DM-induced augmented vascular contractility and reversed decreased contribution of nitric oxide to endothelium-dependent vasodilatation typical of T2DM. All taken together, we suggest that this type of surgery may have a beneficial effect on T2DM-induced cardiovascular diseases.
+Keywords: Bariatric surgery; Infarct size; No-reflow; Glucagon-like peptide-1; Type 2 diabetes mellitus; Vascular function
+
+Lidia B. Shestopalova, Ekaterina A. Petropavlovskaia, Varvara V. Semenova, Nikolay I. Nikitin,
+Brain oscillations evoked by sound motion,
+Brain Research,
+Volume 1752,
+2021,
+147232,
+ISSN 0006-8993,
+https://doi.org/10.1016/j.brainres.2020.147232.
+(https://www.sciencedirect.com/science/article/pii/S0006899320305904)
+Abstract: The present study investigates the event-related oscillations underlying the motion-onset response (MOR) evoked by sounds moving at different velocities. EEG was recorded for stationary sounds and for three patterns of sound motion produced by changes in interaural time differences. We explored the effect of motion velocity on the MOR potential, and also on the event-related spectral perturbation (ERSP) and inter-trial phase coherence (ITC) calculated from the time-frequency decomposition of EEG signals. The phase coherence of slow oscillations increased with an increase in motion velocity similarly to the magnitude of cN1 and cP2 components of the MOR response. The delta-to-alpha inter-trial spectral power remained at the same level up to, but not including, the highest velocity, suggesting that gradual spatial changes within the sound did not induce non-coherent activity. Conversely, the abrupt sound displacement induced theta-alpha oscillations which had low phase consistency. The findings suggest that the MOR potential could be mainly generated by the phase resetting of slow oscillations, and the degree of phase coherence may be considered as a neurophysiological indicator of sound motion processing.
+Keywords: Auditory motion; Sound localization; Event-related oscillations; Motion onset response
+
+Natalia N Bezborodkina, Andrei V Stepanov, Mikhail L Vorobev, Anna Yu Chestnova, Grigory I Stein, Boris N Kudryavtsev,
+Cytochemical analysis of spatial structure of glycogen molecules in rat hepatocytes,
+Journal of Molecular Structure,
+Volume 1228,
+2021,
+129770,
+ISSN 0022-2860,
+https://doi.org/10.1016/j.molstruc.2020.129770.
+(https://www.sciencedirect.com/science/article/pii/S0022286020320834)
+Abstract: It is currently thought that a full glycogen molecule (β-particle) has a spherical shape with 12 concentric tiers of glucose residues with glycogenin in the center and diameter of about 42 nm. However, the spatial structure of the β-particle remains poorly understood. In this study, the structure of glycogen β-particles in hepatocytes of starved and fed rats has been studied using in situ cytofluorometry technique and measurement of speed of glycogen staining with the Schiff's reagent. Based on the results of these measurements we suggest a novel model of spatial structure of glycogen molecules in which quickly stained, labile fraction of glycogen (LF) represents residues located at the internal tiers of the molecule, while slowly stained, stable fraction of molecule (SF) represents residues at the external tiers of the molecule and associated with proteins. This model predicts that in the starved rats the 3rd and 4th tiers glucose residues (42% of all) are bound to proteins. In the fed rats on 7th and 8th tiers together ~19% of glucose residues were bound to proteins. The external tier of glycogen molecules was never free of proteins and the enzyme amount on the particle surface was variable. Thus, using this cytofluorometry method makes it possible to study the spatial structure of glycogen in situ and to obtain data on its features in this particular cell.
+Keywords: β-particles/glycogen molecule/glucose residues/PAS reaction/rat hepatocytes
+
+Ho Jin Kim, Ichiro Nakashima, Shanthi Viswanathan, Kai-Chen Wang, Shulian Shang, Larisa Miller, Marcus Yountz, Dean M. Wingerchuk, Sean J. Pittock, Michael Levy, Achim Berthele, Natalia Totolyan, Jacqueline Palace, Michael H. Barnett, Kazuo Fujihara,
+Eculizumab in Asian patients with anti-aquaporin-IgG-positive neuromyelitis optica spectrum disorder: A subgroup analysis from the randomized phase 3 PREVENT trial and its open-label extension,
+Multiple Sclerosis and Related Disorders,
+Volume 50,
+2021,
+102849,
+ISSN 2211-0348,
+https://doi.org/10.1016/j.msard.2021.102849.
+(https://www.sciencedirect.com/science/article/pii/S2211034821001152)
+Abstract: Background Eculizumab, a terminal complement inhibitor, significantly reduced the risk of relapse compared with placebo in patients with anti-aquaporin-4 immunoglobulin G-positive (AQP4+) neuromyelitis optica spectrum disorder (NMOSD) in the PREVENT trial. We report efficacy and safety analyses in Asian patients in PREVENT and its open-label extension (OLE). Methods PREVENT was a double-blind, randomized, phase 3 trial. Patients with AQP4+ NMOSD were randomly assigned (2:1) to receive intravenous eculizumab (maintenance dose, 1200 mg/2 weeks) or placebo. Patients who completed PREVENT could receive eculizumab in an OLE. Analyses were performed in a prespecified subgroup of Asian patients. Results Of 143 patients enrolled, 52 (36.4%) were included in the Asian subgroup (eculizumab, n = 37; placebo, n = 15); 45 Asian patients received eculizumab in the OLE. Most Asian patients (86.5%) received concomitant immunosuppressive therapy. During PREVENT, one adjudicated relapse occurred in patients receiving eculizumab and six occurred in patients receiving placebo in the Asian subgroup (hazard ratio, 0.05; 95% confidence interval: 0.01–0.35; p = 0.0002). An estimated 95.2% of Asian patients remained relapse-free after 144 weeks of eculizumab treatment. Upper respiratory tract infections, headache, and nasopharyngitis were the most common adverse events with eculizumab in the Asian subgroup. Conclusion Eculizumab reduces the risk of relapse in Asian patients with AQP4+ NMOSD, with a benefit–risk profile similar to the overall PREVENT population. The benefits of eculizumab were maintained during long-term therapy. Clinical trial registration ClinicalTrials.gov identifiers: NCT01892345 (PREVENT); NCT02003144 (open-label extension).
+Keywords: Anti-aquaporin-4-positive; Asian; Eculizumab; Neuromyelitis optica spectrum disorder; Relapse; Safety
+
+O.E. Dick, A.L. Glazov,
+Estimation of the synchronization between intermittent photic stimulation and brain response in hypertension disease by the recurrence and synchrosqueezed wavelet transform,
+Neurocomputing,
+Volume 455,
+2021,
+Pages 163-177,
+ISSN 0925-2312,
+https://doi.org/10.1016/j.neucom.2021.05.038.
+(https://www.sciencedirect.com/science/article/pii/S0925231221007918)
+Abstract: The task is to identify differences in phase synchronization between the intermittent photic stimulation and a response of the brain of patients with arterial hypertension and manifestations of moderate cognitive impairment and without such manifestations. To solve the task we used the recurrence based phase synchronization index, the ratio of instantaneous frequencies, the duration and the phase synchronization index obtained after the synchrosqueezed wavelet transform of the EEG patterns and the light time series. We have shown that moderate cognitive impairment correlates with a greater degree of phase synchronization. This is manifested in an increase in the index and duration of phase synchronization between intermittent photostimulation and bioelectric activity of the brain, as well as with a shift in this activity to a lower frequency range compared to the excitation frequency. The results can be used for clinical assessment of the degree of moderate cognitive impairment of vascular origin.
+Keywords: Synchrosqueezed wavelet transform; Recurrence; Electroencephalographic patterns; Intermittent photic stimulation; Hypertension disease
+
+Antonina Dolgorukova, Julia E. Isaeva, Elena Verbitskaya, Olga A. Lyubashina, Rashid А. Giniatullin, Alexey Y. Sokolov,
+Differential effects of the Piezo1 agonist Yoda1 in the trigeminovascular system: An electrophysiological and intravital microscopy study in rats,
+Experimental Neurology,
+Volume 339,
+2021,
+113634,
+ISSN 0014-4886,
+https://doi.org/10.1016/j.expneurol.2021.113634.
+(https://www.sciencedirect.com/science/article/pii/S001448862100039X)
+Abstract: Migraine is associated with the activation and sensitisation of the trigeminovascular system and is often accompanied by mechanical hyperalgesia and allodynia. The mechanisms of mechanotransduction during a migraine attack are yet unknown. We have proposed that the ion channel Piezo1 may be involved, since it is expressed in endothelial cells as well as in trigeminal ganglion neurons, and thus, may contribute to the activation of both the vascular and neuronal component of the trigeminovascular system. We took advantage of extracellular recordings from the trigeminocervical complex – a key relay centre in the migraine pain pathway, to directly assess the impact of the differently applied Piezo1 agonist Yoda1 on the sensory processing at the spinal level. At a low dose, Yoda1 slightly facilitated the ongoing firing of central trigeminovascular neurons, however, at a high dose, this substance contributed to the suppression of their activity. Using intravital microscopy, we have revealed that Yoda1 at high dose can also induce the dilation of meningeal arteries innervated by trigeminal afferents. Collectively, here we have identified both neuronal and vascular modulation via selective activation of mechanosensitive Piezo1 channels, which provide new evidence in favour of the Piezo1 role in migraine pathogenesis. We propose several mechanisms that may underlie the revealed effects of Yoda1.
+Keywords: Migraine; Piezo1 channels; Yoda1; Trigeminovascular system; Dura mater; Mechanosensitivity
+
+Vladimir V. Sharoyko, Gleb O. Iurev, Viktor N. Postnov, Anatolii A. Meshcheriakov, Sergei V. Ageev, Daria A. Ivanova, Andrey V. Petrov, Michail D. Luttsev, Alexei V. Nashchekin, Nailia R. Iamalova, Lubov V. Vasina, Irina L. Solovtsova, Igor V. Murin, Konstantin N. Semenov,
+Biocompatibility of a nanocomposite based on Aerosil 380 and carboxylated fullerene C60[C(COOH)2]3,
+Journal of Biotechnology,
+Volume 331,
+2021,
+Pages 83-98,
+ISSN 0168-1656,
+https://doi.org/10.1016/j.jbiotec.2021.03.007.
+(https://www.sciencedirect.com/science/article/pii/S0168165621000791)
+Abstract: Silica is silicon dioxide, which, depending on the production method, can exist in various amorphous forms with varying specific surface area, particle size, pore volume and size, and, as a result, with different physicochemical and sorption characteristics. The presence of silanol groups on the surface of silicas provides the possibility of its further functionalisation. In addition, the developed specific surface of Aerosil allows to obtain composites with a high content of biologically active substances. In this work, we studied the biocompatibility of a composite based on Aerosil 380 and carboxylated fullerene C60[C(COOH)2]3, namely: haemolysis (spontaneous and photoinduced), platelet aggregation, binding to HSA, cyto- and genotoxicity, antiradical activity. Interest in the creation of this nanomaterial is due to the fact that carboxylated fullerenes have potential applications in various fields of biomedicine, including the ability to bind reactive oxygen species, inhibition of tumour development, inactivation of viruses and bacteria. The obtained composite can be used for the immobilisation of various drugs and the further development of drugs for theranostics.
+Keywords: Carboxylated fullerene; Aerosil; Cytotoxicity; Genotoxicity; Haemocompatibility; Molecular dynamics
+
+Nina Pavlovna Aleksandrova, Anna Andreevna Klinnikova, Galina Anatolevna Danilova,
+Cyclooxygenase and nitric oxide synthase pathways mediate the respiratory effects of TNF-α in rats,
+Respiratory Physiology & Neurobiology,
+Volume 284,
+2021,
+103567,
+ISSN 1569-9048,
+https://doi.org/10.1016/j.resp.2020.103567.
+(https://www.sciencedirect.com/science/article/pii/S1569904820302251)
+Abstract: TNF-α is the key inflammatory cytokine. TNF-α receptors are expressed in brain stem regions involved in respiratory control and also in the carotid bodies, which are the sensory organs monitoring arterial blood O2. We hypothesised that the circulating tumour necrosis factor (TNF)-α may affect the lung ventilation and modulate the hypoxic ventilatory response via activation of cyclooxygenase (COX) and nitric oxide synthase (NOS) pathways. The aim of the current study was to compare the respiratory effects of TNF-α before and after pretreatment with diclofenac or L-NG-nitro arginine methyl ester (L-NAME) nonspecific inhibitors of COX and NOS, respectively. The hypoxic ventilatory response was measured in anaesthetised rats using rebreathing techniques. We found that TNF-α increased the lung ventilation in normoxia but decreased the ventilatory response to hypoxia. Pretreatment with each of these inhibitors reduced respiratory effects of TNF-α. We believe that activation of COX and NOS-related pathways and also “cross-talk” between them mediates the TNF-α respiratory effects and underlies the impact of inflammation on the respiratory function.
+Keywords: Tumor necrosis factor-α; Cytokines; Ventilation; Respiratory chemoreflex; Hypoxia; Nitric oxide; Cyclooxygenase
+
+Annalisa Ruggeri, Jacques-Emmanuel Galimard, Olesya Paina, Franca Fagioli, Abdelghani Tbakhi, Akif Yesilipek, José Maria Fernandez Navarro, Maura Faraci, Rose-Marie Hamladji, Elena Skorobogatova, Amal Al-Seraihy, Mikael Sundin, Concepcion Herrera, Jose Rifón, Arnaud Dalissier, Franco Locatelli, Vanderson Rocha, Selim Corbacioglu,
+Outcomes of Unmanipulated Haploidentical Transplantation Using Post-Transplant Cyclophosphamide (PT-Cy) in Pediatric Patients With Acute Lymphoblastic Leukemia,
+Transplantation and Cellular Therapy,
+Volume 27, Issue 5,
+2021,
+Pages 424.e1-424.e9,
+ISSN 2666-6367,
+https://doi.org/10.1016/j.jtct.2021.01.016.
+(https://www.sciencedirect.com/science/article/pii/S2666636721000233)
+Abstract: ABSTRACT
+HLA-haploidentical transplantation (haplo-HCT) using post-transplantation-cyclophosphamide (PT-Cy) is a feasible procedure in children with malignancies. However, large studies on Haplo-HCT with PT-Cy for childhood acute lymphoblastic leukemia (ALL) are lacking. We analyzed haplo-HCT outcomes in 180 children with ALL. Median age was 9 years, and median follow-up was 2.7 years. Disease status was CR1 for 24%, CR2 for 45%, CR+3 for 12%, and active disease for 19%. All patients received PT-Cy day +3 and +4. Bone marrow (BM) was the stem cell source in 115 patients (64%). Cumulative incidence of 42-day engraftment was 88.9%. Cumulative incidence of day-100 acute graft-versus-host disease (GVHD) grade II-IV was 28%, and 2-year chronic GVHD was 21.9%. At 2 years, cumulative incidence of nonrelapse mortality (NRM) was 19.6%. Cumulative incidence was 41.9% for relapse and 25% for patients in CR1. Estimated 2-year leukemia free survival was 65%, 44%, and 18.8% for patients transplanted in CR1, CR2, CR3+ and 3% at 1 year for active disease. In multivariable analysis for patients in CR1 and CR2, disease status (CR2 [hazard ratio {HR} = 2.19; P = .04]), age at HCT older than 13 (HR = 2.07; P = .03) and use of peripheral blood stem cell (PBSC) (HR = 1.98; P = .04) were independent factors associated with decreased overall survival. Use of PBSC was also associated with higher NRM (HR = 3.13; P = .04). Haplo-HCT with PT-Cy is an option for children with ALL, namely those transplanted in CR1 and CR2. Age and disease status remain the most important factors for outcomes. BM cells as a graft source is associated with improved survival.
+Keywords: Childhood; Acute lymphoblastic leukemia; Haploidentical transplantation; Post-transplantation cyclophosphamide
+
+Jane Pirkis, Ann John, Sangsoo Shin, Marcos DelPozo-Banos, Vikas Arya, Pablo Analuisa-Aguilar, Louis Appleby, Ella Arensman, Jason Bantjes, Anna Baran, Jose M Bertolote, Guilherme Borges, Petrana Brečić, Eric Caine, Giulio Castelpietra, Shu-Sen Chang, David Colchester, David Crompton, Marko Curkovic, Eberhard A Deisenhammer, Chengan Du, Jeremy Dwyer, Annette Erlangsen, Jeremy S Faust, Sarah Fortune, Andrew Garrett, Devin George, Rebekka Gerstner, Renske Gilissen, Madelyn Gould, Keith Hawton, Joseph Kanter, Navneet Kapur, Murad Khan, Olivia J Kirtley, Duleeka Knipe, Kairi Kolves, Stuart Leske, Kedar Marahatta, Ellenor Mittendorfer-Rutz, Nikolay Neznanov, Thomas Niederkrotenthaler, Emma Nielsen, Merete Nordentoft, Herwig Oberlerchner, Rory C O’Connor, Melissa Pearson, Michael R Phillips, Steve Platt, Paul L Plener, Georg Psota, Ping Qin, Daniel Radeloff, Christa Rados, Andreas Reif, Christine Reif-Leonhard, Vsevolod Rozanov, Christiane Schlang, Barbara Schneider, Natalia Semenova, Mark Sinyor, Ellen Townsend, Michiko Ueda, Lakshmi Vijayakumar, Roger T Webb, Manjula Weerasinghe, Gil Zalsman, David Gunnell, Matthew J Spittal,
+Suicide trends in the early months of the COVID-19 pandemic: an interrupted time-series analysis of preliminary data from 21 countries,
+The Lancet Psychiatry,
+Volume 8, Issue 7,
+2021,
+Pages 579-588,
+ISSN 2215-0366,
+https://doi.org/10.1016/S2215-0366(21)00091-2.
+(https://www.sciencedirect.com/science/article/pii/S2215036621000912)
+Abstract: Summary
+Background
+The COVID-19 pandemic is having profound mental health consequences for many people. Concerns have been expressed that, at their most extreme, these consequences could manifest as increased suicide rates. We aimed to assess the early effect of the COVID-19 pandemic on suicide rates around the world.
+Methods
+We sourced real-time suicide data from countries or areas within countries through a systematic internet search and recourse to our networks and the published literature. Between Sept 1 and Nov 1, 2020, we searched the official websites of these countries’ ministries of health, police agencies, and government-run statistics agencies or equivalents, using the translated search terms “suicide” and “cause of death”, before broadening the search in an attempt to identify data through other public sources. Data were included from a given country or area if they came from an official government source and were available at a monthly level from at least Jan 1, 2019, to July 31, 2020. Our internet searches were restricted to countries with more than 3 million residents for pragmatic reasons, but we relaxed this rule for countries identified through the literature and our networks. Areas within countries could also be included with populations of less than 3 million. We used an interrupted time-series analysis to model the trend in monthly suicides before COVID-19 (from at least Jan 1, 2019, to March 31, 2020) in each country or area within a country, comparing the expected number of suicides derived from the model with the observed number of suicides in the early months of the pandemic (from April 1 to July 31, 2020, in the primary analysis).
+Findings
+We sourced data from 21 countries (16 high-income and five upper-middle-income countries), including whole-country data in ten countries and data for various areas in 11 countries). Rate ratios (RRs) and 95% CIs based on the observed versus expected numbers of suicides showed no evidence of a significant increase in risk of suicide since the pandemic began in any country or area. There was statistical evidence of a decrease in suicide compared with the expected number in 12 countries or areas: New South Wales, Australia (RR 0·81 [95% CI 0·72–0·91]); Alberta, Canada (0·80 [0·68–0·93]); British Columbia, Canada (0·76 [0·66–0·87]); Chile (0·85 [0·78–0·94]); Leipzig, Germany (0·49 [0·32–0·74]); Japan (0·94 [0·91–0·96]); New Zealand (0·79 [0·68–0·91]); South Korea (0·94 [0·92–0·97]); California, USA (0·90 [0·85–0·95]); Illinois (Cook County), USA (0·79 [0·67–0·93]); Texas (four counties), USA (0·82 [0·68–0·98]); and Ecuador (0·74 [0·67–0·82]).
+Interpretation
+This is the first study to examine suicides occurring in the context of the COVID-19 pandemic in multiple countries. In high-income and upper-middle-income countries, suicide numbers have remained largely unchanged or declined in the early months of the pandemic compared with the expected levels based on the pre-pandemic period. We need to remain vigilant and be poised to respond if the situation changes as the longer-term mental health and economic effects of the pandemic unfold.
+Funding
+None.
+
+Sarah L. Rossi, Yuliia Sereda, Jason B. Luoma, Nikolai Pavlov, Olga Toussova, Janna Vasileva, Kristina Abramova, Sally Bendiks, Tetiana Kiriazova, Marina Vetrova, Elena Blokhina, Evgeny Krupitsky, Dmitry Lioznov, Sara Lodi, Karsten Lunze,
+Addressing intersectional stigma as a care barrier for HIV-positive people who inject drugs: Design of an RCT in St. Petersburg, Russia,
+Contemporary Clinical Trials Communications,
+Volume 24,
+2021,
+100861,
+ISSN 2451-8654,
+https://doi.org/10.1016/j.conctc.2021.100861.
+(https://www.sciencedirect.com/science/article/pii/S2451865421001617)
+Abstract: Background
+HIV-positive people who inject drugs (PWID) experience stigma related to their substance use and HIV, with adverse consequences to their health care utilization and mental health. To help affected individuals cope with their intersectional stigma and reduce its negative impact on health and health care, we adapted a behavioral stigma coping intervention for this HIV key population.
+Objective
+To conduct a randomized controlled trial (RCT) testing the ‘Stigma Coping to Reduce HIV risks and Improve substance use Prevention and Treatment’ (SCRIPT) intervention, a community-based, adapted form of Acceptance and Commitment Therapy (ACT), for PWID living with HIV in St. Petersburg, Russia.
+Methods
+We recruited 100 PWID living with HIV from civil society organizations (CSO) delivering harm reduction and HIV prevention services in St. Petersburg, Russia. We randomized participants 2:1 to receive either the intervention (three adapted ACT sessions in a group format over one month and usual CSO care) or usual CSO care alone. ACT aims to help affected individuals cope with stigma by increasing their psychological flexibility to handle stigma-related negative expectations, emotions and experiences. The primary outcomes were satisfaction with the intervention, and changes in HIV and substance use stigma scores.
+Conclusions
+Stigma coping interventions targeting HIV-positive PWID outside of formal health care settings may help them confront negativities in their lives originating from intersectional stigma and reduce stigma's impact as a health care barrier.
+Keywords: Russia; HIV; PWID; Stigma; Behavioral; PLWH
+
+A.E. Kopytova, G.N. Rychkov, M.A. Nikolaev, G.V. Baydakova, A.A. Cheblokov, K.A. Senkevich, D.A. Bogdanova, O.I. Bolshakova, I.V. Miliukhina, V.A. Bezrukikh, G.N. Salogub, S.V. Sarantseva, T.C. Usenko, E.Y. Zakharova, A.K. Emelyanov, S.N. Pchelina,
+Ambroxol increases glucocerebrosidase (GCase) activity and restores GCase translocation in primary patient-derived macrophages in Gaucher disease and Parkinsonism,
+Parkinsonism & Related Disorders,
+Volume 84,
+2021,
+Pages 112-121,
+ISSN 1353-8020,
+https://doi.org/10.1016/j.parkreldis.2021.02.003.
+(https://www.sciencedirect.com/science/article/pii/S1353802021000444)
+Abstract: Mutations in the glucocerebrosidase gene (GBA) encoding the lysosomal enzyme glucocerebrosidase (GCase) cause Gaucher disease (GD) and are the most commonly known genetic risk factor for Parkinson disease (PD). Ambroxol is one of the most effective pharmacological chaperones of GCase. Fourteen GD patients, six PD patients with mutations in the GBA gene (GBA-PD), and thirty controls were enrolled. GCase activity and hexosylsphingosine (HexSph) concentration were measured in dried blood and macrophage spots using liquid chromatography coupled with tandem mass spectrometry. The effect of ambroxol on GCase translocation to lysosomes was assessed using confocal microscopy. The results showed that ambroxol treatment significantly increased GCase activity in cultured macrophages derived from patient blood monocytic cell (PBMC) of GD (by 3.3-fold) and GBA-PD patients (by 3.5-fold) compared to untreated cells (p < 0.0001 and p < 0.0001, respectively) four days after cultivation. Ambroxol treatment significantly reduced HexSph concentration in GD (by 2.1-fold) and GBA-PD patients (by 1.6-fold) (p < 0.0001 and p < 0.0001, respectively). GD macrophage treatment resulted in increased GCase level and increased enzyme colocalization with the lysosomal marker LAMP2. The possible binding modes of ambroxol to mutant GCase carrying N370S amino acid substitution at pH 4.7 were examined using molecular docking and molecular dynamics simulations. The ambroxol position characterized by minimal binding free energy was observed in close vicinity to the residue, at position 370. Taken together, these data showed that PBMC-derived macrophages could be used for assessing ambroxol therapy response for GD patients and also for GBA-PD patients.
+Keywords: Parkinson's disease; Gaucher disease; GCase; Pharmacological chaperones; Ambroxol; Allosteric binding site; Binding free energy
+
+Htay Htay, Aminu K. Bello, Adeera Levin, Meaghan Lunney, Mohamed A. Osman, Feng Ye, Gloria E. Ashuntantang, Ezequiel Bellorin-Font, Mohammed Benghanem Gharbi, Sara N. Davison, Mohammad Ghnaimat, Paul Harden, Vivekanand Jha, Kamyar Kalantar-Zadeh, Peter G. Kerr, Scott Klarenbach, Csaba P. Kovesdy, Valerie A. Luyckx, Brendon Neuen, Donal O’Donoghue, Shahrzad Ossareh, Jeffrey Perl, Harun Ur Rashid, Eric Rondeau, Emily J. See, Syed Saad, Laura Sola, Irma Tchokhonelidze, Vladimir Tesar, Kriang Tungsanga, Rumeyza Turan Kazancioglu, Angela Yee-Moon Wang, Chih-Wei Yang, Alexander Zemchenkov, Ming-hui Zhao, Kitty J. Jager, Fergus J. Caskey, Vlado Perkovic, Kailash K. Jindal, Ikechi G. Okpechi, Marcello Tonelli, David C. Harris, David W. Johnson,
+Hemodialysis Use and Practice Patterns: An International Survey Study,
+American Journal of Kidney Diseases,
+Volume 77, Issue 3,
+2021,
+Pages 326-335.e1,
+ISSN 0272-6386,
+https://doi.org/10.1053/j.ajkd.2020.05.030.
+(https://www.sciencedirect.com/science/article/pii/S027263862030888X)
+Abstract: Rationale & Objective
+Hemodialysis (HD) is the most common form of kidney replacement therapy. This study aimed to examine the use, availability, accessibility, affordability, and quality of HD care worldwide.
+Study Design
+A cross-sectional survey.
+Setting & Participants
+Stakeholders (clinicians, policy makers, and consumer representatives) in 182 countries were convened by the International Society of Nephrology from July to September 2018.
+Outcomes
+Use, availability, accessibility, affordability, and quality of HD care.
+Analytical Approach
+Descriptive statistics.
+Results
+Overall, representatives from 160 (88%) countries participated. Median country-specific use of maintenance HD was 298.4 (IQR, 80.5-599.4) per million population (pmp). Global median HD use among incident patients with kidney failure was 98.0 (IQR, 81.5-140.8) pmp and median number of HD centers was 4.5 (IQR, 1.2–9.9) pmp. Adequate HD services (3-4 hours 3 times weekly) were generally available in 27% of low-income countries. Home HD was generally available in 36% of high-income countries. 32% of countries performed monitoring of patient-reported outcomes; 61%, monitoring of small-solute clearance; 60%, monitoring of bone mineral markers; 51%, monitoring of technique survival; and 60%, monitoring of patient survival. At initiation of maintenance dialysis, only 5% of countries used an arteriovenous access in almost all patients. Vascular access education was suboptimal, funding for vascular access procedures was not uniform, and copayments were greater in countries with lower levels of income. Patients in 23% of the low-income countries had to pay >75% of HD costs compared with patients in only 4% of high-income countries.
+Limitations
+A cross-sectional survey with possibility of response bias, social desirability bias, and limited data collection preventing in-depth analysis.
+Conclusions
+In summary, findings reveal substantial variations in global HD use, availability, accessibility, quality, and affordability worldwide, with the lowest use evident in low- and lower-middle–income countries.
+Keywords: Hemodialysis (HD); HD accessibility; HD affordability; HD availability; end-stage kidney disease (ESKD); ESKD care; quality of HD services; funding for HD services; global survey; health care delivery; kidney failure; health policy; renal replacement therapy (RRT); RRT modality; international differences; health care disparities
+
+Ivan Moiseev, Sergey Bondarenko, Elena Morozova, Yulia Vlasova, Anna Dotsenko, Olga Epifanovskaya, Elena Babenko, Anna Botina, Vadim Baykov, Elena Surkova, Sergey Lapin, Anastasiya Beynarovich, Evgeniya Borzenkova, Oleg Golosgchapov, Mikhail Kanunnikov, Olga Kudyasheva, Varvara Ovechkina, Olga Pirogova, Valentina Porunova, Tatyana Rudakova, Olesya Smikova, Anna Smirnova, Boris Afansyev,
+Graft-versus-Host Disease Prophylaxis with Post-Transplantation Bendamustine in Patients with Refractory Acute Leukemia: A Dose-Ranging Study,
+Transplantation and Cellular Therapy,
+Volume 27, Issue 7,
+2021,
+Pages 601.e1-601.e7,
+ISSN 2666-6367,
+https://doi.org/10.1016/j.jtct.2021.03.032.
+(https://www.sciencedirect.com/science/article/pii/S266663672100823X)
+Abstract: ABSTRACT
+The prognosis of acute leukemia refractory to induction chemotherapy or immunotherapy is dismal. Salvage allogeneic hematopoietic stem cell transplantation (HSCT) is widely used option for these patients, but only 10% to 15% of patients are cured by the procedure. Preclinical studies indicate that substitution of post-transplantation cyclophosphamide with bendamustine (PTB) in a prophylaxis regimen may be associated with an augmented graft-versus-leukemia (GVL) reaction. The aim of this study was to establish the optimal dose of PTB and evaluate the antileukemic effect of HSCT with this type of graft-versus-host disease (GVHD) prophylaxis. In the prospective trial (NCT02799147), PTB was administered in doses of 140, 100, and 70 mg/m2 on days +3 and +4. Myeloablative conditioning with fludarabine and oral busulfan was provided to all patients. The first 12 patients received single-agent PTB, and subsequent patients received combination therapy with tacrolimus and mycophenolate mofetil (MMF). Inclusion criteria were acute myelogenous leukemia (AML) or acute lymphoblastic leukemia (ALL) refractory to at least one induction course of chemotherapy or target therapy and ≥5% clonal blasts in the bone marrow. The study cohort comprised 22 patients with AML and 5 with ALL. Seven patients were enrolled in the 140 mg/m2 group (due to a stopping rule), and 10 each were enrolled in the 100 mg/m2 and 70 mg/m2 groups. Primary refractory disease was documented in 41% of the patients, and secondary refractory was documented in 59%. The median blast count in the bone marrow at the start of the conditioning was 18% (range, 6% to 97%). Transplantation was performed with a matched sibling donor in 5 patients, a matched or mismatched unrelated donor in 15, and a haploidentical donor in 7. Engraftment was documented in 93% of the patients, including 89% with complete remission and 63% without measurable residual disease. After PTB prophylaxis, we observed an unusual complication, a cytokine release syndrome (CRS), in 70% of the patients, including grade 3 to 5 CRS in 44%. The most frequent clinical symptoms included high fever in 67% of patients, abnormal liver function tests in 67%, pancreatitis in 63%, skin vasculitis in 56%, enterocolitis in 48%, inflammation of oral mucosa in 37%, disseminated intravascular coagulation in 37%, and central nervous system toxicity in 26%. The development of CRS was associated with use of an HLA-mismatched donor (75% versus 20%; P = .0043). Classic acute GVHD was documented in 44% of the patients. Grade II-IV acute GVHD was associated with grade 3 to 5 CRS (67% versus 25%; P = .031). Moderate and severe chronic GVHD in the 100-day survivors were more often observed after single-agent PTB than after the combination immunosuppression (100% versus 18%; P = .002). A relatively low relapse rate was observed for this patient population. Three-year overall survival was 28% (95% confidence interval [CI], 13% to 46%), and event-free survival was 29% (95% CI, 13% to 46%). Nonrelapse mortality was 46% (95% CI, 25% to 64%), and the cumulative incidence of relapse was 26% (95% CI, 11% to 44%). No relapses were documented after day +100. There were no statistically significant differences among the dose groups (P = .3481); however, survival was higher in the 100 mg/kg group. Survival was higher in patients with AML compared with those with ALL (35% versus 0%; P = .0157). PTB represents a promising option to augment the GVL effect in refractory AML; however, the high CRS-associated mortality necessitates additional studies to reduce the risk of this complication. Thus, routine clinical application of PTB cannot be currently recommended. Combination immunosuppression with tacrolimus and MMF partially ameliorates these complications, at least in the setting of HLA-matched allografts. Biological mechanisms of CRS and GVL after PTB require further elucidation.
+Keywords: Acute myelogenous leukemia; Acute lymphoblastic leukemia; Refractory; Post-transplantation bendamustine; Graft-versus-host disease prophylaxis; Cytokine release syndrome
+
+Irina I. Shoshina, Jeffery K. Hovis, Fatima M. Felisberti, Natanael A. Santos, Anna Adreeva, Pamela D. Butler, Thiago P. Fernandes,
+Visual processing and BDNF levels in first-episode schizophrenia,
+Psychiatry Research,
+Volume 305,
+2021,
+114200,
+ISSN 0165-1781,
+https://doi.org/10.1016/j.psychres.2021.114200.
+(https://www.sciencedirect.com/science/article/pii/S0165178121004960)
+Abstract: Previous studies have shown that patients diagnosed with schizophrenia (SCZ) have deficits in early visual processing, namely contrast processing. The brain-derived neurotropic factor (BDNF) is an important measure to investigate neuroplasticity in some visual functions like visual perception. In this study, we investigated the relationship between visual processing and BDNF levels in first-episode SCZ patients. Thirty-nine healthy controls and 43 first-episode SCZ patients were enrolled. Contrast sensitivity measurements were conducted using low, mid- and high spatial frequencies. First-episode SCZ patients had higher contrast sensitivity than healthy controls for all frequencies, except for the middle spatial frequency. Negative correlations were found between BDNF, contrast sensitivity and clinical variables, mostly for middle and high spatial frequencies among females. Our results provide support for (i) the association of SCZ with alterations of magno- and parvocellular pathway functioning and (ii) decreased BDNF levels in first-episode SCZ patients. This study highlights the importance of using biomarkers along with other measures to investigate visual processing in SCZ and other disorders.
+Keywords: Schizophrenia; Contrast processing; Visual functions; Brain-derived neurotrophic factor; First-episode
+
+Jiří Kubeš, Alexandra Haas, Vladimír Vondráček, Michal Andrlík, Matěj Navrátil, Silvia Sláviková, Pavel Vítek, Kateřina Dědečková, Jana Prausová, Barbora Ondrová, Štěpán Vinakurau, Alexander Grebenyuk, Tomáš Doležal, Barbora Velacková, Jozef Rosina,
+Ultrahypofractionated Proton Radiation Therapy in the Treatment of Low and Intermediate-Risk Prostate Cancer-5-Year Outcomes,
+International Journal of Radiation Oncology*Biology*Physics,
+Volume 110, Issue 4,
+2021,
+Pages 1090-1097,
+ISSN 0360-3016,
+https://doi.org/10.1016/j.ijrobp.2021.02.014.
+(https://www.sciencedirect.com/science/article/pii/S0360301621001899)
+Abstract: Purpose
+To analyze the 5-year biochemical disease-free survival (bDFS) and late toxicity profile in patients with prostate cancer treated with pencil beam scanning (PBS) proton radiation therapy.
+Methods and Materials
+Between January 2013 and March 2016, 284 patients with prostate cancer were treated using intensity modulated proton therapy (IMPT), with an ultrahypofractionated schedule (36.25 GyE in 5 fractions). Five patients were immediately lost from follow-up and thus were excluded from analysis. Data for 279 patients were prospectively collected and analyzed with a median follow-up time of 56.5 (range, 3.4-87.5) months. The mean age at time of treatment was 64.5 (40.1-85.7) years, and the median prostate-specific antigen (PSA) value was 6.35 μg/L (0.67-17.3 μg/L). A total of 121 (43.4%) patients had low-risk, 125 patients (44.8%) had favorable, and 33 (11.8%) unfavorable intermediate-risk cancer. In addition, 49 (17.6%) patients underwent neoadjuvant hormonal therapy, and no patients had adjuvant hormonal therapy. bDFS and late toxicity profiles were evaluated.
+Results
+The median treatment time was 9 days (range, 7-18 days). The 5-year bDFS was 96.9%, 91.7%, and 83.5% for the low-, favorable, and unfavorable intermediate-risk group, respectively. Late toxicity (Common Terminology Criteria for Adverse Events v.4) was as follows: gastrointestinal: grade 1, 62 patients (22%), grade 2, 20 patients (7.2%), and grade 3, 1 patient (0.36%); genitourinary: grade 1, 80 patients (28.7%), grade 2, 14 patients (5%), and grade 3, 0 patients. PSA relapse was observed in 17 patients (6.1%), and lymph node or bone recurrence was detected in 11 patients. Four (1.4%) local recurrences were detected. Nine patients (3.2%) died of causes unrelated to prostate cancer. No deaths related to prostate cancer were reported.
+Conclusion
+Ultrahypofractionated proton beam radiation therapy for prostate cancer is effective with long-term bDFS comparable with other fractionation schedules and with minimal serious long-term GI and GU toxicity.
+
+Natalia Merkulyeva, Aleksandr Mikhalkin,
+SMI-32 labeling in Cajal-Retzius cells of feline primary visual cortex,
+Neuroscience Letters,
+Volume 762,
+2021,
+136165,
+ISSN 0304-3940,
+https://doi.org/10.1016/j.neulet.2021.136165.
+(https://www.sciencedirect.com/science/article/pii/S0304394021005437)
+Abstract: Cajal-Retzius cells are one of the transient elements of the developing cerebral cortex. These cells express some characteristic molecules. One of them, heavy-chain neurofilaments, participating in the construction of the mature cerebral networks, are believed to be a specific feature of the human’s Cajal-Retzius cells. Using histochemical stain for SMI-32 antibody to the non-phosphorylated heavy-chain neurofilaments, large neurons having horizontally oriented soma and bipolar processes were labeled in the molecular layer of the primary visual cortex of cats aged 0–2 postnatal days. Using DiI technique, similar neurons having a well-developed system of parallel vertical branches coming from the two horizontal processes were visualized in these areas. The location and general morphology of these neurons were similar to the Cajal-Retzius cells allowing to suppose for the carnivores to share similar with primates developmental mechanisms of the corticogenesis.
+Keywords: Cajal-Retzius cells; Primary visual cortex; Heavy-chain neurofilaments; SMI-32 antibody; Early postnatal ontogenesis; Cat
+
+Sergey Karpishchenko, Mikhail Ulupov, Аida Gindryuk, Dmitry Kaplun,
+Using thermal effect of 970 nm diode laser to reduce nasal swell body,
+American Journal of Otolaryngology,
+Volume 42, Issue 6,
+2021,
+103165,
+ISSN 0196-0709,
+https://doi.org/10.1016/j.amjoto.2021.103165.
+(https://www.sciencedirect.com/science/article/pii/S0196070921002660)
+Abstract: In recent decades, semiconductor lasers have been successfully used in rhinology. However, their usage in the reduction of the nasal swell body (NSB) is barely studied. Our research aimed to conduct an experimental selection of the laser exposure mode in the NSB zone using a 970 nm diode laser for safe and effective NSB reduction. The thermometric parameters of a diode laser with a wavelength of 970 nm were evaluated in a continuous contact mode of exposure at the power from 2 W to 10 W with 2 W step. The laser was targeted at the liver of cattle, given its similar optical properties to the NSB region. After a series of experiments with every power rate and the analysis of temperature data, we estimated an optimal exposure mode at a power of 4 W. The collected thermometric data demonstrate the safety of this mode in a clinical setting for NSB reduction due to causing no thermal damage to the adjacent tissue. Based on the experiment, a technique for laser reduction of the NSB was developed to improve nasal breathing in patients with severe hypertrophy of this area. The proposed technique was applied to 39 patients with chronic vasomotor rhinitis and the NSB. All patients were divided into 2 groups. Group 1 consisted of 20 patients who underwent surface contact laser-turbinectomy and the NSB reduction using a 970 nm diode laser. Group 2 included 19 patients with the same pathology who underwent laser-turbinectomy, without reduction of the NSB. No statistically significant difference was observed during the dynamic observation with an objective assessment of nasal respiration according to active anterior rhinomanometry when comparing these subgroups with each other according to the t-criterion for independent samples (p > 0.05). As a result of comparing the data obtained on the NOSE scale using the Student's t-test, a statistically significant difference is observed (p < 0.001). Thus, patients who did not perform the reduction of the NSB subjectively noted the insufficiency of nasal breathing. This fact indicates that the NSB is involved in the regulation of airflow.
+Keywords: Nasal swell body; Diode laser; Laser therapy; Thermal effect; Rhinology
+
+Evgeniya V. Efimova, Alena A. Kozlova, Valeria Razenkova, Nataliia V. Katolikova, Kristina A. Antonova, Tatyana D. Sotnikova, Natalia S. Merkulyeva, Aleksandr S. Veshchitskii, Daria S. Kalinina, Dmitry E. Korzhevskii, Pavel E. Musienko, Evgeny V. Kanov, Raul R. Gainetdinov,
+Increased dopamine transmission and adult neurogenesis in trace amine-associated receptor 5 (TAAR5) knockout mice,
+Neuropharmacology,
+Volume 182,
+2021,
+108373,
+ISSN 0028-3908,
+https://doi.org/10.1016/j.neuropharm.2020.108373.
+(https://www.sciencedirect.com/science/article/pii/S002839082030441X)
+Abstract: Trace amine-associated receptors (TAARs) are a class of sensory G protein-coupled receptors that detect biogenic amines, products of decarboxylation of amino acids. The majority of TAARs (TAAR2-TAAR9) have been described mainly in the olfactory epithelium and considered to be olfactory receptors sensing innate odors. However, there is recent evidence that one of the members of this family, TAAR5, is expressed also in the limbic brain areas receiving projection from the olfactory system and involved in the regulation of emotions. In this study, we further characterized a mouse line lacking TAAR5 (TAAR5 knockout, TAAR5-KO mice) that express beta-galactosidase mapping TAAR5 expression. We found that in TAAR5-KO mice the number of dopamine neurons, the striatal levels of dopamine and its metabolites, as well as striatal levels of GDNF mRNA, are elevated indicating a potential increase in dopamine neuron proliferation. Furthermore, an analysis of TAAR5 beta-galactosidase expression revealed that TAAR5 is present in the major neurogenic areas of the brain such as the subventricular zone (SVZ), the subgranular zone (SGZ) and the less characterized potentially neurogenic zone surrounding the 3rd ventricle. Direct analysis of neurogenesis by using specific markers doublecortin (DCX) and proliferating cell nuclear antigen (PCNA) revealed at least 2-fold increase in the number of proliferating neurons in the SVZ and SGZ of TAAR5-KO mice, but no such markers were detected in mutant or control mice in the areas surrounding the 3rd ventricle. These observations indicate that TAAR5 involved not only in regulation of emotional status but also adult neurogenesis and dopamine transmission. Thus, future TAAR5 antagonists may exert not only antidepressant and/or anxiolytic action but may also provide new treatment opportunity for neurodegenerative disorders such as Parkinson's disease.
+Keywords: TAAR5; TAAR; Trace amine; Antidepressant; Adult neurogenesis; Dopamine; Parkinson disease; anti-Parkinson drug; Neurodegenerative disorders
+
+L.B. Shestopalova, E.A. Petropavlovskaia, V.V. Semenova, N.I. Nikitin,
+Lateralization of brain responses to auditory motion: A study using single-trial analysis,
+Neuroscience Research,
+Volume 162,
+2021,
+Pages 31-44,
+ISSN 0168-0102,
+https://doi.org/10.1016/j.neures.2020.01.007.
+(https://www.sciencedirect.com/science/article/pii/S0168010219305255)
+Abstract: The present study investigates hemispheric asymmetry of the ERPs and low-frequency oscillatory responses evoked in both hemispheres of the brain by the sound stimuli with delayed onset of motion. EEG was recorded for three patterns of sound motion produced by changes in interaural time differences. Event-related spectral perturbation (ERSP) and inter-trial phase coherence (ITC) were computed from the time-frequency decomposition of EEG signals. The participants either read books of their choice (passive listening) or indicated the sound trajectories perceived using a graphic tablet (active listening). Our goal was to find out whether the lateralization of the motion-onset response (MOR) and oscillatory responses to sound motion were more consistent with the right-hemispheric dominance, contralateral or neglect model of interhemispheric asymmetry. Apparent dominance of the right hemisphere was found only in the ERSP responses. Stronger contralaterality of the left hemisphere corresponding to the “neglect model” of asymmetry was shown by the MOR components and by the phase coherence of the delta-alpha oscillations. Velocity and attention did not change consistently the interhemispheric asymmetry of both the MOR and the oscillatory responses. Our findings demonstrate how the lateralization pattern shown by the MOR potential was interrelated with that of the motion-related single-trial measures.
+Keywords: Hemispheric asymmetry; Auditory motion; Sound localization; Neural oscillations; Motion-onset response
+
+Jacqueline Palace, Dean M. Wingerchuk, Kazuo Fujihara, Achim Berthele, Celia Oreja-Guevara, Ho Jin Kim, Ichiro Nakashima, Michael Levy, Murat Terzi, Natalia Totolyan, Shanthi Viswanathan, Kai-Chen Wang, Amy Pace, Marcus Yountz, Larisa Miller, Róisín Armstrong, Sean Pittock, Daniel Julio Muñoz, Jorge David Amor, Carolina Bocchiardo, Julieta Iourno Danielle, Alfredo Laffue, Carolina Daniela Diaz Obregon, Maria Fernanda Paez, Roberto Martin Perez, Viviana Ana Maria Rocchi, Loreley Deborah Teijeiro, Jesica Gómez, Andres Maria Villa, Florencia Aguirre, Victoria Carla Fernández, Ramon F. Goicoechea, Luciana Melamud, Ana Stillman, Jesica Gómez, Mariana de Virgiliis, Fatima Pagani Cassara, Marta Cordoba, Maria Teresa Gutierrez, Mariana Ingolotti, Natalia Larripa, Anahi Lupinacci, Josefina Arroyo, Alejandra Romano, Mariana Foa Torres, Carlos Héctor Ballario, Ana Elisa Chiesa, Hernán Gustavo Gómez, Hernán Gabriel Lattini, Carolina Natalia Mainella, Gisel Edith Bolner, María Soledad Eschoyez, Simon Andrew Broadley, Saman Heshmat, Arman Sabet, Andrew Swayne, Susan Freeman, Sofia Jimenez Sanchez, Neil Shuey, Linda Dalic, Ann French, Guru Kuma, Joshua Laing, Lai Yin Law, Jennifer MacIntyre, Andrew Neal, Christopher Plummer, Prashanth Ramachandran, Leslie Sedal, Ian Wilson, Antony Winkel, Wenwen Zhang, Tina Chen, Rani Watts, Michael Barnett, Joshua Barton, Heidi Beadnall, Justin Garber, Todd Andrew Hardy, Benjamin Trewin, Marinda Taha, Deleni Walters, Federico Arturo Silva Sieger, Nhora Patricia Ruiz Alfonso, Anna Maria Pinzon Camacho, Alexander Pabón Moreno, Jorge Armando Castellanos Prad, Adriana Paola Duarte Rueda, Tatiana Castillo, Karol Melissa Castillo Gonzalez, Martha Yolanda Moreno Pico, Judith Castill, Mario Habek, Ivan Adamec, Barbara Barun, Luka Crnosija, Tereza Gabelic, Petra Nytrova, Eva Krasulova, Jana Pavlickova, Michaela Tyblova, Jana Zubkova, Thor Petersen, Gro Helen Dale, Peter Vestergaard Rasmussen, Morten Stilund, Kristina Bacher Svendsen, Vivi Brandt, Nicolas Collongues, Marie-Celine Fleury, Laurent Kremer, Sandrine Bendele, Valérie Neff, Ricarda Diem, Michael Platten, Anne Berberich, Jonabelle Jansen, Hannah Jaschoneck, Brigitte Wildemann, Ursula Aures, Tanja Brandenburger, Tanja Haut, Maria-Lourdes Treceno Fernández, Lilian Aly, Kirsten Brinkhoff, Dorothea Buck, Daniel Golkowski, Mirjam Hermisson, Muna-Miriam Hoshi, Miriam Kaminski, Markus Christian Kowarik, Helena Kronsbein, Klaus Lehmann-Horn, Viola Maria Pongratz, Andreas Schweiker, Lisa-Ann Leddy, Silvia Mueller, Kim Obergfell, Marion Wanka, Uwe Klaus Zettl, Jan Klinke, Micha Loebermann, Stefanie Meister, Florian Rimmele, Alexander Winkelmann, Ina Schroeder, Alexander Yuk-Lun Lau, Lisa Wing-Chi Au, Florence Sin-Ying Fan, Vincent Hing-Lung Ip, Karen Ka-Yan Ma, Sze-Ho Ma, Vincent Chung-Tong Mok, Cheryl Chung-Kwan Au, Pauline Wing-Lam Kwan, Francesco Patti, Andrea Salvatore Caramma, Clara Grazia Chisari, Salvatore Lo Fermo, Silvia Messina, Maria Projetto, Cinzia Caserta, Alessandro Filla, Teresa Costabile, Chiara Pane, Francesco Sacca, Angela Marsili, Giorgia Puorro, Roberto Bergamaschi, Eliana Berra, Giulia Mallucci, Cinzia Fattore, Claudio Gasperini, Simonetta Galgani, Shalom Haggiag, Serena Ruggieri, Claudio Vento, Esmeralda Maria Quartuccio, Carlo Pozzilli, Valeria Teresa Barletta, Giovanna Borriello, Laura De Giglio, Fabiana Marinelli, Miriam Tasillo, Alessandra Amadori, Mariano Fischetti, Flavia Gurreri, Masahiro Mori, Hiroki Masuda, Ryohei Ohtani, Yukari Sekiguchi, Tomohiko Uchida, Akiyuki Uzawa, Hiromi Ito, Emi Kabasawa, Yoko Kaneko, Takuya Matsushita, Dai Matsuse, Hiroyuki Murai, Shintaro Hayashi, Katsuhisa Masak, Hidenori Ogata, Koji Shinoda, Taira Uehara, Mitsuru Watanabe, Hiroo Yamaguchi, Ryo Yamasaki, Tomomi Yonekawa, Maki Jingu, Makiko Nagano, Yumiko Nakamura, Yoshiko Sano, Manabu Araki, Youwei Lin, Madoka Mori, Yohei Mukai, Terunori Sano, Wakiro Sato, Naoya Gogun, Yuriko Maeda, Asami Nishimoto, Sachiko Tsukamoto, Ritsuko Yanagi, Takahiko Saida, Shinichi Nakamura, Tetsuya Nasu, Kyoko Saida, Yuko Shikata, Yoshimi Kodani, Megumi Saeki, Yukako Sawada, Hiroo Yoshikawa, Takashi Kimura, Masamitsu Nishi, Shun Sakamoto, Shinichiro Ukon, Shohei Watanabe, Saori Ebisuya, Nami Kimura, Manami Matsuura, Yukie Morisaki, Yoshiko Muroi, Kuniko Onishi, Ikuko Oshima, Yuki Washino, Tomomi Yamashita, Tatsuro Misu, Kimihiko Kaneko, Masaaki Kato, Hiroshi Kuroda, Kazuhiro Kurosawa, Shuhei Nishiyama, Hirohiko Ono, Yoshiki Takai, Keiko Abe, Hitomi Hoshi, Mari Jinushi, Azusa Oyama, Motonari Sakuma, Yuko Sawada, Satoru Ishibashi, Takanori Yokota, Yoichiro Nishida, Kokoro Ozaki, Nobuo Sanjo, Nozomu Sato, Fuki Denno, Haruko Hiraki, Yumi Matsubara, Takashi Kanda, Masaaki Abe, Masaya Honda, Motoharu Kawai, Michiaki Koga, Toshihiko Maeda, Junichi Ogasawara, Masatoshi Omoto, Yasuteru Sano, Ryota Sato, Fumitaka Shimizu, Hideki Arima, Sachie Fukui, Yoshiko Ishikawa, Tomoko Koyama, Shigemi Shimose, Hirokazu Shinozaki, Masanori Watanabe, Sachi Yasuda, Chieko Yoshiwaka, Suffian Adenan, Mohd Azman M Aris, Ahmad Shahir bin Mawardi, Muhammad Al Hafiz Adnan, Nanthini Munusamy, Siti Nur Omaira Razali, Punitha Somasundram, Jae Won Hyun, In Hye Jeong, Su-Hyun Kim, Hyun-June Shin, Ji Sung Yoo, HyunMin Jang, AeRan Joung, Byung-Jo Kim, Seol-Hee Baek, Jung Bin Kim, Yoo Hwan Kim, Yong Seo Koo, Chan Nyoung Lee, Hung Youl Seok, Jinhee Hwang, Sung Min Kim, So Hyun Ahn, Seol-Hee Baek, Kyomin Choi, Seok-Jin Choi, Jun-Soon Kim, Young Nam Kwon, Je-Young Shin, Hyeonju Kwon, Byoung Joon Kim, Eun Bin Cho, Hye-Jin Cho, Misong Choi, DongSun Kim, Ju Hyeon Kim, SeungJu Ki, Hye Lim Lee, Kwang-Ho Lee, Ju-Hong Min, Ji-Hyung Park, Jinmyoung Seok, Eunhwa Choi, Sang Ae Park, Seung Min Kim, Ha-Neul Jeong, Bong Jeongbin, Jin Woo Jung, Seung Woo Kim, Yool-hee Kim, Hyung Seok Lee, Ha Young Shin, Yeon Jung, Min Jung Kim, Nou Ri Lee, MiJu Shin, Farit A Khabirov, Lyudmila Averyanova, Natalya Babicheva, Eugenii Granatov, Sergey Kazarov, Timur Khaybullin, Alexander Rogozhin, Dmitry V Pokhabov, Vladislav Abramov, Anastasia Amelina, Yulia Nesteroca, Tatyana Bozhenkina, Aleksey N Boyko, Elena G Demyan, Inessa Khoroshilova, Mikhail Melnikov, Ekaterina V Popova, Svetlana N Sharanova, Sergey G Shchur, Denis V Sazonov, Larisa Babenko, Elena Bayandina, Asya Yarmoschuk, Victor A Baliazin, Elena Baliazina, Elena Budaeva, Irina Chernikova, Zoya Goncharova, Vladimir Krasnov, Marina Myatleva, Olga V. Rodionova, Iuliana Samulyzhko, Alla A. Timofeeva, Sabas Boyero Duran, Maria Mar Mendibe Bilbao, Irene Diaz Cuervo, Jose Maria Losada Domingo, Amaia Gonzalez Eizaguirre, Jose Eulalio Barcena Llona, Roberto Valverde Moyano, Carmen Bahamonde, Fernando Sanchez Lopez, Raquel Pinar Morales, Eduardo Agüera Morales, Carmen Bahamonde Roman, Juan Jose Ochoa Sepulveda, Maria del Carmen Blanco Valero, Nazaret Pelaez Viña, Cristina Conde Gavilan, Ana Maria Jover Sanchez, Sara Vila Bedmar, Nuria Gonzalez Garcia, Aida Orviz Garcia, Ines Gonzalez-Suarez, Elena Miñano Guillamon, Miguel Kawiorski, Elena Guerra Schulz, Alba Garcia Alonso, Sara Vila Bedmar, Francisco Jesus Lopez Perez, Marta Palacios Sarmiento, Guillermo Izquierdo Ayuso, Guillermo Navarro Mascarell, Cristina Paramo Camino, Asuncion Varas Garcia, Yaiza Montserrat Mendoza, Veronica Ines Vargas Muñoz, Patricia Torres Tonda, Ching-Piao Tsai, Jiu-Haw Yin, Mei-Jung Chen, Shan-Ni Li, Fei-Ti Wang, Suwat Srisuwannanukorn, Thanatat Boonmongkol, Duangporn Borisutbuathip, Duangkamol Singwicha, Krittika Siritanan, Chidchanoke Thearapati, Kwanmuang Sornda, Metha Apiwattanakul, Saharat Aungsumart, Narupat Suanprasert, Kaona Suksuchano, Nittaya Parkinsee, Kongkiat Kulkantrakorn, Praween Lolekha, Artit Potigumjon, Puchit Sukphulloprat, Dararat Suksasunee, Chankawee Komaratat, Sunattana Luangtong, Arkhom Arayawichanont, Phanpaphon Konpan, Nathapol Riablershirun, Thaddao Wiroteurairuang, Panadda Jantaweesirirat, Aslı Kurne, Irem Erkent, Ebru Bekircan Kurt, Ezgi Saylam, Yagmur Caliskan, Gulsah Orsel, Yahya Celik, Canan Celebi, Aslan Tekatas, Tugce Banbal, Gulsen Akman Demir, Burcu Altunrende, Zeliha Matur, Baris Topcular, Tules Elmas, Aysenur Gulo, Selin Ozdemir, Cansu Ozkoklesen, Mahinur Ozturk, Mertkan Yanik, Elif Yildirim, Melih Tutuncu, Ayse Altintas, Abdulsamet Cam, Ayse Deniz Elmali, Sabahattin Saip, Aksel Siva, Uygur Tanrıverdi, Ugur Uygunoglu, Sinem Caliskan, Pinar Gulo, Esra Kozig, Selin Ozdemir, Mahinur Ozturk, Sakine Sakiz, Ihsan Sukru Sengun, Egemen Idiman, Rahmi Tumay Ala, Duygu Arslan, Utku Bulut, Yasemin Karakaptan, Derya Kaya, Zaur Mehdiyev, Bengu Balkan, Berfu Kuku, Mujgan Ozhun, Celal Tuga, Muzeyyen Ugur, Husnu Efendi, Sena Destan Bunul, Hakan Cavus, Yunus Emre Gorke, Ayse Kutlu, Seda Ozturk, Cansu Egilmez Sarikaya, Gulsah Becerikli, Cansu Semiz, Ozlem Tun, Sehriban Ayer, Musa Kazim Onar, Mehlika Berra Ozberk, Sedat Sen, Tugce Kirbas Cavdar, Adife Veske, Cavit Boz, Didem Altiparmak, Cigdem Ozen Aydin, Sibel Gazioglu, Duygu Bekircan, Anu Jacob, Heike Arndt, Liene Elsone, Shahd Hassan Mahmoud Hamid, Daniel Hugh Whittam, Martin Wilson, Imelda O'Brien, Maria Isabel da Silva Leite, Pedro Maria Rodriguez Cruz, Damian Robert Jenkins, George Tackley, Ana Cavey, Rosie Everett, Joy Hodder, Abigail Koelewyn, Ellen Mowry, Walter Royal, Robert Shin, Christopher Bever, Daniel Harrison, Horea Rus, Wei Zheng, Karen Callison, Kerry Naunton, Benjamin M Frishberg, Andrew M Blumenfeld, Andrew Inocelda, Kalyani Korabathina, Michael Lobatz, Melissa M Mortin, Irene J Oh, Jay H Rosenberg, Mark Sadoff, Gregory A Sahagian, Anchi Wang, Yasmin Camberos, Guadalupe Sanchez, Estela Soto, Jacqueline A Nicholas, Aaron Boster, Geoffrey Eubank, Katy Groezinger, Meghan Lauf, Annette F Okai, Rashedul Hasan, Chaouki Khoury, Victoria Stokes, Stacey Clardy, Melissa Cortez, John Greenlee, John Rose, Mateo Paz Soldan, Amanda Emett, Lawanda Esquibel, Lilly Fagatele, Ka-Ho Wong, James C Stevens, Thomas M Banas, Marlene C Bultemeyer, Andrea Haller, Natalie Manalo, Keri Aeschliman, Debi Kocks, Michael Racke, Aaron Lee Boster, Jacqueline A Nicholas, Michelle Bowman, Jaime Imitola, Yasushi Kisanuki, Misty Green, Stephanie Scarberry, Sharon G Lynch, Heather S Anderson, Gary S Gronseth, Nancy E Hammond, Yasir N Jassam, Manoj K Mittal, Muhammed M Nashatizadeh, Nicholas Levine, Lisa Schmidt, Jill Sibley, Vonda Whitley, James Winkley, Timothy Coleman, Gregory Cooper, Stephanie Sheffield, Keri Turner, Dana Galloway, Robert S Tillett, Geeta A Ganesh, Brian M Plato, Tad D Seifert, Diana Godwin, Deborah Lockridge, Kottil W Rammohan, William A Sheremata, Silvia Delgado, Jose Gonzalez, Alexis Lizarraga, Janice Maldonado, Melissa Ortega, Leticia Tornes, Yanet Babcock, Osmara Cailam, Yesica Campos, Irlisse Couvertier, Bettina Daneri, Jeremy Deni, Jeffrey Hernandez, Tatiana Jaramillo, Tenita Morris, Daniel Nobel, Anjelis Oliveira, Reshma Richardson, Gloria Rodriguez, Ana Romero, Carlos Sandova, Ruta Sawant, Lissett Tueros, Eric S Zetka, Chao Zheng, Daniel H Jacobs, Constance Easterling, Jennifer Fairbank, Revathi Iyengar, Mark Klafter, Justin Lindquist, Ahmed H Sadek, Elizabeth Carmona Toro, Navin Verma, Brigith Patino Castro, Nadia Sukhraj-Singh, Joseph Berger, Eric Williamson, Salim Chahin, Dina Jacobs, Clyde Markowitz, Jessica Dobbins, Lauren Mace, Maria Martin, Ashley Pinckney, Amber Roberts, Islam Zaydan, Galen W Mitchell, Rock A Heyman, Ryan L Orie, Valerie R Suski, Kerry Oddis, Darlene Punjack, Eoin Flanagan, Avi Gadoth, Andrew McKeon, W Oliver Tobin, Anastasia Zekeridou, Katie Dunlay, Jessica Sagen, Jonathan L Carter, Bachir Estephan, Brent P Goodman, Charlene R Hoffman Snyder, Andrea Francone, Irene Galasky, Martha Thomas, Pavle Repovic, James Bowen, Angeli Mayadev, Peiqing Qian, Yuriko Courtney, Lauren Lennox, Robert Thomas Naismith, Anne Haney Cross, Emily Evans, Erin E Longbrake, Megan E Orchard, Gregory F Wu, Linda Heinrich, Susan Sommers, Faria Amjad, Erika Mitchell, Carlos Mora, Bethany Schreiber, Carlo Tornatore, Alexis Carlson, Sacha McCarthy, Alexandria Oliver,
+Benefits of eculizumab in AQP4+ neuromyelitis optica spectrum disorder: Subgroup analyses of the randomized controlled phase 3 PREVENT trial,
+Multiple Sclerosis and Related Disorders,
+Volume 47,
+2021,
+102641,
+ISSN 2211-0348,
+https://doi.org/10.1016/j.msard.2020.102641.
+(https://www.sciencedirect.com/science/article/pii/S221103482030715X)
+Abstract: Background
+Antibodies to the aquaporin-4 (AQP4) water channel in neuromyelitis optica spectrum disorder (NMOSD) are reported to trigger the complement cascade, which is implicated in astrocyte damage and subsequent neuronal injury. The PREVENT study demonstrated that the terminal complement inhibitor eculizumab reduces adjudicated relapse risk in patients with anti-AQP4 immunoglobulin G-positive (AQP4+) NMOSD. The objective of this analysis was to evaluate the efficacy of eculizumab in reducing relapse risk and its safety in AQP4+ NMOSD across clinically relevant subgroups in PREVENT.
+Methods
+In the randomized, double-blind, time-to-event, phase 3 PREVENT trial, 143 adults received eculizumab (maintenance dose, 1200 mg/2 weeks) or placebo (2:1), with stable-dose concomitant immunosuppressive therapy (IST) permitted (except rituximab and mitoxantrone). Post hoc analyses of relapses and adverse events were performed for prespecified and post hoc subgroups based on concomitant IST and prior rituximab use, demographic and disease characteristics, and autoimmune comorbidity.
+Results
+The significant reduction in relapse risk observed for eculizumab versus placebo in the overall PREVENT population was consistently maintained across subgroups based on concomitant IST and previous rituximab use, age, sex, region, race, time since clinical onset of NMOSD, historical annualized relapse rate, baseline Expanded Disability Status Scale score, and history of another autoimmune disorder. The serious infection rate was lower with eculizumab than placebo regardless of rituximab use in the previous year, concomitant IST use, or history of another autoimmune disorder.
+Conclusion
+Across a wide range of clinically relevant AQP4+ NMOSD patient subgroups in PREVENT, eculizumab therapy was consistently effective versus placebo in reducing relapse risk, with no apparent increase in serious infection rate.
+Trial registration
+NCT01892345 (ClinicalTrials.gov).
+Keywords: Neuromyelitis optica spectrum disorder; Aquaporin-4 immunoglobulin G-positive; Eculizumab; Relapse; Safety; Subgroups
+
+Gayane G. Panova, Anna S. Zhuravleva, Yuriy V. Khomyakov, Vitaliy E. Vertebnyi, Sergei V. Ageev, Andrey V. Petrov, Nikita E. Podolsky, Elena I. Morozova, Vladimir V. Sharoyko, Konstantin N. Semenov,
+Plant impact properties of carboxylated fullerene C60[C(COOH)2]3,
+Journal of Molecular Structure,
+Volume 1235,
+2021,
+130163,
+ISSN 0022-2860,
+https://doi.org/10.1016/j.molstruc.2021.130163.
+(https://www.sciencedirect.com/science/article/pii/S0022286021002945)
+Abstract: Carboxylated light fullerenes, in particular, tris-malonate of fullerene C60 (C60[C(COOH)2]3, CF), is of great interest for studying its effect on plants, primarily as a source of malonate, a substance with high biological activity, and possible means of improving crop yield and its quality. Impact of water-soluble carboxylated light fullerene derivatives on physiological plant state is not studied enough. The present paper is devoted to the study of the carboxylated fullerene C60[C(COOH)2]3 influence on the physiological state, growth and netto productivity of salad, tomatoes, spring barley, and wheat in the initial stages of seed germination and in the vegetative period of plants development due to the following reasons: an increase in the absorption and assimilation capacity of roots and aerial parts of plants; increased absorption of moisture by plants, and other substances in the plant aerial organs; the entering into the plants and distributing C60[C(COOH)2]3 in the organs, containing physiologically active organic compounds, potentially involved in cyclic processes of plants catabolism; optimising the antioxidant system function. Our study shows that, according to the complex of estimated indicators of seed response and seedling condition, the C60[C(COOH)2]3 solutions in the concentration range CCF = 0.001–0.1 mg·dm−3 have a positive effect on test plants.
+Keywords: Carboxyfullerenes; Foliar treatment; Controlled conditions; Plants growth; LPO; Peroxidase and catalase activity; Seed treatment; Injection to the root habitat
+
+Yeoungjee Cho, Aminu K. Bello, Adeera Levin, Meaghan Lunney, Mohamed A. Osman, Feng Ye, Gloria E. Ashuntantang, Ezequiel Bellorin-Font, Mohammed Benghanem Gharbi, Sara N. Davison, Mohammad Ghnaimat, Paul Harden, Htay Htay, Vivekanand Jha, Kamyar Kalantar-Zadeh, Peter G. Kerr, Scott Klarenbach, Csaba P. Kovesdy, Valerie Luyckx, Brendon Neuen, Donal O’Donoghue, Shahrzad Ossareh, Jeffrey Perl, Harun Ur Rashid, Eric Rondeau, Emily J. See, Syed Saad, Laura Sola, Irma Tchokhonelidze, Vladimir Tesar, Kriang Tungsanga, Rumeyza Turan Kazancioglu, Angela Yee-Moon Wang, Chih-Wei Yang, Alexander Zemchenkov, Ming-hui Zhao, Kitty J. Jager, Fergus J. Caskey, Kailash K. Jindal, Ikechi G. Okpechi, Marcello Tonelli, David C. Harris, David W. Johnson,
+Peritoneal Dialysis Use and Practice Patterns: An International Survey Study,
+American Journal of Kidney Diseases,
+Volume 77, Issue 3,
+2021,
+Pages 315-325,
+ISSN 0272-6386,
+https://doi.org/10.1053/j.ajkd.2020.05.032.
+(https://www.sciencedirect.com/science/article/pii/S027263862030891X)
+Abstract: Rationale & Objective
+Approximately 11% of people with kidney failure worldwide are treated with peritoneal dialysis (PD). This study examined PD use and practice patterns across the globe.
+Study Design
+A cross-sectional survey.
+Setting & Participants
+Stakeholders including clinicians, policy makers, and patient representatives in 182 countries convened by the International Society of Nephrology between July and September 2018.
+Outcomes
+PD use, availability, accessibility, affordability, delivery, and reporting of quality outcome measures.
+Analytical Approach
+Descriptive statistics.
+Results
+Responses were received from 88% (n=160) of countries and there were 313 participants (257 nephrologists [82%], 22 non-nephrologist physicians [7%], 6 other health professionals [2%], 17 administrators/policy makers/civil servants [5%], and 11 others [4%]). 85% (n=156) of countries responded to questions about PD. Median PD use was 38.1 per million population. PD was not available in 30 of the 156 (19%) countries responding to PD-related questions, particularly in countries in Africa (20/41) and low-income countries (15/22). In 69% of countries, PD was the initial dialysis modality for≤10% of patients with newly diagnosed kidney failure. Patients receiving PD were expected to pay 1% to 25% of treatment costs, and higher (>75%) copayments (out-of-pocket expenses incurred by patients) were more common in South Asia and low-income countries. Average exchange volumes were adequate (defined as 3-4 exchanges per day or the equivalent for automated PD) in 72% of countries. PD quality outcome monitoring and reporting were variable. Most countries did not measure patient-reported PD outcomes.
+Limitations
+Low responses from policy makers; limited ability to provide more in-depth explanations underpinning outcomes from each country due to lack of granular data; lack of objective data.
+Conclusions
+Large inter- and intraregional disparities exist in PD availability, accessibility, affordability, delivery, and reporting of quality outcome measures around the world, with the greatest gaps observed in Africa and South Asia.
+Keywords: Epidemiology; health care delivery; kidney failure; health policy; peritoneal dialysis (PD); renal replacement therapy (RRT); RRT modality; international differences; health care disparities; end-stage renal disease (ESRD); access to health care; affordability of health care; home dialysis; global survey
+
+Gennady T. Sukhikh, Leila V. Adamyan, Svetlana O. Dubrovina, Igor I. Baranov, Vitaly F. Bezhenar, Andrey V. Kozachenko, Viktor E. Radzinsky, Mekan R. Orazov, Maria I. Yarmolinskaya, Jan I. Olofsson,
+Prolonged cyclical and continuous regimens of dydrogesterone are effective for reducing chronic pelvic pain in women with endometriosis: results of the ORCHIDEA study,
+Fertility and Sterility,
+Volume 116, Issue 6,
+2021,
+Pages 1568-1577,
+ISSN 0015-0282,
+https://doi.org/10.1016/j.fertnstert.2021.07.1194.
+(https://www.sciencedirect.com/science/article/pii/S0015028221017933)
+Abstract: Objective
+To compare the effectiveness of two different treatment regimens of dydrogesterone in the management of endometriosis-related chronic pelvic pain.
+Design
+Observational, prospective cohort study over six months.
+Setting
+Twenty gynecology clinics in the Russian Federation.
+Patient(s)
+Three hundred fifty women from 18 to 45 years of age with endometriosis and chronic pelvic pain with or without dysmenorrhea.
+Intervention(s)
+Dydrogesterone 10 mg 2 or 3 times daily, either between the 5th and 25th days of the menstrual cycle (prolonged cyclical treatment regimen) or continuously (continuous treatment regimen). For all patients, the data cutoff was at six months of treatment.
+Main Outcome Measure(s)
+Intensity of chronic pelvic pain on the 11-point numerical rating scale (after 6 months).
+Result(s)
+A marked reduction in chronic pelvic pain was observed with both the prolonged cyclical and continuous treatment regimens (mean ± standard deviation change from baseline –3.3 ± 2.2 and –3.0 ± 2.2, respectively), with no significant difference between the two groups. With both regimens, patients experienced significant improvements in the intensity of chronic pelvic pain, number of days in which analgesics were required, severity of dysmenorrhea, sexual well-being, and health-related quality-of-life parameters. A favorable safety profile of dydrogesterone was confirmed, and no serious adverse drug reactions were reported during the study.
+Conclusion(s)
+Prolonged cyclical and continuous treatment regimens of dydrogesterone therapy both demonstrated a pronounced and similar reduction in the severity of chronic pelvic pain and dysmenorrhea and led to marked improvements in all study parameters related to quality of life and sexual well-being.
+Registration Number
+NCT03690765.
+Los regímenes de tratamiento de didrogesterona cíclicos y continuos prolongados son efectivos para reducir el dolor pélvico crónico en mujeres con endometriosis: resultados del estudio ORCHIDEA.
+Objetivo
+Comparar la efectividad de dos regímenes de tratamiento diferentes de didrogesterona en el manejo de dolor pélvico crónico relacionado con la endometriosis.
+Diseño
+Estudio de cohortes prospectivo observacional durante seis meses.
+Entorno
+Veinte clínicas ginecológicas en la Federación Rusa.
+Paciente(s)
+Trescientas cincuenta mujeres entre 18 y 45 años de edad con endometriosis y dolor pélvico crónico con o sin dismenorrea.
+Intervención(es)
+Didrogesterona 10 mg 2 ó 3 veces al día, bien entre los días 5 y 25 del ciclo menestrual (régimen de tratamiento cíclico prolongado) o ininterrumpido (régimen de tratamiento continuo). Para todas las pacientes se limitó al recogida de datos a los seis meses de tratamiento.
+Medida(s) de resultado principal(es)
+Intensidad del dolor pélvico crónico en una escala de puntuación numérica de 11 puntos (tras 6 meses).
+Resultado(s)
+Se observó una marcada reducción del dolor pélvico crónico tanto con el régimen cíclico prolongado como con el continuo (cambio de nivel basal medio ± desviación estándar -3,3 ± 2,2 y -3,0 ± 2,2, respectivamente), sin diferencia significativa entre ambos grupos. Con ambos regímenes, las pacientes experimentaron mejoras significativas en intensidad del dolor pélvico crónico, número de días en que se requirieron analgésicos, severidad de la dismenorrea, bienestar sexual y parámetros de calidad de vida relacionados con la salud. Se confirmó un perfil de seguridad favorable de la didrogesterona, y no se informó de reacciones adversas severas a la medicación durante el estudio.
+Conclusión(es)
+Los regímenes de tratamiento prolongados cíclico y continuo de didrogesterona demostraron una reducción pronunciada y similar en la severidad del dolor pélvico crónico y la dismenorrea y resultaron en marcadas mejoras en todos los parámetros estudiados relacionados con calidad de vida y bienestar sexual.
+Keywords: Dydrogesterone; dysmenorrhea; endometriosis; pelvic pain; progestogens
+
+Enriqueta Felip, Nasser Altorki, Caicun Zhou, Tibor Csőszi, Ihor Vynnychenko, Oleksandr Goloborodko, Alexander Luft, Andrey Akopov, Alex Martinez-Marti, Hirotsugu Kenmotsu, Yuh-Min Chen, Antonio Chella, Shunichi Sugawara, David Voong, Fan Wu, Jing Yi, Yu Deng, Mark McCleland, Elizabeth Bennett, Barbara Gitlitz, Heather Wakelee,
+Adjuvant atezolizumab after adjuvant chemotherapy in resected stage IB–IIIA non-small-cell lung cancer (IMpower010): a randomised, multicentre, open-label, phase 3 trial,
+The Lancet,
+Volume 398, Issue 10308,
+2021,
+Pages 1344-1357,
+ISSN 0140-6736,
+https://doi.org/10.1016/S0140-6736(21)02098-5.
+(https://www.sciencedirect.com/science/article/pii/S0140673621020985)
+Abstract: Summary
+Background
+Novel adjuvant strategies are needed to optimise outcomes after complete surgical resection in patients with early-stage non-small-cell lung cancer (NSCLC). We aimed to evaluate adjuvant atezolizumab versus best supportive care after adjuvant platinum-based chemotherapy in these patients.
+Methods
+IMpower010 was a randomised, multicentre, open-label, phase 3 study done at 227 sites in 22 countries and regions. Eligible patients were 18 years or older with completely resected stage IB (tumours ≥4 cm) to IIIA NSCLC per the Union Internationale Contre le Cancer and American Joint Committee on Cancer staging system (7th edition). Patients were randomly assigned (1:1) by a permuted-block method (block size of four) to receive adjuvant atezolizumab (1200 mg every 21 days; for 16 cycles or 1 year) or best supportive care (observation and regular scans for disease recurrence) after adjuvant platinum-based chemotherapy (one to four cycles). The primary endpoint, investigator-assessed disease-free survival, was tested hierarchically first in the stage II–IIIA population subgroup whose tumours expressed PD-L1 on 1% or more of tumour cells (SP263), then all patients in the stage II–IIIA population, and finally the intention-to-treat (ITT) population (stage IB–IIIA). Safety was evaluated in all patients who were randomly assigned and received atezolizumab or best supportive care. IMpower010 is registered with ClinicalTrials.gov, NCT02486718 (active, not recruiting).
+Findings
+Between Oct 7, 2015, and Sept 19, 2018, 1280 patients were enrolled after complete resection. 1269 received adjuvant chemotherapy, of whom 1005 patients were eligible for randomisation to atezolizumab (n=507) or best supportive care (n=498); 495 in each group received treatment. After a median follow-up of 32·2 months (IQR 27·4–38·3) in the stage II–IIIA population, atezolizumab treatment improved disease-free survival compared with best supportive care in patients in the stage II–IIIA population whose tumours expressed PD-L1 on 1% or more of tumour cells (HR 0·66; 95% CI 0·50–0·88; p=0·0039) and in all patients in the stage II–IIIA population (0·79; 0·64–0·96; p=0·020). In the ITT population, HR for disease-free survival was 0·81 (0·67–0·99; p=0·040). Atezolizumab-related grade 3 and 4 adverse events occurred in 53 (11%) of 495 patients and grade 5 events in four patients (1%).
+Interpretation
+IMpower010 showed a disease-free survival benefit with atezolizumab versus best supportive care after adjuvant chemotherapy in patients with resected stage II–IIIA NSCLC, with pronounced benefit in the subgroup whose tumours expressed PD-L1 on 1% or more of tumour cells, and no new safety signals. Atezolizumab after adjuvant chemotherapy offers a promising treatment option for patients with resected early-stage NSCLC.
+Funding
+F Hoffmann-La Roche and Genentech.

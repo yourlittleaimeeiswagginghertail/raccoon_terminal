@@ -1,0 +1,465 @@
+Olga E. Zubareva, Tatyana Y. Postnikova, Alexandra V. Grifluk, Alexander P. Schwarz, Ilya V. Smolensky, Anton A. Karepanov, Dmitry S. Vasilev, Ekaterina A. Veniaminova, Alexander Y. Rotov, Sergey V. Kalemenev, Aleksey V. Zaitsev,
+Exposure to bacterial lipopolysaccharidein early life affects the expression of ionotropic glutamate receptor genes and is accompanied by disturbances in long-term potentiation and cognitive functions in young rats,
+Brain, Behavior, and Immunity,
+Volume 90,
+2020,
+Pages 3-15,
+ISSN 0889-1591,
+https://doi.org/10.1016/j.bbi.2020.07.034.
+(https://www.sciencedirect.com/science/article/pii/S0889159120307923)
+Abstract: Infections in childhood play an essential role in the pathogenesis of cognitive and psycho-emotional disorders. One of the possible mechanisms of these impairments is changes in the functional properties of NMDA and AMPA glutamate receptors in the brain. We suggest that bacterial infections during the early life period, which is critical for excitatory synapse maturation, can affect the subunit composition of NMDA and AMPA receptors. In the present study, we investigated the effect of repetitive lipopolysaccharide (LPS) intraperitoneal (i.p.) administration (25 μg/kg/day on P14, 16, and 18), mimicking an infectious disease, on the expression of subunits of NMDA and AMPA receptors in young rats. We revealed a substantial decrease of GluN2B subunit expression in the hippocampus at P23 using Western blot analysis and real-time polymerase chain reaction assay. Moderate changes were also found in GluN1, GluN2A, and GluA1 mRNA expression. The LPS-treated rats exhibited decreased exploratory and locomotor activity in the open field test and the impairment of spatial learning in the Morris water maze. Behavioral impairments were accompanied by a significant reduction in long-term hippocampal synaptic potentiation. Our data indicate that LPS-treatment in the critical period for excitatory synapse maturation alters ionotropic glutamate receptor gene expression, disturbs synaptic plasticity, and alters behavior.
+Keywords: Early postnatal ontogenesis; Bacterial lipopolysaccharide; NMDA receptor; AMPA receptor; Long-term potentiation; Ventral and dorsal hippocampus; Medial prefrontal cortex; Exploratory behavior; Learning; Memory
+
+Irina Ivleva, Nina Pestereva, Alexander Zubov, Marina Karpenko,
+Intranasal exposure of manganese induces neuroinﬂammation and disrupts dopamine metabolism in the striatum and hippocampus,
+Neuroscience Letters,
+Volume 738,
+2020,
+135344,
+ISSN 0304-3940,
+https://doi.org/10.1016/j.neulet.2020.135344.
+(https://www.sciencedirect.com/science/article/pii/S0304394020306145)
+Abstract: Prolonged exposure to manganese (Mn) may lead to toxic effects on the central nervous system (CNS). The mechanisms underlying neuronal death from exposure to Mn are not well understood but undoubtedly involve inflammatory processes. The aim of this study was to explore the effects of long-lasting intranasal Mn exposure in rats focusing on inflammatory processes and catecholamine (dopamine, norepinephrine) levels in the striatum and hippocampus. It was found that intranasal administration by instillation of MnCl2 solution once a day for 90 days leads to impaired movement and gait. We also observed that Mn concentration increased in the hippocampus (by 30 %) and in the striatum (by 220 %), dopamine (24 %) and DOPAC (35 %) were reduced in the striatum, and dopamine (190 %) and DOPAC (220 %) levels increased with simultaneously norepinephrine reduction (30 %) in the hippocampus. Observation of cytokine mRNA revealed increased expression of both assayed cytokines (IL-1β and TNF-α) in the hippocampus. There was a 3-fold increase in the expression of IBA-1 mRNA, 2-fold increase in NFκB mRNA, and dramatic reduction in IkB mRNA in the striatum. Taken together, intranasal exposure to a high dose of MnCl2 induces neuroinﬂammation and neurotransmission disturbance, but the effects are specific for each studied brain region.
+Keywords: Manganese; Manganism; Neuroinflammation; Dopamine
+
+Igor Zimin, Andrzej Grzybowski,
+Peter the Great and sexually transmitted diseases,
+Clinics in Dermatology,
+Volume 38, Issue 5,
+2020,
+Pages 598-603,
+ISSN 0738-081X,
+https://doi.org/10.1016/j.clindermatol.2019.09.002.
+(https://www.sciencedirect.com/science/article/pii/S0738081X19301543)
+Abstract: Shortly after syphilis appeared in Europe at the time of Columbus’ voyage to the New World, the big pox, as it was often known, became a serious issue in Russia for diagnosis, treatment, and prevention. Members of the Russian royal family were made aware of the disease from adolescence onward. Czar Peter the Great had many sexual contacts and could have contracted any number of sexually transmitted diseases (STDs) that were quite common in his era. Nevertheless, contributions analyzed from available sources by his contemporary doctors, and later from medical analyses, reveal no evidence that he had contracted syphilis or any other STD. Most likely, he died from acute renal failure due to urinary tract obstruction.
+
+Marina A. Plotnikova, Sergey A. Klotchenko, Kirill I. Lebedev, Alexey A. Lozhkov, Aleksandr S. Taraskin, Natalia E. Gyulikhandanova, Edward S. Ramsay, Andrey V. Vasin,
+Antibody microarray immunoassay for screening and differential diagnosis of upper respiratory tract viral pathogens,
+Journal of Immunological Methods,
+Volume 478,
+2020,
+112712,
+ISSN 0022-1759,
+https://doi.org/10.1016/j.jim.2019.112712.
+(https://www.sciencedirect.com/science/article/pii/S0022175919303655)
+Abstract: Upper respiratory tract infections are the world's most common infectious disease. The etiologic agents behind upper respiratory tract infections (URTIs) are, in fact, a diverse set of pathogens such as influenza, parainfluenza, adenovirus, rhinovirus, and others. More than 200 pathogens are known to be involved. Differential diagnosis of viral infections is sometimes complicated by their diversity or similarity of clinical presentation. This work is devoted to the development of a method which enables simultaneous detection of six common viral URTI pathogens: IAV; IBV; RSV; hAdV; hPIV2; and hPIV3. Antibody microarray technology is utilized to accomplish the analysis. In preparation for protein microchip creation, we produced, characterized, and selected approximately 50 monoclonal antibodies; for each of the aforementioned pathogens, an optimal monoclonal antibody pair was selected. A protein microchip was created, and its core working conditions were optimized. With a balance between convenience and maximal assay sensitivity in mind, a one-step analysis approach was developed for accomplishing the ELISA-like “sandwich” interaction on the manufactured microchip (antibody microarray). Reference viral strains were used to establish the lower limits of detection (LoD) for the assay. For IAV, the LoD was 0.25 ng/ml total viral protein. For other viruses, the LoD ranged from 1 to 2 ng/ml total protein. These sensitivity limits are slightly better than those of standard ELISA, but inferior to those of PCR. Overall, we believe that the developed microchip is a good alternative to existing methods, allowing relatively quick (overnight), inexpensive, simultaneous screening of several pathogens. The design of the antibody microarray is conducive to further development, and the panel of analyzed pathogens can be expanded to include approximately 50 members.
+Keywords: Antibody array; Multiplex molecular diagnostics; Monoclonal antibodies; Severe acute respiratory infections; Diagnosis of viral diseases; Multiplex immunoassay
+
+Ivan N. Gaponenko, Sergei V. Ageev, Gleb O. Iurev, Olga S. Shemchuk, Anatolii A. Meshcheriakov, Andrey V. Petrov, Irina L. Solovtsova, Lubov V. Vasina, Tatiana B. Tennikova, Igor V. Murin, Konstantin N. Semenov, Vladimir V. Sharoyko,
+Biological evaluation and molecular dynamics simulation of water-soluble fullerene derivative C60[C(COOH)2]3,
+Toxicology in Vitro,
+Volume 62,
+2020,
+104683,
+ISSN 0887-2333,
+https://doi.org/10.1016/j.tiv.2019.104683.
+(https://www.sciencedirect.com/science/article/pii/S0887233319306083)
+Abstract: One of the most studied fullerene members, C60, has a potential of application in various fields of biomedicine including reactive oxygen species (ROS) scavenging activity, inhibiting of tumours development, inactivating of viruses and bacteria, as well as elaboration of diagnostic and targeted drug delivery tools. However, the hydrophobicity of this molecule impedes its practical use, therefore the actuality of the research devoted to functionalisation of fullerenes leading to amphiphilic derivatives remains important. In this work, the water-soluble carboxylated fullerene derivative C60[C(COOH)2]3 was studied. Extensive biomedical investigation of this compound, namely, the binding with human serum albumin (HSA), radical scavenging activity in the reaction with diphenylpicrylhydrazyl (DPPH) radical, photodynamic properties, cytotoxicity in human embryonic kidney (HEK293) cell line, erythrocytes' haemolysis, platelet aggregation, and genotoxicity in human peripheral mononuclear cells (PBMC) was conducted. Moreover, the dynamic and structural characteristics of C60[C(COOH)2]3–H2O binary system were obtained using molecular dynamic (MD) method, and size distribution of C60[C(COOH)2]3 associates was measured.
+Keywords: Carboxylated fullerene; Cytotoxicity; Genotoxicity; Radical scavenging activity; Haemolysis; Platelet aggregation
+
+Nikolai Tcvetkov, Artem Gusak, Elena Morozova, Ivan Moiseev, Vadim Baykov, Maria Barabanshikova, Kirill Lepik, Evgenyi Bakin, Julia Vlasova, Anna Osipova, Ludmila Zubarovskaya, Boris Afanasyev,
+Immune checkpoints bone marrow expression as the predictor of clinical outcome in myelodysplastic syndrome,
+Leukemia Research Reports,
+Volume 14,
+2020,
+100215,
+ISSN 2213-0489,
+https://doi.org/10.1016/j.lrr.2020.100215.
+(https://www.sciencedirect.com/science/article/pii/S2213048920300212)
+Abstract: Aims
+In our single-center retrospective study we evaluated whether level of different checkpoint molecules in bone marrow biopsies at diagnosis affect the clinical course of patients with myelodysplastic syndrome (MDS).
+Methods and results
+A consecutive cohort of 55 MDS patients treated in our center from 2003 to 2018 with available bone marrow biopsies at time of diagnosis was studied. We used a technique able to detect the expression of the following antigens: PD-1, PD-L1, PD-L2, LAG-3, Gal-9, TIM-3, CD80. The association between expression level and 3-year overall and relapse-free survival and time-to-progression was analyzed. Intensive expression of TIM-3 was observed in 100% of cases. Also, in most cases, moderate Gal-9 expression was observed. With 3-year follow-up disease progression was seen in 72.9% of patients with high CD80 level and 52.1% of patients with low CD80 level (p=0.04). PD-1, CTLA4 and TIM-3 ligands were co-expressed in the majority of patients. General checkpoint ligand expression level also was associated with increased 3-year incidence of progression: 67.2% of patients with high level of checkpoint ligands progressed, while in the group with low checkpoint ligand expression level progression was observed only in 33.3% of cases (p=0.059). There was an association between the expression of checkpoint molecules CD80, PD-L2, TIM3, the number of bone marrow blasts and risk according to IPSS and IPSS-R scales.
+Conclusions
+Our preliminary study underlined heterogeneous immune checkpoint molecules expression in MDS and warrants further studies to define the role of this heterogeneity and develop optimal treatment approaches.
+Keywords: Myelodysplastic syndrome; Immune checkpoints; Prognosis
+
+Marom Bikson, Colleen A. Hanlon, Adam J. Woods, Bernadette T. Gillick, Leigh Charvet, Claus Lamm, Graziella Madeo, Adrienn Holczer, Jorge Almeida, Andrea Antal, Mohammad Reza Ay, Chris Baeken, Daniel M. Blumberger, Salvatore Campanella, Joan A. Camprodon, Lasse Christiansen, Colleen Loo, Jennifer T. Crinion, Paul Fitzgerald, Luigi Gallimberti, Peyman Ghobadi-Azbari, Iman Ghodratitoostani, Roland H. Grabner, Gesa Hartwigsen, Akimasa Hirata, Adam Kirton, Helena Knotkova, Evgeny Krupitsky, Paola Marangolo, Ester M. Nakamura-Palacios, Weronika Potok, Samir K. Praharaj, Christian C. Ruff, Gottfried Schlaug, Hartwig R. Siebner, Charlotte J. Stagg, Axel Thielscher, Nicole Wenderoth, Ti-Fei Yuan, Xiaochu Zhang, Hamed Ekhtiari,
+Guidelines for TMS/tES clinical services and research through the COVID-19 pandemic,
+Brain Stimulation,
+Volume 13, Issue 4,
+2020,
+Pages 1124-1149,
+ISSN 1935-861X,
+https://doi.org/10.1016/j.brs.2020.05.010.
+(https://www.sciencedirect.com/science/article/pii/S1935861X20301091)
+Abstract: Background
+The COVID-19 pandemic has broadly disrupted biomedical treatment and research including non-invasive brain stimulation (NIBS). Moreover, the rapid onset of societal disruption and evolving regulatory restrictions may not have allowed for systematic planning of how clinical and research work may continue throughout the pandemic or be restarted as restrictions are abated. The urgency to provide and develop NIBS as an intervention for diverse neurological and mental health indications, and as a catalyst of fundamental brain research, is not dampened by the parallel efforts to address the most life-threatening aspects of COVID-19; rather in many cases the need for NIBS is heightened including the potential to mitigate mental health consequences related to COVID-19.
+Objective
+To facilitate the re-establishment of access to NIBS clinical services and research operations during the current COVID-19 pandemic and possible future outbreaks, we develop and discuss a framework for balancing the importance of NIBS operations with safety considerations, while addressing the needs of all stakeholders. We focus on Transcranial Magnetic Stimulation (TMS) and low intensity transcranial Electrical Stimulation (tES) - including transcranial Direct Current Stimulation (tDCS) and transcranial Alternating Current Stimulation (tACS).
+Methods
+The present consensus paper provides guidelines and good practices for managing and reopening NIBS clinics and laboratories through the immediate and ongoing stages of COVID-19. The document reflects the analysis of experts with domain-relevant expertise spanning NIBS technology, clinical services, and basic and clinical research – with an international perspective. We outline regulatory aspects, human resources, NIBS optimization, as well as accommodations for specific demographics.
+Results
+A model based on three phases (early COVID-19 impact, current practices, and future preparation) with an 11-step checklist (spanning removing or streamlining in-person protocols, incorporating telemedicine, and addressing COVID-19-associated adverse events) is proposed. Recommendations on implementing social distancing and sterilization of NIBS related equipment, specific considerations of COVID-19 positive populations including mental health comorbidities, as well as considerations regarding regulatory and human resource in the era of COVID-19 are outlined. We discuss COVID-19 considerations specifically for clinical (sub-)populations including pediatric, stroke, addiction, and the elderly. Numerous case-examples across the world are described.
+Conclusion
+There is an evident, and in cases urgent, need to maintain NIBS operations through the COVID-19 pandemic, including anticipating future pandemic waves and addressing effects of COVID-19 on brain and mind. The proposed robust and structured strategy aims to address the current and anticipated future challenges while maintaining scientific rigor and managing risk.
+Keywords: Non-invasive brain stimulation; COVID-19; Transcranial magnetic stimulation; Transcranial direct current stimulation; Transcranial alternating current stimulation; Transcranial electrical stimulation
+
+Victoria Lioudyno, Irina Abdurasulova, Alexander Tatarinov, Irina Nikiforova, Alexandr Ilves, Elena Ivashkova, Igor Stoliarov, Gennadij Bisaga, Victor Klimenko,
+The effect of galanin gene polymorphism rs948854 on the severity of multiple sclerosis: A significant association with the age of onset,
+Multiple Sclerosis and Related Disorders,
+Volume 37,
+2020,
+101439,
+ISSN 2211-0348,
+https://doi.org/10.1016/j.msard.2019.101439.
+(https://www.sciencedirect.com/science/article/pii/S2211034819304195)
+Abstract: Background: Data on genetic markers that determine the prognosis of multiple sclerosis (MS) is still limited. The association between galanin gene polymorphism rs948854 and prognosis of MS had been demonstrated earlier. Objectives: To confirm earlier findings in a distinct from the previously studied cohort of patients, and to further characterized the rs948854 polymorphism as one of the candidates for the risk stratification in patients with MS. Methods: To assess the rate of disease progression, the MS severity score (MSSS) and Age Related Multiple Sclerosis Severity (ARMSS) score were used, along with the Progression Index (PI). Results: The significant association of a minor allele of rs948854 polymorphism with the severity of the course of multiple sclerosis was revealed, confirming earlier findings. An increase in the proportion of patients with a MSSS > 5 (high rate of progression) was observed among the minor G allele carriers (genotypes AG and GG) compared to patients with AA genotype. Furthermore, the age at onset correlated with the MSSS value only in the group of minor allele carriers and the effect of a minor allele appeared only in patients with the late age at onset (>30 years). Conclusion: Collectively, our data support the contribution of galanin gene polymorphism rs948854 to the mechanisms of adverse course of the disease in the late onset MS.
+Keywords: Gene polymorphism; Galanin; Multiple sclerosis; Risk stratification; Onset age
+
+Y.S. Astakhov, S.Y. Astakhov, A.B. Lisochkina, P.A. Nechiporenko,
+Eight-year multimodal follow-up of recurrent idiopathic acute exudative polymorphous vitelliform maculopathy,
+Journal Français d'Ophtalmologie,
+Volume 43, Issue 6,
+2020,
+Pages 500-516,
+ISSN 0181-5512,
+https://doi.org/10.1016/j.jfo.2020.01.004.
+(https://www.sciencedirect.com/science/article/pii/S0181551220300607)
+Abstract: Summary
+Purpose
+To describe and analyze clinical findings in a patient with recurrent idiopathic acute exudative polymorphous vitelliform maculopathy (AEPVM), followed in detail, and to propose the diagnostic and follow-up algorithm.
+Design
+Retrospective observational analysis.
+Patient
+A young adult male patient diagnosed with idiopathic AEPVM who developed two relapses in a 12-month period eight years after the initial onset.
+Methods
+Review of clinical charts, multimodal imaging, and electrophysiology findings. The patient repeatedly underwent complete ophthalmic examinations, including best-corrected visual acuity testing (BCVA), slit-lamp and fundus examinations; digital fundus photography, time-domain optical coherence tomography (OCT) in 2009 (Stratus OCT, Carl Zeiss Meditec, USA) and spectral-domain OCT in 2017–2018 (Spectralis-OCT, Heidelberg Engineering, Germany), together with fundus autofluorescence (FAF), fluorescein angiography (FA), and indocyanine green angiography (ICGA), all with HRA2 (Heidelberg Engineering, Germany); microperimetry (MP-1 microperimeter, Nidek, Japan). Laser flare photometry (Kowa FM-600, Japan) and electrophysiology testing were also performed.
+Main outcome measures
+Clinical features of long-lasting recurrent idiopathic AEPVM, and diagnostic and follow-up algorithm in such rare cases.
+Results
+Case report of a 25-year-old male Caucasian patient with typical features of AEPVM, including serous neuroepithelial detachment with irregular retinal elevations, ophthalmoscopically resembling retinal folds, with subsequent subretinal accumulation of characteristic yellow–white vitelliform deposits. Features in this case rarely described, or even not yet reported, include indocyanine- and fluorescein-negative intraretinal cystic changes, optic disc hyperfluorescence on FA, serous retinal elevations mimicking retinal folds, increased choroidal thickness, lack of rapid visual recovery, and very slow anatomical improvement of the relapses. Bimonthly fundus autofluorescence evaluation together with SD-OCT were the most informative diagnostic methods, demonstrating the evolution of pathological signs.
+Conclusion
+AEPVM may be a recurrent or even chronic condition with uncertain long-term visual outcomes. It may have variable clinical presentations depending on the stage of the disease, and both clinical manifestations and imaging features of different stages of the pathologic process may overlap. Patients should be made aware that visual improvement occurs very slowly, if at all. Bimonthly fundus autofluorescence evaluation together with SD-OCT should be recommended in such cases.
+Keywords: Recurrent; Idiopathic; Acute; Exudative; Polymorphous; Vitelliform; Maculopathy; Intraretinal fluid; Subretinal fluid; Subretinal deposits; Lipofuscin; Imaging; Fluorescein angiography; Fundus autofluorescence; Indocyanine green angiography; Microperimetry; Laser flare photometry; Multimodal imaging; Long-term evaluation
+
+Ali Bazarbachi, Myriam Labopin, Emanuele Angelucci, Zafer Gülbas, Hakan Ozdogu, Mutlu Arat, Luca de Rosa, Rocco Pastano, Pietro Pioltelli, Rovira Montserrat, Massimo Martino, Fabio Ciceri, Yener Koç, Gerard Socié, Didier Blaise, Concepcion Herrera, Yves Chalandon, Paolo Bernasconi, Giuseppe Marotta, Luca Castagna, Andrew McDonald, Guiseppe Visani, Paola Carluccio, Antonin Vitek, Célestine Simand, Boris Afanasyev, Wolf Rösler, J.L. Diez-Martin, Arnon Nagler, Eolia Brissot, Sebastian Giebel, Mohamad Mohty,
+Haploidentical Transplantation with Post-Transplantation Cyclophosphamide for T Cell Acute Lymphoblastic Leukemia: A Report from the European Society for Blood and Marrow Transplantation Acute Leukemia Working Party,
+Biology of Blood and Marrow Transplantation,
+Volume 26, Issue 5,
+2020,
+Pages 936-942,
+ISSN 1083-8791,
+https://doi.org/10.1016/j.bbmt.2020.01.003.
+(https://www.sciencedirect.com/science/article/pii/S1083879120300136)
+Abstract: ABSTRACT
+Allogeneic hematopoietic cell transplantation (HCT) is recommended in high-risk patients with T cell acute lymphoblastic leukemia (T-ALL). For patients without an HLA-identical donor, haploidentical (haplo-) HCT is becoming the leading source of stem cell donation. However, data are scarce on predictive factors for outcome in that setting. We identified 122 adults (20% female; median age, 31 years; range, 18 to 68 years) with T-ALL who underwent haplo-HCT with post-transplantation cyclophosphamide (ptCy) between 2010 and 2017. The median duration of follow-up of living patients was 23 months. The 2-year incidences of relapse and nonrelapse mortality were 45% and 21%, respectively. The 2-year leukemia-free survival (LFS), overall survival (OS), and graft-versus-host disease, relapse-free survival (GRFS) were 34%, 42%, and 27%, respectively. The 2-year LFS and OS were highly influenced by disease status at transplantation, being 49% and 55%, respectively, for patients in first complete remission (CR1); 34% and 50%, respectively, for those in second CR (CR2); and 8% and 12%, respectively, for patients with active disease. On multivariate analysis, only disease status was found to affect LFS and OS. Transplantation in CR2 negatively affected LFS, whereas active disease at the time of haplo-HCT negatively affected LFS and OS. In conclusion, haplo-HCT with ptCy produced encouraging results in this challenging disease, particularly when performed in patients in CR. Despite the limitation of the small sample size, our results were not affected by the type of conditioning, calling into question the need for total body irradiation-based myeloablative conditioning in that setting.
+Keywords: Conditioning; Haploidentical stem cell transplantation; T-ALL; Thiotepa; Total body irradiation
+
+Hilary A. Tindle, Matthew S. Freiberg, Natalia Gnatienko, Elena Blokhina, Debbie M. Cheng, Tatiana Yaroslavtseva, Sally Bendiks, Michael Winter, Evgeny Krupitsky, Jeffrey H. Samet,
+Design of a randomized controlled trial of smoking cessation medications for alcohol reduction among HIV-positive heavy drinkers and daily smokers in St. Petersburg, Russia,
+Contemporary Clinical Trials Communications,
+Volume 19,
+2020,
+100625,
+ISSN 2451-8654,
+https://doi.org/10.1016/j.conctc.2020.100625.
+(https://www.sciencedirect.com/science/article/pii/S2451865420301095)
+Abstract: Background
+HIV, heavy drinking, and smoking are all pro-inflammatory and increase risk for coronary heart disease (CHD). Interventions that reduce alcohol use, smoking, or both in HIV-positive people could lower inflammation, CHD and death risk. Varenicline and cytisine are proven therapies for smoking cessation and may also reduce alcohol consumption. The comparative efficacy of varenicline and cytisine to reduce alcohol consumption has not been tested, nor has their comparative effectiveness been reported for smoking.
+Objective
+This paper describes the protocol of the Studying Partial agonists for Ethanol and Tobacco Elimination in Russians with HIV (St PETER HIV), a four-arm parallel-group randomized controlled trial comparing effects of varenicline, cytisine, and nicotine replacement therapy (NRT).
+Methods
+The study is recruiting four hundred HIV-positive heavy drinking smokers interested in cutting down on alcohol and/or tobacco in St. Petersburg, Russia. Participants are randomly assigned to receive either active varenicline + NRT placebo, varenicline placebo + active NRT, active cytisine + NRT placebo, cytisine placebo + active NRT. All participants receive evidence-based counseling for alcohol and tobacco use, one active medication, and one placebo. Outcomes are: 1) % heavy drinking days in the past month (primary study outcome at three months) and alcohol craving; 2) cigarettes per day (primary smoking outcome at 3 months) and 7-day point prevalence abstinence and; 3) inflammation, CHD risk, and mortality risk.
+Conclusion
+St PETER HIV addresses the paucity of randomized controlled trial data to guide treatment of alcohol consumption and smoking in HIV-positive heavy drinking smokers.
+Keywords: Russia; HIV; Alcohol use; Smoking; Varenicline; Cytisine
+
+Yulia Desheva, Andrey Mamontov, Nadezhda Petkova, Vadim Karev, Peter Nazarov,
+Mast cell degranulation and histamine release during A/H5N1 influenza infection in influenza-sensitized mice,
+Life Sciences,
+Volume 258,
+2020,
+118230,
+ISSN 0024-3205,
+https://doi.org/10.1016/j.lfs.2020.118230.
+(https://www.sciencedirect.com/science/article/pii/S0024320520309826)
+Abstract: Here we evaluate the role of mast cells in infection with influenza A/H5N1 virus in immunized mice. CBA mice were immunized intramuscularly with formalin-inactivated A/Vietnam/1194/2004 (H5N1)NIBRG-14 (H5N1). Serum samples were obtained on days 7, 12, 14, 21 after immunization. At day 14, the mice were infected intranasally with the A/Indonesia/5/2005 (H5N1)IDCDC-RG2 (H5N1) influenza virus with half of the animals receiving a mixture of the antihistamines. 67% of the vaccinated mice were protected from the lethality compared to 43% in the PBS-immunized group. Administration of antihistamines increased survival up to 85%–95%. Immunohistochemical examination using CD117 staining of the lungs demonstrated a larger quantity of activated mast cells after infection of immunized mice compared to mock-immunized mice. This was correlated to increased histamine level in the lungs and blood. Our experimental results suggest the involvement of mast cells and the histamine they produce in the pathogenesis of influenza infection in case of incomplete formation of the immune response to vaccination and mismatch of the vaccine and infection influenza viruses.
+Keywords: Influenza vaccination; Influenza infection; Immune complexes; Mast cells; CD117; Degranulation; Histamine
+
+Tibor Stark, Martina Di Bartolomeo, Roberta Di Marco, Eva Drazanova, Chiara Bianca Maria Platania, Fabio Arturo Iannotti, Jana Ruda-Kucerova, Claudio D'Addario, Lucie Kratka, Vladimir Pekarik, Fabiana Piscitelli, Zuzana Babinska, Julia Fedotova, Giovanni Giurdanella, Salvatore Salomone, Alexandra Sulcova, Claudio Bucolo, Carsten T. Wotjak, Zenon Starcuk, Filippo Drago, Raphael Mechoulam, Vincenzo Di Marzo, Vincenzo Micale,
+Altered dopamine D3 receptor gene expression in MAM model of schizophrenia is reversed by peripubertal cannabidiol treatment,
+Biochemical Pharmacology,
+Volume 177,
+2020,
+114004,
+ISSN 0006-2952,
+https://doi.org/10.1016/j.bcp.2020.114004.
+(https://www.sciencedirect.com/science/article/pii/S000629522030232X)
+Abstract: Gestational methylazoxymethanol acetate (MAM) treatment produces offspring with adult phenotype relevant to schizophrenia, including positive- and negative-like symptoms, cognitive deficits, dopaminergic dysfunction, structural and functional abnormalities. Here we show that adult rats prenatally treated with MAM at gestational day 17 display significant increase in dopamine D3 receptor (D3) mRNA expression in prefrontal cortex (PFC), hippocampus and nucleus accumbens, accompanied by increased expression of dopamine D2 receptor (D2) mRNA exclusively in the PFC. Furthermore, a significant change in the blood perfusion at the level of the circle of Willis and hippocampus, paralleled by the enlargement of lateral ventricles, was also detected by magnetic resonance imaging (MRI) techniques. Peripubertal treatment with the non-euphoric phytocannabinoid cannabidiol (30 mg/kg) from postnatal day (PND) 19 to PND 39 was able to reverse in MAM exposed rats: i) the up-regulation of the dopamine D3 receptor mRNA (only partially prevented by haloperidol 0.6 mg/kg/day); and ii) the regional blood flow changes in MAM exposed rats. Molecular modelling predicted that cannabidiol could bind preferentially to dopamine D3 receptor, where it may act as a partial agonist according to conformation of ionic-lock, which is highly conserved in GPCRs. In summary, our results demonstrate that the mRNA expression of both dopamine D2 and D3 receptors is altered in the MAM model; however only the transcript levels of D3 are affected by cannabidiol treatment, likely suggesting that this gene might not only contribute to the schizophrenia symptoms but also represent an unexplored target for the antipsychotic activity of cannabidiol.
+Keywords: Cannabidiol; Dopamine D3 receptor; Molecular Dynamics; Arterial Spine Labelling; MAM model; Schizophrenia
+
+Annalisa Ruggeri, Myriam Labopin, Giorgia Battipaglia, Patrizia Chiusolo, Johanna Tischer, Jean Luiz Diez-Martin, Benedetto Bruno, Luca Castagna, Ivan Sergeevich Moiseev, Antonin Vitek, Montserrat Rovira, Fabio Ciceri, Andrea Bacigalupo, Arnon Nagler, Mohamad Mohty,
+Timing of Post-Transplantation Cyclophosphamide Administration in Haploidentical Transplantation: A Comparative Study on Behalf of the Acute Leukemia Working Party of the European Society for Blood and Marrow Transplantation,
+Biology of Blood and Marrow Transplantation,
+Volume 26, Issue 10,
+2020,
+Pages 1915-1922,
+ISSN 1083-8791,
+https://doi.org/10.1016/j.bbmt.2020.06.026.
+(https://www.sciencedirect.com/science/article/pii/S108387912030402X)
+Abstract: ABSTRACT
+The timing of immunosuppressive therapy used in combination with post-transplantation cyclophosphamide (PTCY) in haploidentical hematopoietic stem cell transplant (haplo-HSCT) is not standardized. We evaluated the schedules of immunosuppression therapy after haplo-HSCT in 509 patients with acute leukemia receiving PTCY on days +3 and +4 along with tacrolimus (group 1; n = 215), with cyclosporine A (CSA) and mycophenolate mofetil (MMF) from day +5 (group 2; n = 170), or CSA + MMF from day 0 or 1 with PTCY on days +3 and +5 (group 3; n = 124). Compared with the other 2 groups, patients in group 3 were younger (median age, 46 years; P = .02) and more often received bone marrow (77%; P < .01) and a regimen containing thiotepa, fludarabine, and busulfan (84%; P< .01). At 2 years, overall survival was 44% was in group 1, 48% in group 2, and 59% in group 3 (P= .15); leukemia-free survival (LFS) was 43%, 46%, and 53% (P= .05); and refined graft-versus-host disease-free, relapse-free survival (rGRFS) was 33%, 39%, and 36% (P = .02). The incidence of grade II-IV acute GVHD was 25% in group 1, 39% in group 2, and 18% in group 3 (P< .01); incidence of chronic GVHD was 25%, 21%, and 24% (P= .50); relapse incidence was 36%, 37%, and 26% (P= .02); and nonrelapse mortality was 26%, 20%, and 21% (P= .35). On multivariate analysis, early start of immunosuppression therapy at day +1 followed by PTCY was associated with a better LFS (hazard ratio [HR], .58; P= .02) and improved rGRFS (HR, .62; P = .02). In this study, the timing of immunosuppression influenced the outcomes of haplo-HSCT with PTCY. An early start of CSA + MMF with PTCY administered on days +3 and +5 improves LFS and rGRFS.
+Keywords: Haploidentical transplant; Cyclophosphamide; Acute leukemia
+
+T.S. Usenko, M.A. Nikolaev, I.V. Miliukhina, A.I. Bezrukova, K.A. Senkevich, N.A. Gomzyakova, Y.A. Beltceva, N.M. Zalutskaya, E.V. Gracheva, A.A. Timofeeva, O.A. Petrova, A.V. Semenov, N.E. Lubimova, A.A. Totolyan, S.N. Pchelina,
+Plasma cytokine profile in synucleinophaties with dementia,
+Journal of Clinical Neuroscience,
+Volume 78,
+2020,
+Pages 323-326,
+ISSN 0967-5868,
+https://doi.org/10.1016/j.jocn.2020.04.058.
+(https://www.sciencedirect.com/science/article/pii/S0967586820303660)
+Abstract: Immune response may play a pivotal role in the pathogenesis of the common synucleinopathy as Parkinson’s disease (PD) and could be mediated with the accumulation of neurotoxic alpha-synuclein. There is limited evidence for immune response in another synucleinopathy as dementia with Lewy bodies (DLB). Recent data suggest that immune response may contribute to cognitive impairment. We aimed to estimate plasma cytokine profile in patients with synucleinopathies with dementia (PD dementia (PDD), DLB). Plasma cytokine levels (interferon-gamma (IFN-gamma), interleukin (IL)-4 (IL-4), IL-6, IL-10, tumor necrosis factor alpha (TNF-alpha), monocyte chemoattractant protein-1 (MCP-1)). were estimated in 16 patients with DLB, 19 patients with PDD, 28 patients with PD without dementia (PD) and 19 individuals without neurological disorders (controls) using Luminex array system. Cognitive status was assessed with the Mini–Mental State Examination (MMSE). TNF-alpha and IL-6 plasma levels were elevated in patients with synucleinopathies with dementia (DLB, PDD) compared to controls and IL-10 plasma level was increased in PDD compared to controls (p < 0.05). IFN-gamma levels were decreased in PD and PDD patients compared to controls (p < 0.001, p = 0.026, respectively) and in PD patients than in DLB patients (p = 0.032). Patients with PD, PDD, and DLB were characterized by increased plasma levels of MCP-1 compared to controls (p < 0.001). At the same time, no differences in TNF-alpha, IL-10, IL-6 plasma levels in PD patients compared to controls were found. Our study demonstrated more pronounced immune response in synucleinopathies associated with dementia compared to PD without demetia.
+Keywords: Parkinson’s disease; dementia with Lewy bodies; Cytokines; Plasma
+
+D. Planchard, N. Reinmuth, S. Orlov, J.R. Fischer, S. Sugawara, S. Mandziuk, D. Marquez-Medina, S. Novello, Y. Takeda, R. Soo, K. Park, M. McCleod, S.L. Geater, M. Powell, R. May, U. Scheuring, P. Stockman, D. Kowalski,
+ARCTIC: durvalumab with or without tremelimumab as third-line or later treatment of metastatic non-small-cell lung cancer☆,
+Annals of Oncology,
+Volume 31, Issue 5,
+2020,
+Pages 609-618,
+ISSN 0923-7534,
+https://doi.org/10.1016/j.annonc.2020.02.006.
+(https://www.sciencedirect.com/science/article/pii/S0923753420360415)
+Abstract: Background
+Many patients with metastatic non-small-cell lung cancer (mNSCLC) experience disease progression after first- and second-line treatment; more treatment options are required for these patients. ARCTIC, a phase III, randomized, open-label study, assessed durvalumab ± tremelimumab versus standard of care (SoC) as ≥ third-line treatment of mNSCLC.
+Patients and methods
+ARCTIC comprised two independent sub-studies. Study A: 126 patients with ≥25% of tumor cells (TCs) expressing programmed cell death ligand-1 (PD-L1) were randomized (1 : 1) to durvalumab [up to 12 months 10 mg/kg every 2 weeks (q2w)] or SoC. Study B: 469 patients with PD-L1 TC <25% were randomized (3 : 2 : 2 : 1) to durvalumab + tremelimumab (12 weeks durvalumab 20 mg/kg + tremelimumab 1 mg/kg q4w then 34 weeks durvalumab 10 mg/kg q2w), SoC, durvalumab (up to 12 months 10 mg/kg q2w), or tremelimumab (24 weeks 10 mg/kg q4w then 24 weeks q12w). Primary end points: overall survival (OS) and progression-free survival (PFS) for durvalumab versus SoC (study A; descriptive only) and durvalumab + tremelimumab versus SoC (study B).
+Results
+Study A: median OS 11.7 (durvalumab) versus 6.8 (SoC) months {hazard ratio (HR) 0.63 [95% confidence interval (CI), 0.42–0.93]}; median PFS 3.8 (durvalumab) versus 2.2 (SoC) months [HR 0.71 (95% CI, 0.49–1.04)]. Study B: median OS 11.5 (durvalumab + tremelimumab) versus 8.7 (SoC) months [HR 0.80 (95% CI, 0.61–1.05); P = 0.109]. Median PFS of 3.5 months for both groups [HR 0.77 (95% CI, 0.59–1.01); P = 0.056]. Treatment-related grade 3/4 adverse events: 9.7% (durvalumab) and 44.4% (SoC; study A) and 22.0% (durvalumab + tremelimumab) and 36.4% (SoC; study B).
+Conclusions
+In heavily pretreated patients with mNSCLC, durvalumab demonstrated clinically meaningful improvements in OS and PFS versus SoC (patients with PD-L1 TC ≥25%); numerical improvements in OS and PFS for durvalumab + tremelimumab versus SoC were observed (patients with PD-L1 TC <25%). Safety profiles were consistent with previous studies.
+Trial registration
+Clinicaltrials.gov identifier: NCT02352948.
+Keywords: ARCTIC; durvalumab; immunotherapy; metastatic non-small-cell lung cancer; tremelimumab
+
+Svetlana Evgina, Kiyoshi Ichihara, Anna Ruzhanskaya, Irina Skibo, Nina Vybornova, Anton Vasiliev, Shogo Kimura, Dmitry Butlitski, Elena Volkova, Ekaterina Vilenskaya, Vladimir Emanuel,
+Establishing reference intervals for major biochemical analytes for the Russian population: a research conducted as a part of the IFCC global study on reference values,
+Clinical Biochemistry,
+Volume 81,
+2020,
+Pages 47-58,
+ISSN 0009-9120,
+https://doi.org/10.1016/j.clinbiochem.2020.04.001.
+(https://www.sciencedirect.com/science/article/pii/S0009912019313827)
+Abstract: Objectives
+Because reference intervals (RIs) for biochemistry analytes matched to the Russian population are not well defined, we joined the global study on reference values (RVs) coordinated by the IFCC Committee on Reference Intervals and Decision Limits (C-RIDL).
+Methods
+According to the C-RIDL harmonized protocol, 793 healthy volunteers were recruited in Saint-Petersburg, Moscow, and Yekaterinburg. Serum samples were tested for 34 biochemistry analytes. Sources of variation of RVs were explored using multiple regression analysis. The need for partitioning RVs by sex and age were judged using standard deviation ratio based on ANOVA. Latent abnormal values exclusion (LAVE) method was applied to reduce the influence of individuals with metabolic syndrome and/or inappropriate sampling conditions. RIs were computed by the parametric method.
+Results
+No appreciable between-city differences were observed. Partition of RVs by sex was required for 17 analytes. Age-related changes in RVs were observed in many analytes, especially in females. The trend was exaggerated in nutritional and inflammatory markers that were closely associated with body mass index (BMI), because BMI increases prominently with age. Therefore, for those analytes, volunteers with BMI > 28 kg/m2 were excluded in determining RIs for age-specific RIs. The LAVE method was effective in lowering the upper limits of the RIs for nutritional and inflammatory markers.
+Conclusion
+RIs matched to the Russian population were established for 34 biochemical analytes using up-to-date methods in detailed consideration of sources of variation of RVs. The majority of Russian RIs are similar to those of Caucasian populations among the participating countries.
+Keywords: BMI-related change; Latent abnormal values exclusion method; Nested ANOVA; Bias ratio; Multiple regression analysis; Standardization
+
+Arash Derakhshan, Robin P Peeters, Peter N Taylor, Sofie Bliddal, David M Carty, Margreet Meems, Bijay Vaidya, Liangmiao Chen, Bridget A Knight, Farkhanda Ghafoor, Polina V Popova, Lorena Mosso, Emily Oken, Eila Suvanto, Aya Hisada, Jun Yoshinaga, Suzanne J Brown, Judit Bassols, Juha Auvinen, Wichor M Bramer, Abel López-Bermejo, Colin M Dayan, Robert French, Laura Boucai, Marina Vafeiadi, Elena N Grineva, Victor J M Pop, Tanja G Vrijkotte, Leda Chatzi, Jordi Sunyer, Ana Jiménez-Zabala, Isolina Riaño, Marisa Rebagliato, Xuemian Lu, Amna Pirzada, Tuija Männistö, Christian Delles, Ulla Feldt-Rasmussen, Erik K Alexander, Scott M Nelson, Layal Chaker, Elizabeth N Pearce, Mònica Guxens, Eric A P Steegers, John P Walsh, Tim I M Korevaar,
+Association of maternal thyroid function with birthweight: a systematic review and individual-participant data meta-analysis,
+The Lancet Diabetes & Endocrinology,
+Volume 8, Issue 6,
+2020,
+Pages 501-510,
+ISSN 2213-8587,
+https://doi.org/10.1016/S2213-8587(20)30061-9.
+(https://www.sciencedirect.com/science/article/pii/S2213858720300619)
+Abstract: Summary
+Background
+Adequate transplacental passage of maternal thyroid hormone is important for normal fetal growth and development. Maternal overt hypothyroidism and hyperthyroidism are associated with low birthweight, but important knowledge gaps remain regarding the effect of subclinical thyroid function test abnormalities on birthweight—both in general and during the late second and third trimester of pregnancy. The aim of this study was to examine associations of maternal thyroid function with birthweight.
+Methods
+In this systematic review and individual-participant data meta-analysis, we searched MEDLINE (Ovid), Embase, Web of Science, the Cochrane Central Register of Controlled Trials, and Google Scholar from inception to Oct 15, 2019, for prospective cohort studies with data on maternal thyroid function during pregnancy and birthweight, and we issued open invitations to identify study authors to join the Consortium on Thyroid and Pregnancy. We excluded participants with multiple pregnancies, in-vitro fertilisation, pre-existing thyroid disease or thyroid medication usage, miscarriages, and stillbirths. The main outcomes assessed were small for gestational age (SGA) neonates, large for gestational age neonates, and newborn birthweight. We analysed individual-participant data using mixed-effects regression models adjusting for maternal age, BMI, ethnicity, smoking, parity, gestational age at blood sampling, fetal sex, and gestational age at birth. The study protocol was pre-registered at the International Prospective Register of Systematic Reviews, CRD42016043496.
+Findings
+We identified 2526 published reports, from which 36 cohorts met the inclusion criteria. The study authors for 15 of these cohorts agreed to participate, and five more unpublished datasets were added, giving a study population of 48 145 mother–child pairs after exclusions, of whom 1275 (3·1%) had subclinical hypothyroidism (increased thyroid stimulating hormone [TSH] with normal free thyroxine [FT4]) and 929 (2·2%) had isolated hypothyroxinaemia (decreased FT4 with normal TSH). Maternal subclinical hypothyroidism was associated with a higher risk of SGA than was euthyroidism (11·8% vs 10·0%; adjusted risk difference 2·43%, 95% CI 0·43 to 4·81; odds ratio [OR] 1·24, 1·04 to 1·48; p=0·015) and lower mean birthweight (mean difference −38 g, −61 to −15; p=0·0015), with a higher effect estimate for measurement in the third trimester than in the first or second. Isolated hypothyroxinaemia was associated with a lower risk of SGA than was euthyroidism (7·3% vs 10·0%, adjusted risk difference −2·91, −4·49 to −0·88; OR 0·70, 0·55 to 0·91; p=0·0073) and higher mean birthweight (mean difference 45 g, 18 to 73; p=0·0012). Each 1 SD increase in maternal TSH concentration was associated with a 6 g lower birthweight (–10 to −2; p=0·0030), with higher effect estimates in women who were thyroid peroxidase antibody positive than for women who were negative (pinteraction=0·10). Each 1 SD increase in FT4 concentration was associated with a 21 g lower birthweight (–25 to −17; p<0·0001), with a higher effect estimate for measurement in the third trimester than the first or second.
+Interpretation
+Maternal subclinical hypothyroidism in pregnancy is associated with a higher risk of SGA and lower birthweight, whereas isolated hypothyroxinaemia is associated with lower risk of SGA and higher birthweight. There was an inverse, dose-response association of maternal TSH and FT4 (even within the normal range) with birthweight. These results advance our understanding of the complex relationships between maternal thyroid function and fetal outcomes, and they should prompt careful consideration of potential risks and benefits of levothyroxine therapy during pregnancy.
+Funding
+Netherlands Organization for Scientific Research (grant 401.16.020).
+
+Nir Peled, Roni Gillis, Saadettin Kilickap, Patrizia Froesch, Sergei Orlov, Elena Filippova, Umut Demirci, Petros Christopoulos, Irfan Cicin, Fatma Bugdayci Basal, Cengiz Yilmaz, Moiseenko Fedor, Taner Korkmaz, Semra Paydas, Oliver Gautschi, Alisan Zirtiloglu, Yesim Eralp, Havva Yesil Cinkir, Ahmet Sezer, Mustafa Erman, Deniz Tural, Hande Turna, Julien Mazieres, Elizabeth Dudnik, Noemi Reguart, David Ross Camidge, Terry L. Ng, Filiz Çay Şenler, İsmail Beypınar, Doğan Yazılıtaş, Ahmet Demirkazık, Aziz Karaoğlu, Kerem Okutur, Hasan Şenol Coşkun, Mehmet Ali Nahit Şendur, Abdurrahman Isikdogan, Devrim Cabuk, Perran Fulden Yumuk, Ibrahim Yıldız, M. Ali Kaplan, Özgür Özyılkan, İlhan Öztop, Omer Fatih Olmez, Kübra Aydin, Adnan Aydıner, Nezih Meydan, Roxana Denisa Grinberg, Laila C. Roisman,
+GLASS: Global Lorlatinib for ALK(+) and ROS1(+) retrospective Study: real world data of 123 NSCLC patients,
+Lung Cancer,
+Volume 148,
+2020,
+Pages 48-54,
+ISSN 0169-5002,
+https://doi.org/10.1016/j.lungcan.2020.07.022.
+(https://www.sciencedirect.com/science/article/pii/S0169500220305468)
+Abstract: Lorlatinib is a third-generation tyrosine-kinases inhibitor (TKI) targeting ALK/ROS1 fusions. The FDA has approved lorlatinib for TKI-pretreated ALK(+) NSCLC, while its approval for ROS1(+) is still pending. Here we present the largest real-world data of NSCLC patients harboring ALK/ROS1 rearrangements treated with lorlatinib.
+Methods
+123 patients were enrolled retrospectively (data cut-off 1/1/2019). Lorlatinib was administered through an early access program for patients with no other available therapy. Outcome and response were defined by each investigator upon RECIST 1.1 criteria.
+Results
+106 ALK(+) and 17 ROS1(+) patients recruited from 8 different countries. The ALK(+) cohort included 50 % males, 73 % never-smokers and 68 % with brain metastases. Extracranial (EC) and intracranial (IC) response rates (RR) were 60 % and 62 %, with disease control rates (DCR) of 91 % and 88 % respectively. Mean duration of therapy (DoT) was 23.9 ± 1.6 months and median overall survival (mOS) was 89.1 ± 19.6 months. ROS1 cohort enrolled 53 % males, 65 % never-smokers and 65 % had brain metastases. EC and IC RR were 62 % and 67 % with DCR of 92 % and 78 % respectively. Median DoT was 18.1 ± 2.5 months and mOS of 90.3 ± 24.4 months. OS and DoT in both cohorts were not significantly correlated with line of therapy nor other parameters. The most common adverse events of any grade were peripheral edema (48 %), hyperlipidemia (47 %), weight gain (25 %) and fatigue (30 %). CNS adverse events such as cognitive effect of grade 1–2 were reported in 18 % of patients.
+Conclusion
+Lorlatinib shows outstanding EC/IC efficacy in ALK/ROS1(+) NSCLC. The observed mOS of 89 ± 19 months in ALK(+) NSCLC supports previous reports, while mOS from of 90 ± 24 months is unprecedented for ROS1(+) NSCLC.
+Keywords: Lorlatinib; Real-world data; ALK; ROS1
+
+Elena V. Shekunova, Vladimir A. Kashkin, Arman А. Muzhikyan, Marina N. Makarova, Vadim Y. Balabanyan, Valery G. Makarov,
+Therapeutic efficacy of arginine-rich exenatide on diabetic neuropathy in rats,
+European Journal of Pharmacology,
+Volume 866,
+2020,
+172835,
+ISSN 0014-2999,
+https://doi.org/10.1016/j.ejphar.2019.172835.
+(https://www.sciencedirect.com/science/article/pii/S0014299919307873)
+Abstract: Diabetes mellitus is characterized by metabolic dysregulation associated with a number of health complications. More than 50% of patients with diabetes mellitus suffer from diabetic polyneuropathy, which involves the presence of peripheral nerve dysfunction symptoms. The aim of this study was to evaluate the potential of a new synthetic arginine-rich exendin-4 (Peptide D) in the treatment of complications caused by diabetes, including peripheral neuropathy, in rats. Diabetes was induced by administering streptozotocin (STZ). Three groups of diabetic rats were treated with Peptide D (0.1, 1, and 10 μg/kg). One group of diabetic rats was treated with Byetta® (1 μg/kg) for 80 days. Neuropathic pain development was assessed by tactile allodynia. STZ-treated rats showed an increased level of tactile allodynia unlike naïve animals. A histological study revealed that the diameter of the sciatic nerve fibers in STZ-treated rats was smaller than that of the naïve animals. An IHC study demonstrated decreased expression of myelin basic protein (MBP) in the sciatic nerve of diabetic rats compared to that in the naïve animals. Peptide D reduced the severity of tactile allodynia. This effect was more pronounced in the Peptide D treated groups than in the group treated with Byetta®. Peptide D and Byetta® treatment resulted in increased MBP expression in the sciatic nerve and increased diameter of myelinated nerve fibers. These findings suggest that poly-arginine peptides are promising agents for the treatment of peripheral polyneuropathies.
+Keywords: Diabetes mellitus; Peripheral neuropathy; Exenatide; Poly-arginine; Rat
+
+Irina V. Savenko, Ekaterina S. Garbaruk, Elena A. Krasovskaya,
+Changes in auditory function in premature children: A prospective cohort study,
+International Journal of Pediatric Otorhinolaryngology,
+Volume 139,
+2020,
+110456,
+ISSN 0165-5876,
+https://doi.org/10.1016/j.ijporl.2020.110456.
+(https://www.sciencedirect.com/science/article/pii/S0165587620305991)
+Abstract: Objectives
+To analyze the age-specific pattern of auditory function in preterm children as a function of their gestational age at birth.
+Study design
+longitudinal cohort study.
+Methods
+a prospective cohort study involved 271 preterm children aged from 6 months to 15 years old. Children were divided into two groups: 70 children with a gestational age at birth of 32–36 weeks (Group 1) and 201 children with a gestational age of 22–31 weeks (Group 2). Hearing was assessed by ABR, ASSR, OAE, behavioral audiometry, and pure tone audiometry. Additionally, for some children, CT, MRI, and GBJ2 evaluations were performed. Assessments of hearing impaired children were performed 3–4 times a year for children under 2 years of age; 2–3 times a year for children from 2 to 5 years of age; and 1–2 times a year for children over 5 years of age. Infants without any hearing problems were examined 2–3 times during their first year of life, followed by annual examinations as they aged.
+Results
+The initial hearing examination identified SNHL and ANSD in 18 children (25.7%) and 64 children (31.8%) in Group 1 and Group 2, respectively. No significant difference in the occurrence of auditory impairment in the two groups was found at the initial assessment (p > 0.05). Further long-term follow-up revealed changes in hearing in 16 children: 15 from Group 2 and only one child from Group 1. Four different kinds of hearing changes were noted: hearing recovery to normal levels in children with ANSD; late onset hearing loss; the transformation of ANSD to SNHL, and vice versa. The age, factors, and possible mechanisms of such changes are discussed in the article.
+Conclusion
+The auditory function in prematurely born children tends to be unstable, especially at a very early age. In very preterm infants, it may either deteriorate or improve. Infants born before 31 weeks’ gestation require long-term follow-up at least until they are 3–4 years of age. Caution is advised regarding very early cochlear implantation for children born before 32 weeks of gestation age.
+Keywords: Hearing loss; Children; Prematurity; Long-term follow-up; Late-onset hearing loss
+
+Makoto Nishio, Enriqueta Felip, Sergey Orlov, Keunchil Park, Chong-Jen Yu, Chun-Ming Tsai, Manuel Cobo, Mark McKeage, Wu-Chou Su, Tony Mok, Giorgio V. Scagliotti, David R. Spigel, Kalyanee Viraswami-Appanna, Zhe Chen, Vanessa Q. Passos, Alice T. Shaw,
+Final Overall Survival and Other Efficacy and Safety Results From ASCEND-3: Phase II Study of Ceritinib in ALKi-Naive Patients With ALK-Rearranged NSCLC,
+Journal of Thoracic Oncology,
+Volume 15, Issue 4,
+2020,
+Pages 609-617,
+ISSN 1556-0864,
+https://doi.org/10.1016/j.jtho.2019.11.006.
+(https://www.sciencedirect.com/science/article/pii/S1556086419336603)
+Abstract: Introduction
+The phase II, single-arm ASCEND-3 study assessed the efficacy and safety of ceritinib in anaplastic lymphoma kinase (ALK) inhibitor (ALKi)–naive patients with ALK-rearranged NSCLC who had received at least three previous lines of chemotherapy. Here, we report the final efficacy and safety results.
+Methods
+Eligible patients (including those with asymptomatic or neurologically stable brain metastases) received oral ceritinib (750 mg/day, fasted). The primary end point was investigator-assessed overall response rate (ORR). Secondary end points were Blinded Independent Review Committee–assessed ORR; investigator- and Blinded Independent Review Committee–assessed overall intracranial response rate, duration of response, time to response, disease control rate, and progression-free survival (PFS); overall survival (OS); and safety. Exploratory end points included patient-reported outcomes.
+Results
+Of the 124 patients enrolled, 122 (98.4%) had received previous antineoplastic medications (31 patients [25.0%] received at least three regimens), and 49 (39.5%) had baseline brain metastases. The median follow-up time (data cutoff: January 22, 2018) was 52.1 (range, 48.4–60.1) months. The investigator-assessed ORR was 67.7% (95% confidence interval [CI]: 58.8–75.9), and the median PFS was 16.6 months (95% CI: 11.0–23.2). The median OS was 51.3 months (95% CI: 42.7–55.3). Most common adverse events (all grades, ≥60% of patients, all-causality) were diarrhea (85.5%), nausea (78.2%), and vomiting (71.8%). Overall, 18 patients (14.5%) had an adverse event leading to treatment discontinuation. Health-related quality of life was maintained during ceritinib treatment.
+Conclusions
+Ceritinib exhibited prolonged and clinically meaningful OS, PFS, and duration of response in chemotherapy-pretreated (at least three lines), ALKi-naive patients with ALK+ NSCLC. The safety profile was consistent with that reported in previous studies.
+Keywords: Ceritinib; ALK; NSCLC; Phase II
+
+G.A. Kosach, A.L. Petrosyan, A.I. Yaremenko, A.A. Zubareva, S.I. Kutukova, O.D. Yagmurov, S.G. Chefu, V.A. Molokova, V.D. Ignatova, S.A. Kosach, T.D. Vlasov,
+Disorders of microcirculation in the mechanism of bisphosphonate osteonecrosis: preliminary study in rats,
+British Journal of Oral and Maxillofacial Surgery,
+Volume 58, Issue 9,
+2020,
+Pages e38-e44,
+ISSN 0266-4356,
+https://doi.org/10.1016/j.bjoms.2020.05.030.
+(https://www.sciencedirect.com/science/article/pii/S0266435620302540)
+Abstract: We investigated the possibilities of angioprotection and the reduction of osteonecrosis in rats that had been given bisphosphonates. In our experiment, 27 rats were divided into three groups: Group 1 was injected with saline; Group 2 was given zoledronic acid for six weeks; and Group 3 was given zoledronic acid for six weeks, with added doses of sulodexide after three weeks. After that we constructed a model of how the teeth should be extracted. The velocity of linear blood flow in the periodontal area of an extracted tooth in rats was studied using laser and high-frequency Doppler ultrasound (with the application of the vasoactive substance acetylcholine 3% for 1min). We evaluated changes in the structure of the bony tissues of the head using computed tomography, comparing the control group with the saline group. A rapid reduction in microcirculation was detected during the use of zoledronic acid for six weeks. A smaller reduction in microcirculation was detected after three weeks of treatment with sulodexide and zoledronic acid. There was a reduction in blood flow in the mucous membranes and, to a greater extent, in bony tissue. Zoledronic acid causes significant impairment of the periosteal blood flow to the mucous membranes because of a complex of disorders, which includes both the cellular component (impaired endothelium-dependent vasodilation of the mucous membrane vessels) and by reducing the intensity of microcirculation in the mucous membranes and bony tissues. Sulodexide, however, improves the restoration of blood flow and reduces the severity of osteonecrosis.
+Keywords: Bisphosphonate osteonecrosis; zoledronate; sulodexide; dopplerography
+
+D.A. Atkinson, D.G. Sayenko, J.M. D'Amico, A. Mink, D.J. Lorenz, Y.P. Gerasimenko, S. Harkema,
+Interlimb conditioning of lumbosacral spinally evoked motor responses after spinal cord injury,
+Clinical Neurophysiology,
+Volume 131, Issue 7,
+2020,
+Pages 1519-1532,
+ISSN 1388-2457,
+https://doi.org/10.1016/j.clinph.2020.03.021.
+(https://www.sciencedirect.com/science/article/pii/S1388245720301231)
+Abstract: Objective
+The importance of subcortical pathways to functional motor recovery after spinal cord injury (SCI) has been demonstrated in multiple animal models. The current study evaluated descending interlimb influence on lumbosacral motor excitability after chronic SCI in humans.
+Methods
+Ulnar nerve stimulation and transcutaneous electrical spinal stimulation were used in a condition-test paradigm to evaluate the presence of interlimb connections linking the cervical and lumbosacral spinal segments in non-injured (n=15) and spinal cord injured (SCI) (n=18) participants.
+Results
+Potentiation of spinally evoked motor responses (sEMRs) by ulnar nerve conditioning was observed in 7/7 SCI participants with volitional leg muscle activation, and in 6/11 SCI participants with no volitional activation. Of these six, conditioning of sEMRs was present only when the neurological level of injury was rostral to the ulnar innervation entry zones.
+Conclusions
+Descending modulation of lumbosacral motor pools via interlimb projections may exist in SCI participants despite the absence of volitional leg muscle activation.
+Significance
+Evaluation of sub-clinical, spared pathways within the spinal cord after SCI may provide an improved understanding of both the contributions of different pathways to residual function, and the mechanisms of plasticity and functional motor recovery following rehabilitation..
+Keywords: Human spinal cord injury; Motor assessment; Neurophysiology; Interlimb pathways
+
+O.V. Pavlov, A.V. Selutin, O.M. Pavlova, S.A. Selkov,
+Two patterns of cytokine production by placental macrophages,
+Placenta,
+Volume 91,
+2020,
+Pages 1-10,
+ISSN 0143-4004,
+https://doi.org/10.1016/j.placenta.2020.01.005.
+(https://www.sciencedirect.com/science/article/pii/S0143400420300126)
+Abstract: Introduction
+Macrophages participate in the regulation immune and morphogenetic events in the placenta. However, these roles remain unclear for placental macrophages (Hofbauer cells). The aims of this study were to characterize the consecutive steps of cytokine production (intracellular synthesis and secretion) in placental macrophages in early and late gestation and to compare the secretory profiles of placental macrophages and villous tissue.
+Methods
+Macrophages and villous tissue were isolated from placentas obtained from normal pregnancies at either 9–12 or 38–40 weeks of gestation. Intracellular cytokines were determined by flow cytometry after staining with monoclonal antibodies. Secreted cytokines were quantified by cytometric bead array and ELISA.
+Results
+Two patterns of cytokine production were revealed in placental macrophages. Cytokines in the first group (IL-1, IL-6, IL-8, IL-10, TNFα) demonstrated low basal production and were stimulated by bacterial endotoxin. Cytokines in the second group (IL-11, IL-17A, IL-17F, TGF-β, VEGF) were characterized by constitutive production and did not respond to stimulation. Gestational age-dependent changes were observed: basal secretion of TNFα and IL-8 increased whereas IL-11 and IL-17 secretion decreased in third-trimester macrophages compared with the first-trimester cells. Comparison of cytokine production at the cellular and tissue levels suggested the contribution of the placental macrophages both in intraplacental and extraplacental cytokine production.
+Discussion
+It would be safe to assume that the two patterns of cytokine production, revealed in our study, correspond to two regulatory roles of placental macrophages: “immune” and “morphogenetic”. The inflammatory phenotype of macrophages is attenuated in early gestation and increases with the progression of pregnancy. The cytokines of the first group supposedly contribute to both local and extraplacental levels, whereas the cytokine effects of the second group are more likely confined to the placental tissue.
+Keywords: Placental macrophages; Placental explants; Cytokine profile; Early gestation; Late gestation
+
+Shtam Tatiana, Naryzhny Stanislav, Kulabukhova Darya, Garaeva Luiza, Senkevich Konstantin, Landa Sergey, Varfolomeeva Elena, Salogub Galina, Verlov Nikolai, Kopylov Arthur, Zorina Elena, Kamyshinsky Roman, Usenko Tatiana, Schwarzman Alexander, Zakharova Ekaterina, Emelyanov Anton, Pchelina Sofya,
+Altered level of plasma exosomes in patients with Gaucher disease,
+European Journal of Medical Genetics,
+Volume 63, Issue 11,
+2020,
+104038,
+ISSN 1769-7212,
+https://doi.org/10.1016/j.ejmg.2020.104038.
+(https://www.sciencedirect.com/science/article/pii/S1769721220303062)
+Abstract: Mutations in the glucocerebrosidase gene (GBA) cause Gaucher disease (GD), the lysosomal storage disorder (LSD), and are the most common genetic risk factor of Parkinson's disease (PD). Lysosome functionality plays a critical role for secretion of extracellular vesicles (EVs) and their content. Here we compared EVs from the blood plasma of 8 GD patients and 8 controls in terms of amounts, size distribution, and composition of their protein cargo. EVs were isolated via sequential centrifugation and characterized by сryo-electron microscopy (cryo-EM), nanoparticle tracking analysis (NTA), and dynamic light scattering (DLS). The presence of exosomal markers HSP70 and tetrasponins were analyzed by Western blot and flow cytometry. Protein profiling was performed by mass-spectrometry (shotgun analysis). Here, for the first time we reported an increased size and altered morphology in exosomes derived from blood plasma of GD patients. An increased size of plasma exosomes from GD patients compared to controls was demonstrated by cryo-EM and DLS (р<0.0001, p < 0.001, respectively) and confirmed by mode size detected by NTA (p < 0.02). Cryo-EM demonstrated an increased number of double and multilayer vesicles in plasma EVs from GD patients. We found that the EVs were enriched with the surface exosomal markers (CD9, СD63, CD81) and an exosome-associated protein HSP70 in case of the patients with the disease. Proteomic profiling of exosomal proteins did not reveal any proteins associated with PD pathogenesis. Thus, we showed that lysosomal dysfunction in GD patients lead to a striking alteration of plasma exosomes in size and morphology.
+Keywords: Gaucher disease; GBA mutations; Lysosomes; Exosomes; Proteomics
+
+Anastasia Kudrevatykh, Konstantin Senkevich, Irina Miliukhina,
+Postural instability and neuropsychiatric disturbance in the overlapping phenotype of essential tremor and Parkinson's Disease,
+Neurophysiologie Clinique,
+Volume 50, Issue 6,
+2020,
+Pages 489-494,
+ISSN 0987-7053,
+https://doi.org/10.1016/j.neucli.2020.07.001.
+(https://www.sciencedirect.com/science/article/pii/S0987705320300770)
+Abstract: Objectives
+The aim of this study was to perform a comparative analysis of postural and neuropsychiatric features in patients with essential tremor (ET), various Parkinson’s disease (PD) phenotypes, and the phenotype of combined ET and PD (ET-PD).
+Methods
+169 PD patients with early (1.0–2.0) and 111 PD patients with advanced (2.5–3.0) stages based on the Hoehn and Yahr scale, 55 patients with ET and 26 patients with ET-PD were enrolled in the study. Motor and non-motor symptoms of patients with PD, ET and ET-PD were studied using standardized scales and stabilometry.
+Results
+Patients with ETPD had milder manifestations of parkinsonism compared to PD patients at the same stages of the disease. Patients in the advanced PD group showed more pronounced posture and balance impairment compared to all other groups assessed by standardized walking and balance scales. No difference using scales for postural assessment was found between ETPD, ET and early stage PD. Using stabilometry, we discovered that indexes of stabilometric parameters were lower in ETPD patients compared to ET and advanced PD, although no difference between ETPD and early PD was found. PD patients in early stages had lower results in most of the indexes compared to ET.
+Conclusion
+Here, we conducted for the first time a stabilometric examination of ET-PD patients, which could be helpful in differential diagnosis. This analysis helps expand understanding of the clinical manifestations of PD, ET and ET-PD.
+Keywords: Gait; Essential tremor; Parkinson’s disease; Comorbidity; Stabilometry
+
+Konstantin Senkevich, Ziv Gan-Or,
+Autophagy lysosomal pathway dysfunction in Parkinson's disease; evidence from human genetics,
+Parkinsonism & Related Disorders,
+Volume 73,
+2020,
+Pages 60-71,
+ISSN 1353-8020,
+https://doi.org/10.1016/j.parkreldis.2019.11.015.
+(https://www.sciencedirect.com/science/article/pii/S1353802019304912)
+Abstract: In recent years, multiple lines of evidence from human genetic and molecular studies have highlighted the importance of the autophagy lysosomal pathway (ALP) in Parkinson's disease (PD). Genes such as GBA and LRRK2, which harbor some of the most common mutations associated with PD, have essential roles in the ALP. α-synuclein, encoded by the SNCA gene, is degraded mainly by the ALP, and mutations/multiplications in SNCA may lead to impairment of chaperone mediated autophagy or other ALP functions. Numerous other PD-related genes, such as PRKN, PINK1, TMEM175, SMPD1, CTSD, CTSB and many more, have also been reported to have important roles in the ALP. Understanding the relationship between ALP impairment and PD pathogenesis may be crucial for uncovering the mechanisms underlying PD, and for the development of long-awaited neuroprotective therapies. In this review, we will discuss the data linking the ALP to PD (other, atypical forms of Parkinsonism, will not be discussed in this review). We will focus on evidence from studies on specific genes and proteins, their roles in the ALP, and the potential mechanisms underlying the involvement of these genes in PD.
+Keywords: Parkinson's disease; Autophagy-lysosomal pathway; Genetics; GBA; Lysosomal enzymes
+
+O.E. Dick,
+Mechanisms of dynamical complexity changes in patterns of sensory neurons under antinociceptive effect emergence,
+Neurocomputing,
+Volume 378,
+2020,
+Pages 120-128,
+ISSN 0925-2312,
+https://doi.org/10.1016/j.neucom.2019.10.004.
+(https://www.sciencedirect.com/science/article/pii/S0925231219313761)
+Abstract: The aim is to elucidate mechanisms of changes in dynamical complexity of impulse activity patterns of sensory neurons during the emergence of the antinociceptive response on the painful stimulus. To solve the problem we used the method of bifurcation analysis that enabled us to determine relations between parameters of the nociceptive neuron model and a type of the solution before and during the emergence of the antinociceptive effect. We have shown that the mechanism of the suppression of ectopic bursting discharges is the base for the changes in the dynamical complexity of patterns in the nociceptive neurons. Under the conditions of the potassium blocking, the molecular mechanism of suppression of these discharges can be connected entirely with the modification of the activation gating system of slow NaV1.8 sodium channels by the specific action of comenic acid that is a drug substance of a new non-opioid analgesic anoceptin. The obtained results explain one of the possible molecular mechanisms of the analgesic suppression of the neuropathic pain.
+Keywords: Bifurcation analysis; Bursting activity; Nociceptive neuron model; Dynamical complexity
+
+Antonina Dolgorukova, Anastasiia V. Osipchuk, Anna A. Murzina, Alexey Y. Sokolov,
+The Influence of Metoclopramide on Trigeminovascular Nociception: Possible Anti-migraine Mechanism of Action,
+Neuroscience,
+Volume 425,
+2020,
+Pages 123-133,
+ISSN 0306-4522,
+https://doi.org/10.1016/j.neuroscience.2019.11.026.
+(https://www.sciencedirect.com/science/article/pii/S0306452219308024)
+Abstract: Metoclopramide is widely used as an abortive migraine therapy due to the advantage of having not only antiemetic, but also analgesic properties. Despite the proven clinical efficacy of metoclopramide in acute migraine, the mechanism of its anti-cephalalgic action has not been entirely elucidated. Taking into account the key role of the trigeminovascular system activation in migraine pathophysiology, we aimed to investigate metoclopramide effects on the excitability of central trigeminovascular neurons and neurogenic dural vasodilation using valid electrophysiological and neurovascular models of trigeminovascular nociception. Extracellular recordings of the activity of second-order dura-sensitive neurons were made in the trigeminocervical complex (TCC) of 16 anaesthetised rats. Cumulative metoclopramide infusion (three steps in 30 min intervals, 5 mg/kg i.v. per step, n = 8) significantly and dose-dependently suppressed both ongoing firing of the TCC neurons and their responses to dural electrical stimulation, maximally to 30%[0–49%] (median[Q1-Q3]) and 4%[0–30%] of the initial level, respectively (both p = 0.001, compared to saline (n = 8)). By contrast, the neurogenic dural vasodilation studied in a separate group of 12 rats was not significantly affected by cumulative infusion of metoclopramide (5 mg/kg i.v. per step, n = 6) compared to both baseline values and the vehicle group (n = 6) (all p > 0.05). These results provide evidence that metoclopramide is unable to affect the peripheral response to trigeminovascular activation, but it does suppress the central response, which is highly predictive of anti-migraine action. Thus, here we show the neurophysiological mechanism underlying the therapeutic efficacy of metoclopramide in migraine.
+Keywords: migraine; metoclopramide; electrophysiology; trigeminal nerve; neuronal activity; vasodilation
