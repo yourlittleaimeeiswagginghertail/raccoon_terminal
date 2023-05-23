@@ -55,6 +55,11 @@ new_file.write(csv_str1)
 new_file.close()
 df_22_tr_col = pd.read_csv("2022_tr_col.csv")
 #объединение
+merged_df = pd.concat([df_20_tr_col, df_21_tr_col, df_22_tr_col])
+print(merged_df)
+merged_df.to_csv("merged_df.csv")
+
+
 
 '''
 with open("transposed.csv", "r+") as csvtext1:
