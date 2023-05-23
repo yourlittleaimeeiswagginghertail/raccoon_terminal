@@ -195,12 +195,12 @@ year_2020 = 0
 year_2021 = 1
 year_2022 = 2
 
-observed = merged_df_cl2.iloc[year_2021]
+observed = merged_df_cl2.iloc[year_2020]
 observed = observed.to_numpy()
 observed = np.delete(observed, [0])
 print("распределение_1:", observed)
 
-expected = merged_df_cl2.iloc[year_2022]
+expected = merged_df_cl2.iloc[year_2021]
 expected = expected.to_numpy()
 expected = np.delete(expected, [0])
 
@@ -211,7 +211,9 @@ obs_words = sum(observed)
 exp_words = sum(expected)
 x = exp_words / obs_words
 reduced_expected = expected / x
-print("распределение_2:", reduced_expected)
+#print("распределение_2:", reduced_expected)
+reduced_expected_r = np.around(reduced_expected.astype(np.double), 2)
+print("распределение_2:", reduced_expected_r)
 
 statistic, pvalue = chisquare((observed), reduced_expected)
 print("\n",statistic, pvalue)
