@@ -112,9 +112,9 @@ for repeat in range(a):
 
 import pandas as pd
 #create df
-df_20 = pd.read_csv("2020.txt.csv")
-df_21 = pd.read_csv("2021.txt.csv")
-df_22 = pd.read_csv("2022.txt.csv")
+df_20 = pd.read_csv(str(source_files[0])+".csv")
+df_21 = pd.read_csv(str(source_files[1])+".csv")
+df_22 = pd.read_csv(str(source_files[2])+".csv")
 #задать названия колонок
 df_20.columns = ["СЛОВО", "ВСТРЕТИЛОСЬ_РАЗ_в_2020"]
 df_21.columns = ["СЛОВО", "ВСТРЕТИЛОСЬ_РАЗ_в_2021"]
