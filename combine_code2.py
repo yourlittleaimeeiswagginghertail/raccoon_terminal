@@ -246,6 +246,16 @@ if pvalue <= 0.05:
 else:
     print("мы не обнаружили значимых различий")
 
+###
+import scipy
+from scipy import stats
+cor, pval = stats.spearmanr(distribution_2020_coef, distribution_2021_coef)
+print(pval)
+if pval < 0.05:
+    print("есть доказательства связи")
+else:
+    print("нет доказательств связи")
+###
 
 import matplotlib.pyplot as plt
 print_real = False
