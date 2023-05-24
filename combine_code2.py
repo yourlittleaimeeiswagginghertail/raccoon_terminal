@@ -203,6 +203,7 @@ print("распределение_1:", observed)
 expected = merged_df_cl2.iloc[year_2021]
 expected = expected.to_numpy()
 expected = np.delete(expected, [0])
+print("распределение_2_реальное:", expected)
 
 #коэф на который нужно уменьшить каждое число,
 #чтобы сумма слов была одинаковая
@@ -213,7 +214,7 @@ x = exp_words / obs_words
 reduced_expected = expected / x
 #print("распределение_2:", reduced_expected)
 reduced_expected_r = np.around(reduced_expected.astype(np.double), 2)
-print("распределение_2:", reduced_expected_r)
+print("распределение_2_коэф:", reduced_expected_r)
 
 statistic, pvalue = chisquare((observed), reduced_expected)
 print("\n",statistic, pvalue)
@@ -222,6 +223,17 @@ if pvalue <= 0.05:
     print("reject H0,", "различаются")
 else:
     print("мы не обнаружили значимых различий")
+
+
+
+import matplotlib.pyplot as plt
+
+plt.plot(observed, color="blue")
+plt.plot(expected, color="red")
+plt.plot(reduced_expected, color="green")
+
+plt.show()
+
 
 
 
