@@ -258,7 +258,7 @@ else:
 ###
 
 import matplotlib.pyplot as plt
-print_real = False
+print_real = True #
 if print_real is True:
     plt.plot(distribution_2020, color="blue", label="distribution_2020_real")
     plt.plot(distribution_2021, color="red", label="distribution_2021_real")
