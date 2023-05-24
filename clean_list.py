@@ -13,7 +13,20 @@ my_dict1 = {":" : "" ,
             "(" : "" ,
             ")" : "" ,
             "\n" : "" ,
-            "%" : "" ,}
+            #"%" : "" ,
+            "[" : "" ,
+            "]" : "" ,
+            "±" : "" ,
+            ">" : "" ,
+            "<" : "" ,
+            " " : "" ,
+            "=" : "" ,
+            "±" : "" ,
+            ";" : "" ,
+            "+" : "" ,
+            "“" : "" ,
+            "”" : "" , }
+
 
 my_table1 = "monkey".maketrans(my_dict1)
 
@@ -26,5 +39,5 @@ my_ndarray1_cl_lo = np.char.lower(my_ndarray1_cl)
 print(type(my_ndarray1_cl_lo),"содержит:", my_ndarray1_cl_lo.dtype)
 print(my_ndarray1_cl_lo)
 
-
+#как разделить на два слова если есть символ: / - 
 
