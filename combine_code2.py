@@ -229,7 +229,7 @@ else:
 import matplotlib.pyplot as plt
 
 plt.plot(observed, color="blue",        label="observed")
-plt.plot(expected, color="red",          label="expected")
+plt.plot(expected, color="red",          label="expected до")
 plt.plot(reduced_expected, color="green", label="expected после деления на коэффициент")
 plt.legend()
 plt.show()
