@@ -6,6 +6,7 @@ print( type(my_ndarray1) ,"содержит:", my_ndarray1.dtype)
 print(my_ndarray1, "\n")
 
 #очистить слова от символов
+#https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
 my_dict1 = {":" : "" ,
             "." : "" ,
             "," : "" ,
@@ -25,23 +26,5 @@ my_ndarray1_cl_lo = np.char.lower(my_ndarray1_cl)
 print(type(my_ndarray1_cl_lo),"содержит:", my_ndarray1_cl_lo.dtype)
 print(my_ndarray1_cl_lo)
 
-
-
-
-
-
-
-'''
-my_list2 = my_list1[0]
-print(my_list2)
-
-my_chararray1 = np.chararray(my_list2)
-print(type(my_chararray1))
-print(my_chararray1.dtype)
-
-
-#print(my_ndarray1)
-
-'''
 
 
