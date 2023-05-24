@@ -191,51 +191,6 @@ merged_df_cl2 = merged_df_cl.drop("Unnamed: 0", axis=1)
 merged_df_cl2.to_csv("merged_df_cl2.csv")
 
 
-'''
-#выделить распределения
-year_2020 = 0
-year_2021 = 1
-year_2022 = 2
-
-observed = merged_df_cl2.iloc[year_2020]
-observed = observed.to_numpy()
-observed = np.delete(observed, [0])
-print("распределение_1:", observed)
-
-expected = merged_df_cl2.iloc[year_2021]
-expected = expected.to_numpy()
-expected = np.delete(expected, [0])
-print("распределение_2_реальное:", expected)
-
-#коэф на который нужно уменьшить каждое число,
-#чтобы сумма слов была одинаковая
-#слова распределяются так_1 и так_2
-obs_words = sum(observed)
-exp_words = sum(expected)
-x = exp_words / obs_words
-reduced_expected = expected / x
-#print("распределение_2:", reduced_expected)
-reduced_expected_r = np.around(reduced_expected.astype(np.double), 2)
-print("распределение_2_коэф:", reduced_expected_r)
-
-statistic, pvalue = chisquare((observed), reduced_expected)
-print("\n",statistic, pvalue)
-
-if pvalue <= 0.05:
-    print("reject H0,", "различаются")
-else:
-    print("мы не обнаружили значимых различий")
-
-
-
-import matplotlib.pyplot as plt
-
-plt.plot(observed, color="blue",        label="observed")
-plt.plot(expected, color="red",          label="expected до")
-plt.plot(reduced_expected, color="green", label="expected после деления на коэффициент")
-plt.legend()
-plt.show()
-'''
 #выделить распределения
 year_2020 = 0
 year_2021 = 1
@@ -282,16 +237,26 @@ print("распределение_2022_коэф:", distribution_2022_coef)
 #reduced_expected_r = np.around(reduced_expected.astype(np.double), 2)
 #print("распределение_2_коэф:", reduced_expected_r)
 
+
+statistic, pvalue = chisquare(distribution_2020_coef, distribution_2021_coef)
+print("\n",statistic, pvalue)
+
+if pvalue <= 0.05:
+    print("reject H0,", "различаются")
+else:
+    print("мы не обнаружили значимых различий")
+
+
 import matplotlib.pyplot as plt
 print_real = False
 if print_real is True:
     plt.plot(distribution_2020, color="blue", label="distribution_2020_real")
     plt.plot(distribution_2021, color="red", label="distribution_2021_real")
-    plt.plot(distribution_2022, color="green", label="distribution_2022_real")
+    #plt.plot(distribution_2022, color="green", label="distribution_2022_real")
 else:
     plt.plot(distribution_2020_coef, color="blue", label="distribution_2020_coef")
     plt.plot(distribution_2021_coef, color="red", label="distribution_2021_coef")
-    plt.plot(distribution_2022_coef, color="green", label="distribution_2022_coef")
+    #plt.plot(distribution_2022_coef, color="green", label="distribution_2022_coef")
 
 plt.legend()
 plt.show()
