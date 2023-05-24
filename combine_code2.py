@@ -228,10 +228,10 @@ else:
 
 import matplotlib.pyplot as plt
 
-plt.plot(observed, color="blue")
-plt.plot(expected, color="red")
-plt.plot(reduced_expected, color="green")
-
+plt.plot(observed, color="blue",        label="observed")
+plt.plot(expected, color="red",          label="expected")
+plt.plot(reduced_expected, color="green", label="expected после деления на коэффициент")
+plt.legend()
 plt.show()
 
 
