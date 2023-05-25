@@ -91,7 +91,25 @@ for repeat in range(a):
     abstracts_AND_titles_words = all_abstracts_words + liwialtiwo
     print("\n\n всего слов в названиях И абстрактах:", len(abstracts_AND_titles_words) )
 
-
+    #очистка слов в list от всех символов
+    #https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
+    #https://www.w3resource.com/numpy/string-operations/index.php
+    import numpy as np
+    for cleaning in range(1):
+        all_words_ndarray1 = np.array(abstracts_AND_titles_words)
+        #print( type(all_words_ndarray1), "содержит:", all_words_ndarray1.dtype)
+        my_dict1 = {":" : "" , "." : "" , "," : "" , "(" : "" , ")" : "" ,
+                    "&" : "" , "[" : "" , "]" : "" , "±" : "" , ">" : "" ,
+                    "<" : "" , " " : "" , "=" : "" , "±" : "" , ";" : "" ,
+                    "+" : "" , "“" : "" , "”" : "" , "~" : "" , "{" : "" ,
+                    "}" : "" , "\n" : "" , } #"%" : "" , "'s" : "" ,
+        my_table1 = "monkey".maketrans(my_dict1)
+        all_words_ndarray1_cl = np.char.translate(all_words_ndarray1,my_table1,deletechars=None)
+        #сделать все буквы маленькими
+        all_words_ndarray1_cl_lo = np.char.lower(all_words_ndarray1_cl)
+        #заканчиваю встраивание "очищающего кода":
+        abstracts_AND_titles_words = all_words_ndarray1_cl_lo
+        print( type(abstracts_AND_titles_words), "содержит:", abstracts_AND_titles_words.dtype)
 
     from collections import Counter
     words_repeat1 = dict(Counter(abstracts_AND_titles_words))
