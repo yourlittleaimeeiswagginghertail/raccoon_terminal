@@ -7,6 +7,8 @@ print(my_ndarray1, "\n")
 
 #очистить слова от символов
 #https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
+#https://www.w3resource.com/numpy/string-operations/index.php
+
 my_dict1 = {":" : "" ,
             "." : "" ,
             "," : "" ,
@@ -25,8 +27,12 @@ my_dict1 = {":" : "" ,
             ";" : "" ,
             "+" : "" ,
             "“" : "" ,
-            "”" : "" , }
-
+            "”" : "" ,
+            #"'s" : "" ,
+            "~" : "" ,
+            "{" : "" ,
+            "}" : "" ,
+            "&" : "" , }
 
 my_table1 = "monkey".maketrans(my_dict1)
 
@@ -39,5 +45,19 @@ my_ndarray1_cl_lo = np.char.lower(my_ndarray1_cl)
 print(type(my_ndarray1_cl_lo),"содержит:", my_ndarray1_cl_lo.dtype)
 print(my_ndarray1_cl_lo)
 
-#как разделить на два слова если есть символ: / - 
+#как разделить на два слова если есть символ: / -
+
+
+abstracts_AND_titles_words = my_ndarray1_cl_lo
+
+from collections import Counter
+words_repeat1 = dict(Counter(abstracts_AND_titles_words))
+print(words_repeat1)
+
+
+
+
+
+
+
 
