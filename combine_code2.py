@@ -1,23 +1,17 @@
 #combine_code1 = merge_real_df.py + real_chi.py
-
 #combine_code2-this_file = get_three_df_from_three_years.py + combine_code1
 
-
-
 source_files = ["2020.txt", "2021.txt", "2022.txt"]
-a = len(source_files)
+file_1 = str(source_files[0])
+file_2 = str(source_files[1])
+file_3 = str(source_files[2])
 
-
-for repeat in range(a):
-    current_file = source_files[repeat]
-
+for current_file in source_files:
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   get abstracts   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     with open(current_file, "r") as text1:
         row = "starting_value"
         this_row_belongs_to_abstract = False
-
         all_abstracts_words = []
-
         while row != "":
             row = text1.readline()
             row_cat = row.split(" ")
@@ -30,29 +24,22 @@ for repeat in range(a):
                 this_row_belongs_to_abstract = False
             else:
                 condition1 = "else1"
-
             #CONDITION2
             if this_row_belongs_to_abstract is True:
                 all_abstracts_words = all_abstracts_words + row_cat
             else:
                 condition2 = "else2"
-
-    print("\n\n всего слов во всех абстрактах:", len(all_abstracts_words) )
-    #print(all_abstracts_words)
+    print("\n", "в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words) )
+    #print("\n", "файл:", current_file, "текст всех абстрактов:", all_abstracts_words)
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get abstracts   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 
-
-
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   get titles   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-    '''
-    oblifrodoc2  = obtained_line_from_doc2
-    liwialtiwo   = list_with_all_titles_words
-    liwiwofrobli = list_with_words_from_obtained_line
-    '''
+    #oblifrodoc2  = obtained_line_from_doc2
+    #liwialtiwo   = list_with_all_titles_words
+    #liwiwofrobli = list_with_words_from_obtained_line
     with open(current_file, "r") as doc2:
         liwialtiwo = []
-
         #1) для первой статьи:
         #1.1) взять вторую строку:
         oblifrodoc2 = doc2.readline()#это первая строка
@@ -61,8 +48,7 @@ for repeat in range(a):
         liwiwofrobli = oblifrodoc2.split(" ")
         #1.3) сохранить в общий список:
         liwialtiwo = liwialtiwo + liwiwofrobli
-
-        #для последующих статей - цикл
+        #2) для последующих статей - цикл
         #между статьями: "\n"
         #title - во второй строке после "\n"
         while oblifrodoc2 != "": #это до конца текстового файла
@@ -77,19 +63,14 @@ for repeat in range(a):
                 liwialtiwo = liwialtiwo + liwiwofrobli #сохраняю в общий список
             else:
                 condition3 = "else3"
-
-    print("\n\n всего слов во названиях:", len(liwialtiwo) )
-    #print(liwialtiwo)
+    print("\n", "в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo) )
+    #print("\n", "файл:", current_file, "все заголовки:", liwialtiwo)
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get titles   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
-
-
-
-
 
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   summation   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     abstracts_AND_titles_words = all_abstracts_words + liwialtiwo
-    print("\n\n всего слов в названиях И абстрактах:", len(abstracts_AND_titles_words) )
+    print("\n", "в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words) )
 
     #очистка слов в list от всех символов
     #https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
@@ -112,13 +93,13 @@ for repeat in range(a):
         print( type(abstracts_AND_titles_words), "содержит:", abstracts_AND_titles_words.dtype)
 
     from collections import Counter
-    words_repeat1 = dict(Counter(abstracts_AND_titles_words))
-    print(words_repeat1)
+    words_repeat1 = dict(Counter(abstracts_AND_titles_words)) 
+    #print("\n", "файл:", current_file, "словарь:", words_repeat1)
 
     import pandas as pd
     df1 = pd.DataFrame.from_dict(words_repeat1, orient = 'index')
     print(df1)
-    df1.to_csv(str(current_file)+".csv")
+    df1.to_csv(str(current_file) + ".csv")
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   summation   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 #end_of_file
@@ -130,57 +111,60 @@ for repeat in range(a):
 
 import pandas as pd
 #create df
-df_20 = pd.read_csv(str(source_files[0])+".csv")
-df_21 = pd.read_csv(str(source_files[1])+".csv")
-df_22 = pd.read_csv(str(source_files[2])+".csv")
+df_20 = pd.read_csv(file_1+".csv")
+df_21 = pd.read_csv(file_2+".csv")
+df_22 = pd.read_csv(file_3+".csv")
 #задать названия колонок
-df_20.columns = ["СЛОВО", "ВСТРЕТИЛОСЬ_РАЗ_в_2020"]
-df_21.columns = ["СЛОВО", "ВСТРЕТИЛОСЬ_РАЗ_в_2021"]
-df_22.columns = ["СЛОВО", "ВСТРЕТИЛОСЬ_РАЗ_в_2022"]
+hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1
+hamburger2 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_2
+hamburger3 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_3
+df_20.columns = ["СЛОВО", hamburger1]
+df_21.columns = ["СЛОВО", hamburger2]
+df_22.columns = ["СЛОВО", hamburger3]
 #перевернуть таблицы
 #
 df20_tr = df_20.transpose()
-df20_tr.to_csv("2020_tr.csv")
+df20_tr.to_csv(file_1 + "_tr" + ".csv")
 #
 df21_tr = df_21.transpose()
-df21_tr.to_csv("2021_tr.csv")
+df21_tr.to_csv(file_2 + "_tr" + ".csv")
 #
 df22_tr = df_22.transpose()
-df22_tr.to_csv("2022_tr.csv")
+df22_tr.to_csv(file_3 + "_tr" + ".csv")
 #отредактировать таблицы - вынести колонки
 #
-with open("2020_tr.csv", "r+") as csvtext1:
+with open(  file_1 + "_tr.csv"  , "r+") as csvtext1:
     csv_str1 = csvtext1.read()
     stop = csv_str1.index("СЛОВО")
     for masu1 in range(stop):
         symbol = csv_str1[0]
         csv_str1 = csv_str1.replace(symbol, "", 1)
     csvtext1.close()
-new_file = open("2020_tr_col.csv",'w')
+new_file = open(file_1+"_tr_col.csv",'w')
 new_file.write(csv_str1)
 new_file.close()
 df_20_tr_col = pd.read_csv("2020_tr_col.csv")
 #
-with open("2021_tr.csv", "r+") as csvtext1:
+with open(  file_2 + "_tr.csv"  , "r+") as csvtext1:
     csv_str1 = csvtext1.read()
     stop = csv_str1.index("СЛОВО")
     for masu1 in range(stop):
         symbol = csv_str1[0]
         csv_str1 = csv_str1.replace(symbol, "", 1)
     csvtext1.close()
-new_file = open("2021_tr_col.csv",'w')
+new_file = open(file_2+"_tr_col.csv",'w')
 new_file.write(csv_str1)
 new_file.close()
 df_21_tr_col = pd.read_csv("2021_tr_col.csv")
 #
-with open("2022_tr.csv", "r+") as csvtext1:
+with open(  file_1 + "_tr.csv"  , "r+") as csvtext1:
     csv_str1 = csvtext1.read()
     stop = csv_str1.index("СЛОВО")
     for masu1 in range(stop):
         symbol = csv_str1[0]
         csv_str1 = csv_str1.replace(symbol, "", 1)
     csvtext1.close()
-new_file = open("2022_tr_col.csv",'w')
+new_file = open(file_3+"_tr_col.csv",'w')
 new_file.write(csv_str1)
 new_file.close()
 df_22_tr_col = pd.read_csv("2022_tr_col.csv")
@@ -246,9 +230,9 @@ distribution_2020_coef = distribution_2020 * coef20
 distribution_2021_coef = distribution_2021 * coef21
 distribution_2022_coef = distribution_2022 * coef22
 #
-print("распределение_2020_коэф:", distribution_2020_coef)
-print("распределение_2021_коэф:", distribution_2021_coef)
-print("распределение_2022_коэф:", distribution_2022_coef)
+print("распределение_"+file_1+"_коэф:", distribution_2020_coef)
+print("распределение_"+file_2+"_коэф:", distribution_2021_coef)
+print("распределение_"+file_3+"_коэф:", distribution_2022_coef)
 
 
 #print("распределение_2:", reduced_expected)
@@ -278,13 +262,13 @@ else:
 import matplotlib.pyplot as plt
 print_real = True #
 if print_real is True:
-    plt.plot(distribution_2020, color="blue", label="distribution_2020_real")
-    plt.plot(distribution_2021, color="red", label="distribution_2021_real")
-    #plt.plot(distribution_2022, color="green", label="distribution_2022_real")
+    plt.plot(distribution_2020, color="blue", label="distribution_"+file_1+"_real")
+    plt.plot(distribution_2021, color="red", label="distribution_"+file_2+"_real")
+    #plt.plot(distribution_2022, color="green", label="distribution_"+file_3+"_real")
 else:
-    plt.plot(distribution_2020_coef, color="blue", label="distribution_2020_coef")
-    plt.plot(distribution_2021_coef, color="red", label="distribution_2021_coef")
-    #plt.plot(distribution_2022_coef, color="green", label="distribution_2022_coef")
+    plt.plot(distribution_2020_coef, color="blue", label="distribution_"+file_1+"_coef")
+    plt.plot(distribution_2021_coef, color="red", label="distribution_"+file_2+"_coef")
+    #plt.plot(distribution_2022_coef, color="green", label="distribution_"+file_3+"_coef")
 
 plt.legend()
 plt.show()
