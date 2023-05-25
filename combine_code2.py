@@ -1,10 +1,9 @@
 #combine_code1 = merge_real_df.py + real_chi.py
 #combine_code2-this_file = get_three_df_from_three_years.py + combine_code1
 
-source_files = ["2020.txt", "2021.txt", "2022.txt"]
+source_files = ["2020.txt", "2021.txt"]
 file_1 = str(source_files[0])
 file_2 = str(source_files[1])
-file_3 = str(source_files[2])
 
 for current_file in source_files:
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   get abstracts   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -113,14 +112,15 @@ import pandas as pd
 #create df
 df_20 = pd.read_csv(file_1+".csv")
 df_21 = pd.read_csv(file_2+".csv")
-df_22 = pd.read_csv(file_3+".csv")
+
+
 #задать названия колонок
 hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1
 hamburger2 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_2
-hamburger3 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_3
 df_20.columns = ["СЛОВО", hamburger1]
 df_21.columns = ["СЛОВО", hamburger2]
-df_22.columns = ["СЛОВО", hamburger3]
+
+
 #перевернуть таблицы
 #
 df20_tr = df_20.transpose()
@@ -128,9 +128,8 @@ df20_tr.to_csv(file_1 + "_tr" + ".csv")
 #
 df21_tr = df_21.transpose()
 df21_tr.to_csv(file_2 + "_tr" + ".csv")
-#
-df22_tr = df_22.transpose()
-df22_tr.to_csv(file_3 + "_tr" + ".csv")
+
+
 #отредактировать таблицы - вынести колонки
 #
 with open(  file_1 + "_tr.csv"  , "r+") as csvtext1:
@@ -156,20 +155,10 @@ new_file = open(file_2+"_tr_col.csv",'w')
 new_file.write(csv_str1)
 new_file.close()
 df_21_tr_col = pd.read_csv("2021_tr_col.csv")
-#
-with open(  file_1 + "_tr.csv"  , "r+") as csvtext1:
-    csv_str1 = csvtext1.read()
-    stop = csv_str1.index("СЛОВО")
-    for masu1 in range(stop):
-        symbol = csv_str1[0]
-        csv_str1 = csv_str1.replace(symbol, "", 1)
-    csvtext1.close()
-new_file = open(file_3+"_tr_col.csv",'w')
-new_file.write(csv_str1)
-new_file.close()
-df_22_tr_col = pd.read_csv("2022_tr_col.csv")
+
+
 #объединение датафреймов
-merged_df = pd.concat([df_20_tr_col, df_21_tr_col, df_22_tr_col])
+merged_df = pd.concat([df_20_tr_col, df_21_tr_col])
 print(merged_df)
 merged_df.to_csv("merged_df.csv")
 
@@ -196,7 +185,6 @@ merged_df_cl2.to_csv("merged_df_cl2.csv")
 #выделить распределения
 year_2020 = 0
 year_2021 = 1
-year_2022 = 2
 #
 distribution_2020 = merged_df_cl2.iloc[year_2020]
 distribution_2020 = distribution_2020.to_numpy()
@@ -207,32 +195,25 @@ distribution_2021 = merged_df_cl2.iloc[year_2021]
 distribution_2021 = distribution_2021.to_numpy()
 distribution_2021 = np.delete(distribution_2021, [0])
 #print("распределение_2021:", distribution_2021)
-#
-distribution_2022 = merged_df_cl2.iloc[year_2022]
-distribution_2022 = distribution_2022.to_numpy()
-distribution_2022 = np.delete(distribution_2022, [0])
-#print("распределение_2022:", distribution_2022)
+
 #коэф на который нужно уменьшить каждое число,
 #чтобы сумма слов была одинаковая
 #слова распределяются так_1 и так_2
 distr2020_s = sum(distribution_2020)
 distr2021_s = sum(distribution_2021)
-distr2022_s = sum(distribution_2022)
-print("\n", distr2020_s, distr2021_s, distr2022_s)
-avgsum = (distr2020_s + distr2021_s + distr2022_s)/3
+
+print("\n", distr2020_s, distr2021_s)
+avgsum = (distr2020_s + distr2021_s)/2
 print(avgsum)
 #
 coef20 = avgsum/distr2020_s #коэф для 2020
 coef21 = avgsum/distr2021_s #коэф для 2021
-coef22 = avgsum/distr2022_s #коэф для 2022
 #
 distribution_2020_coef = distribution_2020 * coef20
 distribution_2021_coef = distribution_2021 * coef21
-distribution_2022_coef = distribution_2022 * coef22
 #
 print("распределение_"+file_1+"_коэф:", distribution_2020_coef)
 print("распределение_"+file_2+"_коэф:", distribution_2021_coef)
-print("распределение_"+file_3+"_коэф:", distribution_2022_coef)
 
 
 #print("распределение_2:", reduced_expected)
@@ -264,11 +245,9 @@ print_real = True #
 if print_real is True:
     plt.plot(distribution_2020, color="blue", label="distribution_"+file_1+"_real")
     plt.plot(distribution_2021, color="red", label="distribution_"+file_2+"_real")
-    #plt.plot(distribution_2022, color="green", label="distribution_"+file_3+"_real")
 else:
     plt.plot(distribution_2020_coef, color="blue", label="distribution_"+file_1+"_coef")
     plt.plot(distribution_2021_coef, color="red", label="distribution_"+file_2+"_coef")
-    #plt.plot(distribution_2022_coef, color="green", label="distribution_"+file_3+"_coef")
 
 plt.legend()
 plt.show()
