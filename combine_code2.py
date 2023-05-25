@@ -188,6 +188,7 @@ year_2021 = 1
 #
 distribution_2020 = merged_df_cl2.iloc[year_2020]
 distribution_2020 = distribution_2020.to_numpy()
+print("*"*90 , type(distribution_2020))
 distribution_2020 = np.delete(distribution_2020, [0])
 #print("распределение_2020:", distribution_2020)
 #
