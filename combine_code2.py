@@ -110,22 +110,22 @@ for current_file in source_files:
 import pandas as pd
 
 # create df
-df_20 = pd.read_csv(file_1_name + ".csv")
-df_21 = pd.read_csv(file_2_name + ".csv")
+df_of_file_1 = pd.read_csv(file_1_name + ".csv")
+df_of_file_2 = pd.read_csv(file_2_name + ".csv")
 
 # задать названия колонок
 hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1_name
 hamburger2 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_2_name
-df_20.columns = ["СЛОВО", hamburger1]
-df_21.columns = ["СЛОВО", hamburger2]
+df_of_file_1.columns = ["СЛОВО", hamburger1]
+df_of_file_2.columns = ["СЛОВО", hamburger2]
 
 # перевернуть таблицы
 #
-df20_tr = df_20.transpose()
-df20_tr.to_csv(file_1_name + "_tr" + ".csv")
+df_of_file_1_tr = df_of_file_1.transpose()
+df_of_file_1_tr.to_csv(file_1_name + "_tr" + ".csv")
 #
-df21_tr = df_21.transpose()
-df21_tr.to_csv(file_2_name + "_tr" + ".csv")
+df_of_file_2_tr = df_of_file_2.transpose()
+df_of_file_2_tr.to_csv(file_2_name + "_tr" + ".csv")
 
 # отредактировать таблицы - вынести колонки
 #
@@ -139,7 +139,7 @@ with open(file_1_name + "_tr.csv", "r+") as csvtext1:
 new_file = open(file_1_name + "_tr_col.csv", 'w')
 new_file.write(csv_str1)
 new_file.close()
-df_20_tr_col = pd.read_csv(file_1_name + "_tr_col.csv")
+df_of_file_1_tr_col = pd.read_csv(file_1_name + "_tr_col.csv")
 #
 with open(file_2_name + "_tr.csv", "r+") as csvtext1:
     csv_str1 = csvtext1.read()
@@ -151,10 +151,10 @@ with open(file_2_name + "_tr.csv", "r+") as csvtext1:
 new_file = open(file_2_name + "_tr_col.csv", 'w')
 new_file.write(csv_str1)
 new_file.close()
-df_21_tr_col = pd.read_csv(file_2_name + "_tr_col.csv")
+df_of_file_2_tr_col = pd.read_csv(file_2_name + "_tr_col.csv")
 
 # объединение датафреймов
-merged_df = pd.concat([df_20_tr_col, df_21_tr_col])
+merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
 print(merged_df)
 merged_df.to_csv("merged_df.csv")
 
@@ -200,11 +200,11 @@ print("\n", distr_of_file_1_s, distr_of_file_2_s)
 avgsum = (distr_of_file_1_s + distr_of_file_2_s) / 2
 print(avgsum)
 #
-coef20 = avgsum / distr_of_file_1_s  # коэф для _of_file_1
-coef21 = avgsum / distr_of_file_2_s  # коэф для _of_file_2
+coef_for_file_1 = avgsum / distr_of_file_1_s  # коэф для _of_file_1
+coef_for_file_2 = avgsum / distr_of_file_2_s  # коэф для _of_file_2
 #
-distr_of_file_1_coef = distr_of_file_1_fin * coef20
-distr_of_file_2_coef = distr_of_file_2_fin * coef21
+distr_of_file_1_coef = distr_of_file_1_fin * coef_for_file_1
+distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
 #
 print("распределение_" + file_1_name + "_коэф:", distr_of_file_1_coef)
 print("распределение_" + file_2_name + "_коэф:", distr_of_file_2_coef)
