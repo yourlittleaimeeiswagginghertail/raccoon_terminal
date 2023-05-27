@@ -210,10 +210,7 @@ distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
 #
 print("распределение_" + file_1_name + "_коэф:", distr_of_file_1_coef)
 print("распределение_" + file_2_name + "_коэф:", distr_of_file_2_coef, stars)
-
-# так округлять:
-# _____r = np.around(___.astype(np.double), 2)
-
+# так округлять: _____r = np.around(___.astype(np.double), 2)
 
 statistic_chi1, pvalue_chi1 = chisquare(distr_of_file_1_coef, distr_of_file_2_coef)
 print("chisquare", statistic_chi1, pvalue_chi1)
@@ -222,15 +219,12 @@ if pvalue_chi1 <= 0.05:
 else:
     print("мы не обнаружили значимых различий", stars)
 
-###
-cor, pval = stats.spearmanr(distr_of_file_1_coef, distr_of_file_2_coef)
-print(pval)
-if pval < 0.05:
+statistic_spear1, pvalue_spear1 = stats.spearmanr(distr_of_file_1_coef, distr_of_file_2_coef)
+print("spearman", statistic_spear1, pvalue_spear1)
+if pvalue_spear1 < 0.05:
     print("есть доказательства связи", stars)
 else:
     print("нет доказательств связи", stars)
-###
-
 
 plot_real = False ###
 if plot_real is True:
