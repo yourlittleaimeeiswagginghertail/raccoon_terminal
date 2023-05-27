@@ -184,27 +184,26 @@ distr_of_file_1_ndar = distr_of_file_1_ser.to_numpy()
 #так как удалил колонку с hamburger1, уже не нужно удалять hamburger1 из np.array
 #distr_of_file_1_fin = np.delete(distr_of_file_1_ndar, [index1])
 distr_of_file_1_fin = distr_of_file_1_ndar
-print("распределение__of_file_1:", distr_of_file_1_fin, stars)
+print("распределение_of_file_1:", distr_of_file_1_fin, stars)
 #
 distr_of_file_2_ser = merged_df_hamb.iloc[1]
 distr_of_file_2_ndar = distr_of_file_2_ser.to_numpy()
 #так как удалил колонку с hamburger2, уже не нужно удалять hamburger2 из np.array
 #distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [index1])
 distr_of_file_2_fin = distr_of_file_2_ndar
-print("распределение__of_file_2:", distr_of_file_2_fin, stars)
+print("распределение_of_file_2:", distr_of_file_2_fin, stars)
 
 # коэф на который нужно уменьшить каждое число,
 # чтобы сумма слов была одинаковая
 # слова распределяются так_1 и так_2
 distr_of_file_1_s = sum(distr_of_file_1_fin)
 distr_of_file_2_s = sum(distr_of_file_2_fin)
-
-print(distr_of_file_1_s, distr_of_file_2_s, stars)
 avgsum = (distr_of_file_1_s + distr_of_file_2_s) / 2
-print(avgsum, '\n')
+print(distr_of_file_1_s, distr_of_file_2_s, avgsum, '\n')
 #
 coef_for_file_1 = avgsum / distr_of_file_1_s  # коэф для distr_of_file_1
 coef_for_file_2 = avgsum / distr_of_file_2_s  # коэф для distr_of_file_2
+print(coef_for_file_1, coef_for_file_2)
 #
 distr_of_file_1_coef = distr_of_file_1_fin * coef_for_file_1
 distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
@@ -233,7 +232,7 @@ else:
 ###
 
 
-plot_real = True  #
+plot_real = False ###
 if plot_real is True:
     plt.plot(distr_of_file_1_fin, color="blue", label="distribution of " + file_1_name + " real")
     plt.plot(distr_of_file_2_fin, color="red", label="distribution of " + file_2_name + " real")
