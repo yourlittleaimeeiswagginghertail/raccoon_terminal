@@ -12,7 +12,7 @@ from scipy import stats
 
 import matplotlib.pyplot as plt
 
-stars = '\n' + str('*' * 60)
+stars = '\n' + str('*' * 90)
 
 source_files = ["2020.txt", "2021.txt"]
 file_1_name = str(source_files[0])
@@ -85,26 +85,28 @@ for current_file in source_files:
     # очистка слов в list от всех символов
     # https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
     # https://www.w3resource.com/numpy/string-operations/index.php
-    for cleaning in range(1):
-        abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
-        # print( type(abst_n_titl_wordsndarray1), "содержит:", abst_n_titl_wordsndarray1.dtype, '\n')
-        my_dict1 = {":": "",  ".": "",  ",": "",  "(": "", ")": "",
-                    "&": "",  "[": "",  "]": "",  "±": "", ">": "",
-                    "<": "",  " ": "",  "=": "",  "±": "", ";": "",
-                    "+": "",  "“": "",  "”": "",  "~": "", "{": "",
-                    "}": "",  "\n": "", }  # "%" : "" , "'s" : "" ,
-        my_table1 = "monkey".maketrans(my_dict1)
-        abst_n_titl_wordsndarray1_cl = np.char.translate(abst_n_titl_wordsndarray1, my_table1, deletechars=None)
-        # сделать все буквы маленькими
-        abst_n_titl_wordsndarray1_cl_lo = np.char.lower(abst_n_titl_wordsndarray1_cl)
-        print("ndarray со всеми словами", type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
+    abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
+    # print( type(abst_n_titl_wordsndarray1), "содержит:", abst_n_titl_wordsndarray1.dtype, '\n')
+    
+    my_dict1 = {":": "",  ".": "",  ",": "",  "(": "", ")": "",
+                "&": "",  "[": "",  "]": "",  "±": "", ">": "",
+                "<": "",  " ": "",  "=": "",  "±": "", ";": "",
+                "+": "",  "“": "",  "”": "",  "~": "", "{": "",
+                "}": "",  "\n": "", }  # "%" : "" , "'s" : "" ,
+    my_table1 = "monkey".maketrans(my_dict1)
+    abst_n_titl_wordsndarray1_cl = np.char.translate(abst_n_titl_wordsndarray1, my_table1, deletechars=None)
+
+    # сделать все буквы маленькими
+    abst_n_titl_wordsndarray1_cl_lo = np.char.lower(abst_n_titl_wordsndarray1_cl)
+    print("ndarray со всеми словами заглавий и абстрактов файла",current_file,
+          type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
 
     from collections import Counter
     words_repeat1 = dict(Counter(abst_n_titl_wordsndarray1_cl_lo))
     # print("\n", "файл:", current_file, "словарь:", words_repeat1, '\n')
 
     df1 = pd.DataFrame.from_dict(words_repeat1, orient='index')
-    print(df1, stars)
+    print("датафрейм для файла", current_file, '-> сохранение в csv \n', df1.head(), stars)
     df1.to_csv(str(current_file) + ".csv")
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   summation   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 # end_of_file
@@ -114,10 +116,8 @@ for current_file in source_files:
 # create df
 df_of_file_1 = pd.read_csv(file_1_name + ".csv")
 df_of_file_2 = pd.read_csv(file_2_name + ".csv")
-
-print("вертикальный датафрейм файла_1")
-print(df_of_file_1.head(), stars)
-
+print("вертикальный датафрейм файла_1 \n", df_of_file_1.head(), stars)
+print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
 
 # задать названия колонок
 hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1_name
@@ -129,9 +129,11 @@ df_of_file_2.columns = ["СЛОВО", hamburger2]
 #
 df_of_file_1_tr = df_of_file_1.transpose()
 df_of_file_1_tr.to_csv(file_1_name + "_tr" + ".csv")
+print("горизонтальный датафрейм файла_1 -> в csv \n", df_of_file_1_tr.head(), stars)
 #
 df_of_file_2_tr = df_of_file_2.transpose()
 df_of_file_2_tr.to_csv(file_2_name + "_tr" + ".csv")
+print("горизонтальный датафрейм файла_2 -> в csv \n", df_of_file_2_tr.head(), stars)
 
 # отредактировать таблицы - вынести колонки
 #
@@ -161,7 +163,7 @@ df_of_file_2_tr_col = pd.read_csv(file_2_name + "_tr_col.csv")
 
 # объединение датафреймов
 merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
-print(merged_df, stars)
+print("объединенные датафреймы -> csv \n", merged_df, stars)
 merged_df.to_csv("merged_df.csv")
 
 # имя merged не нужно повторять!(все-таки надо - появляется колонка)
