@@ -238,11 +238,11 @@ import matplotlib.pyplot as plt
 
 print_real = True  #
 if print_real is True:
-    plt.plot(distr_of_file_1_fin, color="blue", label="distribution_" + file_1_name + "_real")
-    plt.plot(distr_of_file_2_fin, color="red", label="distribution_" + file_2_name + "_real")
+    plt.plot(distr_of_file_1_fin, color="blue", label="distribution of " + file_1_name + " real")
+    plt.plot(distr_of_file_2_fin, color="red", label="distribution of " + file_2_name + " real")
 else:
-    plt.plot(distr_of_file_1_coef, color="blue", label="distribution_" + file_1_name + "_coef")
-    plt.plot(distr_of_file_2_coef, color="red", label="distribution_" + file_2_name + "_coef")
+    plt.plot(distr_of_file_1_coef, color="blue", label="distribution of " + file_1_name + " coef")
+    plt.plot(distr_of_file_2_coef, color="red", label="distribution of " + file_2_name + " coef")
 
 plt.legend()
 plt.show()
