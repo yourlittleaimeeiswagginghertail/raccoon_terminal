@@ -87,21 +87,22 @@ for current_file in source_files:
     # https://www.w3resource.com/numpy/string-operations/index.php
     abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
     # print( type(abst_n_titl_wordsndarray1), "содержит:", abst_n_titl_wordsndarray1.dtype, '\n')
-    
-    my_dict1 = {":": "",  ".": "",  ",": "",  "(": "", ")": "",
-                "&": "",  "[": "",  "]": "",  "±": "", ">": "",
-                "<": "",  " ": "",  "=": "",  "±": "", ";": "",
-                "+": "",  "“": "",  "”": "",  "~": "", "{": "",
-                "}": "",  "\n": "", }  # "%" : "" , "'s" : "" ,
+
+    my_dict1 = {":": "", ".": "", ",": "", "(": "", ")": "",
+                "&": "", "[": "", "]": "", "±": "", ">": "",
+                "<": "", " ": "", "=": "", "±": "", ";": "",
+                "+": "", "“": "", "”": "", "~": "", "{": "",
+                "}": "", "\n": "", }  # "%" : "" , "'s" : "" ,
     my_table1 = "monkey".maketrans(my_dict1)
     abst_n_titl_wordsndarray1_cl = np.char.translate(abst_n_titl_wordsndarray1, my_table1, deletechars=None)
 
     # сделать все буквы маленькими
     abst_n_titl_wordsndarray1_cl_lo = np.char.lower(abst_n_titl_wordsndarray1_cl)
-    print("ndarray со всеми словами заглавий и абстрактов файла",current_file,
+    print("ndarray со всеми словами заглавий и абстрактов файла", current_file,
           type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
 
     from collections import Counter
+
     words_repeat1 = dict(Counter(abst_n_titl_wordsndarray1_cl_lo))
     # print("\n", "файл:", current_file, "словарь:", words_repeat1, '\n')
 
@@ -166,30 +167,31 @@ merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
 print("объединенные датафреймы -> csv \n", merged_df, stars)
 merged_df.to_csv("merged_df.csv")
 
-# имя merged не нужно повторять!(все-таки надо - появляется колонка)
-merged_df = pd.read_csv("merged_df.csv")
-# print(merged_df.info(), stars)
+# drop nans
+merged_df_drn = merged_df.dropna(axis=1)
+print("удалены nans -> csv \n", merged_df_drn.head(), stars)
+merged_df_drn.to_csv("merged_df_drn.csv")
 
-# clean
-merged_df_cl = merged_df.dropna(axis=1)
-print(merged_df_cl.info(), stars)
-
-merged_df_cl.to_csv("merged_df_cl.csv")
-# пустая колонка в начале образоовалась - удалить
-merged_df_cl2 = merged_df_cl.drop("Unnamed: 0", axis=1)
-merged_df_cl2.to_csv("merged_df_cl2.csv")
+# удалить первую колонку, так как в ней вместо числа содержится текст: hamburger1, hamburger2
+merged_df_hamb = merged_df_drn.drop("СЛОВО", axis=1)
+print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n',  merged_df_hamb, stars)
+merged_df_hamb.to_csv("merged_df_hamb.csv")
 
 # выделить распределения
 #
-distr_of_file_1_ser = merged_df_cl2.iloc[0]
+distr_of_file_1_ser = merged_df_hamb.iloc[0]
 distr_of_file_1_ndar = distr_of_file_1_ser.to_numpy()
-distr_of_file_1_fin = np.delete(distr_of_file_1_ndar, [0])
-# print("распределение__of_file_1:", distr_of_file_1, stars)
+#так как удалил колонку с hamburger1, уже не нужно удалять hamburger1 из np.array
+#distr_of_file_1_fin = np.delete(distr_of_file_1_ndar, [index1])
+distr_of_file_1_fin = distr_of_file_1_ndar
+print("распределение__of_file_1:", distr_of_file_1_fin, stars)
 #
-distr_of_file_2_ser = merged_df_cl2.iloc[1]
+distr_of_file_2_ser = merged_df_hamb.iloc[1]
 distr_of_file_2_ndar = distr_of_file_2_ser.to_numpy()
-distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [0])
-# print("распределение__of_file_2:", distr_of_file_2, stars)
+#так как удалил колонку с hamburger2, уже не нужно удалять hamburger2 из np.array
+#distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [index1])
+distr_of_file_2_fin = distr_of_file_2_ndar
+print("распределение__of_file_2:", distr_of_file_2_fin, stars)
 
 # коэф на который нужно уменьшить каждое число,
 # чтобы сумма слов была одинаковая
@@ -210,9 +212,8 @@ distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
 print("распределение_" + file_1_name + "_коэф:", distr_of_file_1_coef)
 print("распределение_" + file_2_name + "_коэф:", distr_of_file_2_coef, stars)
 
-#так округлять:
+# так округлять:
 # _____r = np.around(___.astype(np.double), 2)
-
 
 
 statistic, pvalue = chisquare(distr_of_file_1_coef, distr_of_file_2_coef)
