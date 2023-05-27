@@ -41,7 +41,7 @@ for current_file in source_files:
                 all_abstracts_words = all_abstracts_words + row_cat
             else:
                 condition2 = "else2"
-    print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words), '\n')
+    print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words))
     # print("\n", "файл:", current_file, "текст всех абстрактов:", all_abstracts_words, '\n')
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get abstracts   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
@@ -74,7 +74,7 @@ for current_file in source_files:
                 liwialtiwo = liwialtiwo + liwiwofrobli  # сохраняю в общий список
             else:
                 condition3 = "else3"
-    print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo), '\n')
+    print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo))
     # print("\n", "файл:", current_file, "все заголовки:", liwialtiwo, '\n')
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get titles   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
@@ -86,23 +86,21 @@ for current_file in source_files:
     # https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
     # https://www.w3resource.com/numpy/string-operations/index.php
     for cleaning in range(1):
-        all_words_ndarray1 = np.array(abstracts_AND_titles_words)
-        # print( type(all_words_ndarray1), "содержит:", all_words_ndarray1.dtype, '\n')
+        abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
+        # print( type(abst_n_titl_wordsndarray1), "содержит:", abst_n_titl_wordsndarray1.dtype, '\n')
         my_dict1 = {":": "",  ".": "",  ",": "",  "(": "", ")": "",
                     "&": "",  "[": "",  "]": "",  "±": "", ">": "",
                     "<": "",  " ": "",  "=": "",  "±": "", ";": "",
                     "+": "",  "“": "",  "”": "",  "~": "", "{": "",
                     "}": "",  "\n": "", }  # "%" : "" , "'s" : "" ,
         my_table1 = "monkey".maketrans(my_dict1)
-        all_words_ndarray1_cl = np.char.translate(all_words_ndarray1, my_table1, deletechars=None)
+        abst_n_titl_wordsndarray1_cl = np.char.translate(abst_n_titl_wordsndarray1, my_table1, deletechars=None)
         # сделать все буквы маленькими
-        all_words_ndarray1_cl_lo = np.char.lower(all_words_ndarray1_cl)
-        # заканчиваю встраивание "очищающего кода":
-        abstracts_AND_titles_words = all_words_ndarray1_cl_lo
-        print(type(abstracts_AND_titles_words), "содержит:", abstracts_AND_titles_words.dtype, '\n')
+        abst_n_titl_wordsndarray1_cl_lo = np.char.lower(abst_n_titl_wordsndarray1_cl)
+        print("ndarray со всеми словами", type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
 
     from collections import Counter
-    words_repeat1 = dict(Counter(abstracts_AND_titles_words))
+    words_repeat1 = dict(Counter(abst_n_titl_wordsndarray1_cl_lo))
     # print("\n", "файл:", current_file, "словарь:", words_repeat1, '\n')
 
     df1 = pd.DataFrame.from_dict(words_repeat1, orient='index')
