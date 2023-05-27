@@ -203,8 +203,8 @@ print(distr_of_file_1_s, distr_of_file_2_s, stars)
 avgsum = (distr_of_file_1_s + distr_of_file_2_s) / 2
 print(avgsum, '\n')
 #
-coef_for_file_1 = avgsum / distr_of_file_1_s  # коэф для _of_file_1
-coef_for_file_2 = avgsum / distr_of_file_2_s  # коэф для _of_file_2
+coef_for_file_1 = avgsum / distr_of_file_1_s  # коэф для distr_of_file_1
+coef_for_file_2 = avgsum / distr_of_file_2_s  # коэф для distr_of_file_2
 #
 distr_of_file_1_coef = distr_of_file_1_fin * coef_for_file_1
 distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
@@ -216,10 +216,9 @@ print("распределение_" + file_2_name + "_коэф:", distr_of_file_
 # _____r = np.around(___.astype(np.double), 2)
 
 
-statistic, pvalue = chisquare(distr_of_file_1_coef, distr_of_file_2_coef)
-print(statistic, pvalue)
-
-if pvalue <= 0.05:
+statistic_chi1, pvalue_chi1 = chisquare(distr_of_file_1_coef, distr_of_file_2_coef)
+print("chisquare", statistic_chi1, pvalue_chi1)
+if pvalue_chi1 <= 0.05:
     print("reject H0,", "различаются", stars)
 else:
     print("мы не обнаружили значимых различий", stars)
