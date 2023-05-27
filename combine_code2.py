@@ -1,5 +1,18 @@
 # combine_code1 = merge_real_df.py + real_chi.py
 # combine_code2-this_file = get_three_df_from_three_years.py + combine_code1
+import pandas as pd
+import numpy as np
+
+import scipy.stats
+from scipy.stats import chisquare
+from scipy.stats import chi2_contingency
+
+import scipy
+from scipy import stats
+
+import matplotlib.pyplot as plt
+
+stars = '\n' + str('*' * 60)
 
 source_files = ["2020.txt", "2021.txt"]
 file_1_name = str(source_files[0])
@@ -28,8 +41,8 @@ for current_file in source_files:
                 all_abstracts_words = all_abstracts_words + row_cat
             else:
                 condition2 = "else2"
-    print("\n", "в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words))
-    # print("\n", "файл:", current_file, "текст всех абстрактов:", all_abstracts_words)
+    print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words), '\n')
+    # print("\n", "файл:", current_file, "текст всех абстрактов:", all_abstracts_words, '\n')
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get abstracts   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   get titles   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -61,57 +74,52 @@ for current_file in source_files:
                 liwialtiwo = liwialtiwo + liwiwofrobli  # сохраняю в общий список
             else:
                 condition3 = "else3"
-    print("\n", "в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo))
-    # print("\n", "файл:", current_file, "все заголовки:", liwialtiwo)
+    print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo), '\n')
+    # print("\n", "файл:", current_file, "все заголовки:", liwialtiwo, '\n')
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get titles   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   summation   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     abstracts_AND_titles_words = all_abstracts_words + liwialtiwo
-    print("\n", "в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words))
+    print("в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words), '\n')
 
     # очистка слов в list от всех символов
     # https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
     # https://www.w3resource.com/numpy/string-operations/index.php
-    import numpy as np
-
     for cleaning in range(1):
         all_words_ndarray1 = np.array(abstracts_AND_titles_words)
-        # print( type(all_words_ndarray1), "содержит:", all_words_ndarray1.dtype)
-        my_dict1 = {":": "", ".": "", ",": "", "(": "", ")": "",
-                    "&": "", "[": "", "]": "", "±": "", ">": "",
-                    "<": "", " ": "", "=": "", "±": "", ";": "",
-                    "+": "", "“": "", "”": "", "~": "", "{": "",
-                    "}": "", "\n": "", }  # "%" : "" , "'s" : "" ,
+        # print( type(all_words_ndarray1), "содержит:", all_words_ndarray1.dtype, '\n')
+        my_dict1 = {":": "",  ".": "",  ",": "",  "(": "", ")": "",
+                    "&": "",  "[": "",  "]": "",  "±": "", ">": "",
+                    "<": "",  " ": "",  "=": "",  "±": "", ";": "",
+                    "+": "",  "“": "",  "”": "",  "~": "", "{": "",
+                    "}": "",  "\n": "", }  # "%" : "" , "'s" : "" ,
         my_table1 = "monkey".maketrans(my_dict1)
         all_words_ndarray1_cl = np.char.translate(all_words_ndarray1, my_table1, deletechars=None)
         # сделать все буквы маленькими
         all_words_ndarray1_cl_lo = np.char.lower(all_words_ndarray1_cl)
         # заканчиваю встраивание "очищающего кода":
         abstracts_AND_titles_words = all_words_ndarray1_cl_lo
-        print(type(abstracts_AND_titles_words), "содержит:", abstracts_AND_titles_words.dtype)
+        print(type(abstracts_AND_titles_words), "содержит:", abstracts_AND_titles_words.dtype, '\n')
 
     from collections import Counter
-
     words_repeat1 = dict(Counter(abstracts_AND_titles_words))
-    # print("\n", "файл:", current_file, "словарь:", words_repeat1)
-
-    import pandas as pd
+    # print("\n", "файл:", current_file, "словарь:", words_repeat1, '\n')
 
     df1 = pd.DataFrame.from_dict(words_repeat1, orient='index')
-    print(df1)
+    print(df1, stars)
     df1.to_csv(str(current_file) + ".csv")
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   summation   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
-
 # end_of_file
 
 
 # merge real df.py + real_chi.py
-
-import pandas as pd
-
 # create df
 df_of_file_1 = pd.read_csv(file_1_name + ".csv")
 df_of_file_2 = pd.read_csv(file_2_name + ".csv")
+
+print("вертикальный датафрейм файла_1")
+print(df_of_file_1.head(), stars)
+
 
 # задать названия колонок
 hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1_name
@@ -155,24 +163,17 @@ df_of_file_2_tr_col = pd.read_csv(file_2_name + "_tr_col.csv")
 
 # объединение датафреймов
 merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
-print(merged_df)
+print(merged_df, stars)
 merged_df.to_csv("merged_df.csv")
-
-import numpy as np
-import pandas as pd
-import scipy.stats
-from scipy.stats import chisquare
-from scipy.stats import chi2_contingency
 
 # имя merged не нужно повторять!(все-таки надо - появляется колонка)
 merged_df = pd.read_csv("merged_df.csv")
-# print(merged_df.info())
-# print("*"*30)
+# print(merged_df.info(), stars)
 
 # clean
 merged_df_cl = merged_df.dropna(axis=1)
-print(merged_df_cl.info())
-print("*" * 30)
+print(merged_df_cl.info(), stars)
+
 merged_df_cl.to_csv("merged_df_cl.csv")
 # пустая колонка в начале образоовалась - удалить
 merged_df_cl2 = merged_df_cl.drop("Unnamed: 0", axis=1)
@@ -183,12 +184,12 @@ merged_df_cl2.to_csv("merged_df_cl2.csv")
 distr_of_file_1_ser = merged_df_cl2.iloc[0]
 distr_of_file_1_ndar = distr_of_file_1_ser.to_numpy()
 distr_of_file_1_fin = np.delete(distr_of_file_1_ndar, [0])
-# print("распределение__of_file_1:", distr_of_file_1)
+# print("распределение__of_file_1:", distr_of_file_1, stars)
 #
 distr_of_file_2_ser = merged_df_cl2.iloc[1]
 distr_of_file_2_ndar = distr_of_file_2_ser.to_numpy()
 distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [0])
-# print("распределение__of_file_2:", distr_of_file_2)
+# print("распределение__of_file_2:", distr_of_file_2, stars)
 
 # коэф на который нужно уменьшить каждое число,
 # чтобы сумма слов была одинаковая
@@ -196,9 +197,9 @@ distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [0])
 distr_of_file_1_s = sum(distr_of_file_1_fin)
 distr_of_file_2_s = sum(distr_of_file_2_fin)
 
-print("\n", distr_of_file_1_s, distr_of_file_2_s)
+print(distr_of_file_1_s, distr_of_file_2_s, stars)
 avgsum = (distr_of_file_1_s + distr_of_file_2_s) / 2
-print(avgsum)
+print(avgsum, '\n')
 #
 coef_for_file_1 = avgsum / distr_of_file_1_s  # коэф для _of_file_1
 coef_for_file_2 = avgsum / distr_of_file_2_s  # коэф для _of_file_2
@@ -207,37 +208,33 @@ distr_of_file_1_coef = distr_of_file_1_fin * coef_for_file_1
 distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
 #
 print("распределение_" + file_1_name + "_коэф:", distr_of_file_1_coef)
-print("распределение_" + file_2_name + "_коэф:", distr_of_file_2_coef)
+print("распределение_" + file_2_name + "_коэф:", distr_of_file_2_coef, stars)
 
-# print("распределение_2:", reduced_expected)
-# reduced_expected_r = np.around(reduced_expected.astype(np.double), 2)
-# print("распределение_2_коэф:", reduced_expected_r)
+#так округлять:
+# _____r = np.around(___.astype(np.double), 2)
+
 
 
 statistic, pvalue = chisquare(distr_of_file_1_coef, distr_of_file_2_coef)
-print("\n", statistic, pvalue)
+print(statistic, pvalue)
 
 if pvalue <= 0.05:
-    print("reject H0,", "различаются")
+    print("reject H0,", "различаются", stars)
 else:
-    print("мы не обнаружили значимых различий")
+    print("мы не обнаружили значимых различий", stars)
 
 ###
-import scipy
-from scipy import stats
-
 cor, pval = stats.spearmanr(distr_of_file_1_coef, distr_of_file_2_coef)
 print(pval)
 if pval < 0.05:
-    print("есть доказательства связи")
+    print("есть доказательства связи", stars)
 else:
-    print("нет доказательств связи")
+    print("нет доказательств связи", stars)
 ###
 
-import matplotlib.pyplot as plt
 
-print_real = True  #
-if print_real is True:
+plot_real = True  #
+if plot_real is True:
     plt.plot(distr_of_file_1_fin, color="blue", label="distribution of " + file_1_name + " real")
     plt.plot(distr_of_file_2_fin, color="red", label="distribution of " + file_2_name + " real")
 else:
@@ -246,6 +243,7 @@ else:
 
 plt.legend()
 plt.show()
+
 
 
 
