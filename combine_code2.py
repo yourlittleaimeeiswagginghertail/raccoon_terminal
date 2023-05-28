@@ -12,7 +12,7 @@ from scipy import stats
 
 import matplotlib.pyplot as plt
 
-stars = '\n' + str('*' * 90)
+stars = '\n' + str('=' * 90)
 
 source_files = ["2020.txt", "2021.txt"]
 file_1_name = str(source_files[0])
@@ -175,12 +175,13 @@ merged_df_hamb = merged_df_drn.drop("СЛОВО", axis=1)
 #задать названия индексов
 merged_df_hamb_ind = merged_df_hamb.set_axis([hamburger1, hamburger2], axis='index')
 print("названы индексы", '\n\n',  merged_df_hamb_ind)
-merged_df_hamb_ind.info()
 print(stars)
 #merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
 
-#снова перевернуть
-#df_of_file_1_tr = df_of_file_1.transpose()
+#снова перевернуть (теперь уже объединенный датафрейм)
+merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
+print("объединенный перевернутый", '\n\n',  merged_df_hamb_ind_tr)
+print(stars)
 '''
 # выделить распределения от заданного индекса до заданного индекса
 def select_distr(line_of_mdf, startind1, endind1):
