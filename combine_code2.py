@@ -177,16 +177,21 @@ merged_df_hamb = merged_df_drn.drop("СЛОВО", axis=1)
 print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n',  merged_df_hamb, stars)
 merged_df_hamb.to_csv("merged_df_hamb.csv")
 
+#задать названия индексов
+merged_df_hamb_ind = merged_df_hamb.set_axis([hamburger1, hamburger2], axis='index')
+print("названы индексы", '\n',  merged_df_hamb_ind, stars)
+merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
+
 # выделить распределения
 #
-distr_of_file_1_ser = merged_df_hamb.iloc[0]
+distr_of_file_1_ser = merged_df_hamb_ind.iloc[0]
 distr_of_file_1_ndar = distr_of_file_1_ser.to_numpy()
 #так как удалил колонку с hamburger1, уже не нужно удалять hamburger1 из np.array
 #distr_of_file_1_fin = np.delete(distr_of_file_1_ndar, [index1])
 distr_of_file_1_fin = distr_of_file_1_ndar
 print("распределение_of_file_1:", distr_of_file_1_fin, stars)
 #
-distr_of_file_2_ser = merged_df_hamb.iloc[1]
+distr_of_file_2_ser = merged_df_hamb_ind.iloc[1]
 distr_of_file_2_ndar = distr_of_file_2_ser.to_numpy()
 #так как удалил колонку с hamburger2, уже не нужно удалять hamburger2 из np.array
 #distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [index1])
