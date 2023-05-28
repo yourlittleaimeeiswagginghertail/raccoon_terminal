@@ -183,20 +183,16 @@ print("названы индексы", '\n',  merged_df_hamb_ind, stars)
 merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
 
 # выделить распределения
-#
-distr_of_file_1_ser = merged_df_hamb_ind.iloc[0]
-distr_of_file_1_ndar = distr_of_file_1_ser.to_numpy()
-#так как удалил колонку с hamburger1, уже не нужно удалять hamburger1 из np.array
-#distr_of_file_1_fin = np.delete(distr_of_file_1_ndar, [index1])
-distr_of_file_1_fin = distr_of_file_1_ndar
-print("распределение_of_file_1:", distr_of_file_1_fin, stars)
-#
-distr_of_file_2_ser = merged_df_hamb_ind.iloc[1]
-distr_of_file_2_ndar = distr_of_file_2_ser.to_numpy()
-#так как удалил колонку с hamburger2, уже не нужно удалять hamburger2 из np.array
-#distr_of_file_2_fin = np.delete(distr_of_file_2_ndar, [index1])
-distr_of_file_2_fin = distr_of_file_2_ndar
-print("распределение_of_file_2:", distr_of_file_2_fin, stars)
+def select_distr(line_of_mdf, startind1, endind1):
+    distr_of_line_ser = merged_df_hamb_ind.iloc[line_of_mdf]
+    distr_of_line_ndar = distr_of_line_ser.to_numpy()
+    return distr_of_line_ndar[startind1:endind1]
+
+si1 = 125 ###
+ei1 = 140 ###
+distr_of_file_1_fin = select_distr(0, si1, ei1)
+distr_of_file_2_fin = select_distr(1, si1, ei1)
+print("распределение_of_file_1:", distr_of_file_1_fin, '\n', "распределение_of_file_2", distr_of_file_2_fin, stars)
 
 # коэф на который нужно уменьшить каждое число,
 # чтобы сумма слов была одинаковая
