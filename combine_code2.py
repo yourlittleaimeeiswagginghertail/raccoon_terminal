@@ -41,8 +41,7 @@ for current_file in source_files:
                 all_abstracts_words = all_abstracts_words + row_cat
             else:
                 condition2 = "else2"
-    print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words))
-    # print("\n", "файл:", current_file, "текст всех абстрактов:", all_abstracts_words, '\n')
+    #print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words))
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get abstracts   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   get titles   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -74,19 +73,17 @@ for current_file in source_files:
                 liwialtiwo = liwialtiwo + liwiwofrobli  # сохраняю в общий список
             else:
                 condition3 = "else3"
-    print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo))
-    # print("\n", "файл:", current_file, "все заголовки:", liwialtiwo, '\n')
+    #print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo))
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get titles   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   summation   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     abstracts_AND_titles_words = all_abstracts_words + liwialtiwo
-    print("в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words), '\n')
+    #print("в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words), '\n')
 
     # очистка слов в list от всех символов
     # https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
     # https://www.w3resource.com/numpy/string-operations/index.php
     abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
-    # print( type(abst_n_titl_wordsndarray1), "содержит:", abst_n_titl_wordsndarray1.dtype, '\n')
 
     my_dict1 = {":": "", ".": "", ",": "", "(": "", ")": "",
                 "&": "", "[": "", "]": "", "±": "", ">": "",
@@ -98,16 +95,14 @@ for current_file in source_files:
 
     # сделать все буквы маленькими
     abst_n_titl_wordsndarray1_cl_lo = np.char.lower(abst_n_titl_wordsndarray1_cl)
-    print("ndarray со всеми словами заглавий и абстрактов файла", current_file,
-          type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
+    #print("ndarray со всеми словами заглавий и абстрактов файла", current_file, type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
 
     from collections import Counter
 
     words_repeat1 = dict(Counter(abst_n_titl_wordsndarray1_cl_lo))
-    # print("\n", "файл:", current_file, "словарь:", words_repeat1, '\n')
 
     df1 = pd.DataFrame.from_dict(words_repeat1, orient='index')
-    print("датафрейм для файла", current_file, '-> сохранение в csv \n', df1.head(), stars)
+    #print("датафрейм для файла", current_file, '-> сохранение в csv \n', df1.head(), stars)
     df1.to_csv(str(current_file) + ".csv")
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   summation   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 # end_of_file
@@ -117,8 +112,8 @@ for current_file in source_files:
 # create df
 df_of_file_1 = pd.read_csv(file_1_name + ".csv")
 df_of_file_2 = pd.read_csv(file_2_name + ".csv")
-print("вертикальный датафрейм файла_1 \n", df_of_file_1.head(), stars)
-print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
+#print("вертикальный датафрейм файла_1 \n", df_of_file_1.head(), stars)
+#print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
 
 # задать названия колонок
 hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1_name
@@ -129,12 +124,12 @@ df_of_file_2.columns = ["СЛОВО", hamburger2]
 # перевернуть таблицы
 #
 df_of_file_1_tr = df_of_file_1.transpose()
-df_of_file_1_tr.to_csv(file_1_name + "_tr" + ".csv")
-print("горизонтальный датафрейм файла_1 -> в csv \n", df_of_file_1_tr.head(), stars)
+df_of_file_1_tr.to_csv(file_1_name + "_tr.csv")
+#print("горизонтальный датафрейм файла_1 -> в csv \n", df_of_file_1_tr.head(), stars)
 #
 df_of_file_2_tr = df_of_file_2.transpose()
-df_of_file_2_tr.to_csv(file_2_name + "_tr" + ".csv")
-print("горизонтальный датафрейм файла_2 -> в csv \n", df_of_file_2_tr.head(), stars)
+df_of_file_2_tr.to_csv(file_2_name + "_tr.csv")
+#print("горизонтальный датафрейм файла_2 -> в csv \n", df_of_file_2_tr.head(), stars)
 
 # отредактировать таблицы - вынести колонки
 #
@@ -164,32 +159,37 @@ df_of_file_2_tr_col = pd.read_csv(file_2_name + "_tr_col.csv")
 
 # объединение датафреймов
 merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
-print("объединенные датафреймы -> csv \n", merged_df, stars)
-merged_df.to_csv("merged_df.csv")
+#print("объединенные датафреймы -> csv \n", merged_df, stars)
+#merged_df.to_csv("merged_df.csv")
 
 # drop nans
 merged_df_drn = merged_df.dropna(axis=1)
-print("удалены nans -> csv \n", merged_df_drn.head(), stars)
-merged_df_drn.to_csv("merged_df_drn.csv")
+#print("удалены nans -> csv \n", merged_df_drn.head(), stars)
+#merged_df_drn.to_csv("merged_df_drn.csv")
 
 # удалить первую колонку, так как в ней вместо числа содержится текст: hamburger1, hamburger2
 merged_df_hamb = merged_df_drn.drop("СЛОВО", axis=1)
-print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n',  merged_df_hamb, stars)
-merged_df_hamb.to_csv("merged_df_hamb.csv")
+#print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n\n',  merged_df_hamb, stars)
+#merged_df_hamb.to_csv("merged_df_hamb.csv")
 
 #задать названия индексов
 merged_df_hamb_ind = merged_df_hamb.set_axis([hamburger1, hamburger2], axis='index')
-print("названы индексы", '\n',  merged_df_hamb_ind, stars)
-merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
+print("названы индексы", '\n\n',  merged_df_hamb_ind)
+merged_df_hamb_ind.info()
+print(stars)
+#merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
 
-# выделить распределения
+#снова перевернуть
+#df_of_file_1_tr = df_of_file_1.transpose()
+'''
+# выделить распределения от заданного индекса до заданного индекса
 def select_distr(line_of_mdf, startind1, endind1):
     distr_of_line_ser = merged_df_hamb_ind.iloc[line_of_mdf]
     distr_of_line_ndar = distr_of_line_ser.to_numpy()
     return distr_of_line_ndar[startind1:endind1]
 
-si1 = 125 ###
-ei1 = 140 ###
+si1 = 850 ###
+ei1 = si1+30 ###
 distr_of_file_1_fin = select_distr(0, si1, ei1)
 distr_of_file_2_fin = select_distr(1, si1, ei1)
 print("распределение_of_file_1:", distr_of_file_1_fin, '\n', "распределение_of_file_2", distr_of_file_2_fin, stars)
@@ -238,7 +238,7 @@ else:
 plt.legend()
 plt.show()
 
-
+'''
 
 
 
