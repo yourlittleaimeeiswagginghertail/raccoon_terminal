@@ -116,8 +116,8 @@ df_of_file_2 = pd.read_csv(file_2_name + ".csv")
 #print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
 
 # задать названия колонок
-hamburger1 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_1_name
-hamburger2 = "ВСТРЕТИЛОСЬ РАЗ в файле " + file_2_name
+hamburger1 = "в " + file_1_name
+hamburger2 = "в " + file_2_name
 df_of_file_1.columns = ["СЛОВО", hamburger1]
 df_of_file_2.columns = ["СЛОВО", hamburger2]
 
@@ -162,26 +162,39 @@ merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
 #print("объединенные датафреймы -> csv \n", merged_df, stars)
 #merged_df.to_csv("merged_df.csv")
 
-# drop nans
-merged_df_drn = merged_df.dropna(axis=1)
-#print("удалены nans -> csv \n", merged_df_drn.head(), stars)
-#merged_df_drn.to_csv("merged_df_drn.csv")
-
 # удалить первую колонку, так как в ней вместо числа содержится текст: hamburger1, hamburger2
-merged_df_hamb = merged_df_drn.drop("СЛОВО", axis=1)
+merged_df_hamb = merged_df.drop("СЛОВО", axis=1)
 #print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n\n',  merged_df_hamb, stars)
 #merged_df_hamb.to_csv("merged_df_hamb.csv")
 
 #задать названия индексов
 merged_df_hamb_ind = merged_df_hamb.set_axis([hamburger1, hamburger2], axis='index')
-print("названы индексы", '\n\n',  merged_df_hamb_ind)
-print(stars)
+#print("названы индексы \n\n",  merged_df_hamb_ind, stars)
 #merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
 
 #снова перевернуть (теперь уже объединенный датафрейм)
 merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
-print("объединенный перевернутый", '\n\n',  merged_df_hamb_ind_tr)
-print(stars)
+#print("объединенный перевернутый \n\n",  merged_df_hamb_ind_tr, stars)
+
+#small df
+df_sm = merged_df_hamb_ind_tr.head(10)
+#print("small", '\n\n',  df_sm, stars)
+
+#drop nans
+df_drn = df_sm.dropna(axis=0)
+#print("удалены nan \n\n",  df_drn, stars)
+
+#row totals
+df_rot = df_drn.copy()
+df_rot['row_totals'] = df_drn.sum(axis=1)
+#print("row totals \n\n",  df_rot, stars)
+
+#col totals
+df_cot = df_rot.copy()
+df_cot.loc['col_totals']= df_rot.sum(axis=0)
+print("col totals \n\n",  df_cot, stars)
+
+
 '''
 # выделить распределения от заданного индекса до заданного индекса
 def select_distr(line_of_mdf, startind1, endind1):
