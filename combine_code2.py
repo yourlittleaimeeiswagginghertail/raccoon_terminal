@@ -202,7 +202,7 @@ totaltotal = df_rot_cot.iloc[amount_of_rows][amount_of_columns] #использ�
 exp_ndarr = np.outer(df_rot_cot["row_totals"][0:amount_of_rows], df_rot_cot.loc["col_totals"][0:amount_of_columns])/totaltotal
 exp_ndarr_r = exp_ndarr.round(2)
 
-#ndarray_expected to df
+#ndarray_expected ----> df
 rows_names_all = df_rot_cot.index
 columns_names_all = df_rot_cot.columns
 
@@ -213,7 +213,11 @@ df_exp = pd.DataFrame(exp_ndarr_r)
 
 df_exp.index = rows_names_red
 df_exp.columns = columns_names_red
-print("expected \n\n",  df_exp, stars)
+print("expected df \n\n",  df_exp, stars)
+
+#create observed_df
+df_obs = df_rot_cot.iloc[0:amount_of_rows, 0:amount_of_columns]
+print("observed df \n\n",  df_obs, stars)
 
 
 '''
