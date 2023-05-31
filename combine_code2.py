@@ -178,10 +178,10 @@ merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 
 
 #select small_df / all_rows--------------------------------------------
-select_all_rows = False
+select_all_rows = False# выбрать здесь
 
 if select_all_rows is False:
-    cactus = 22 #сколько строчек взять = сколько слов взять
+    cactus = 23 #сколько строчек взять = сколько слов взять
     df_sm = merged_df_hamb_ind_tr.head(cactus)
 else:
     df_sm = merged_df_hamb_ind_tr
@@ -190,7 +190,7 @@ else:
 
 
 #dropna / fillna--------------------------------------------------------
-want_drop_nans = True# выбрать здесь
+want_drop_nans = False# выбрать здесь
 
 if want_drop_nans is True:
     df_drn = df_sm.dropna(axis=0).astype(int)
