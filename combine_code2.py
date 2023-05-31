@@ -190,13 +190,13 @@ else:
 
 
 #dropna / fillna--------------------------------------------------------
-want_drop_nans = False
+want_drop_nans = True
 
-if want_drop_nans is True:
-    df_drn = df_sm.dropna(axis=0)
+if want_drop_nans is False:
+    df_drn = df_sm.dropna(axis=0).astype(int)
     #print("удалены nan \n\n",  df_drn, stars)
 else:
-    df_drn = df_sm.fillna(0) #заменяю nan на ноль
+    df_drn = df_sm.fillna(0).astype(int) #заменяю nan на ноль
     #print("ЗАМЕНЕНЫ nan \n\n",  df_drn, stars)
 
 
