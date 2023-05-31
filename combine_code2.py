@@ -176,11 +176,17 @@ merged_df_hamb_ind = merged_df_hamb.set_axis([hamburger1, hamburger2], axis='ind
 merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 #print("объединенный перевернутый \n\n",  merged_df_hamb_ind_tr, stars)
 
-#small df
-df_sm = merged_df_hamb_ind_tr.head(10)
+
+#small df--------------------------------------------------------------
+#cactus = 10
+
+#df_sm = merged_df_hamb_ind_tr.head(cactus)
+df_sm = merged_df_hamb_ind_tr
+
 #print("small", '\n\n',  df_sm, stars)
 
-#drop nans
+
+#drop nans-------------------------------------------------------------
 df_drn = df_sm.dropna(axis=0)
 #print("удалены nan \n\n",  df_drn, stars)
 
@@ -192,7 +198,7 @@ df_rot['row_totals'] = df_drn.sum(axis=1)
 #col totals
 df_rot_cot = df_rot.copy()
 df_rot_cot.loc['col_totals']= df_rot.sum(axis=0)
-print("col totals \n\n",  df_rot_cot, stars)
+#print("col totals \n\n",  df_rot_cot, stars)
 
 #ndarray_expected
 amount_of_rows = len(df_rot_cot.index) - 1 #отнимаю строку "col_totals"
@@ -207,9 +213,10 @@ rows_names_all = df_rot_cot.index
 columns_names_all = df_rot_cot.columns
 
 rows_names_red = rows_names_all.drop("col_totals")
-columns_names_red = "expected " + columns_names_all.drop("row_totals")
+#columns_names_red = "expected " + columns_names_all.drop("row_totals")
+columns_names_red = columns_names_all.drop("row_totals")
 
-df_exp = pd.DataFrame(exp_ndarr_r)
+df_exp = pd.DataFrame(exp_ndarr) #НЕокругл-exp_ndarr / округл-exp_ndarr_r
 
 df_exp.index = rows_names_red
 df_exp.columns = columns_names_red
@@ -219,6 +226,13 @@ print("expected df \n\n",  df_exp, stars)
 df_obs = df_rot_cot.iloc[0:amount_of_rows, 0:amount_of_columns]
 print("observed df \n\n",  df_obs, stars)
 
+#chi
+statistic, pvalue, dof, expected_freq = stats.chi2_contingency(observed = df_obs)
+print("\nstatistic",statistic,  "\npvalue",pvalue,  "\ndof",dof,  "\nexpected_freq\n",expected_freq)
+if pvalue <= 0.05:
+    print("reject H0,", "различаются", stars)
+else:
+    print("мы не обнаружили значимых различий", stars)
 
 '''
 # выделить распределения от заданного индекса до заданного индекса
