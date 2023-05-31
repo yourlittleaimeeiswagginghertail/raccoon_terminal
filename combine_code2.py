@@ -177,20 +177,30 @@ merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 #print("объединенный перевернутый \n\n",  merged_df_hamb_ind_tr, stars)
 
 
-#small df--------------------------------------------------------------
-#cactus = 10
+#select small_df / all_rows--------------------------------------------
+select_all_rows = False
 
-#df_sm = merged_df_hamb_ind_tr.head(cactus)
-df_sm = merged_df_hamb_ind_tr
+if select_all_rows is False:
+    cactus = 22 #сколько строчек взять = сколько слов взять
+    df_sm = merged_df_hamb_ind_tr.head(cactus)
+else:
+    df_sm = merged_df_hamb_ind_tr
 
 #print("small", '\n\n',  df_sm, stars)
 
 
-#drop nans-------------------------------------------------------------
-df_drn = df_sm.dropna(axis=0)
-#print("удалены nan \n\n",  df_drn, stars)
+#dropna / fillna--------------------------------------------------------
+want_drop_nans = False
 
-#row totals
+if want_drop_nans is True:
+    df_drn = df_sm.dropna(axis=0)
+    #print("удалены nan \n\n",  df_drn, stars)
+else:
+    df_drn = df_sm.fillna(0) #заменяю nan на ноль
+    #print("ЗАМЕНЕНЫ nan \n\n",  df_drn, stars)
+
+
+#row totals--------------------------------------------------------------
 df_rot = df_drn.copy()
 df_rot['row_totals'] = df_drn.sum(axis=1)
 #print("row totals \n\n",  df_rot, stars)
@@ -228,7 +238,10 @@ print("observed df \n\n",  df_obs, stars)
 
 #chi
 statistic, pvalue, dof, expected_freq = stats.chi2_contingency(observed = df_obs)
-print("\nstatistic",statistic,  "\npvalue",pvalue,  "\ndof",dof,  "\nexpected_freq\n",expected_freq)
+print("statistic",statistic)
+print("pvalue",pvalue)
+print("dof",dof)
+#print("expected_freq\n",expected_freq)
 if pvalue <= 0.05:
     print("reject H0,", "различаются", stars)
 else:
