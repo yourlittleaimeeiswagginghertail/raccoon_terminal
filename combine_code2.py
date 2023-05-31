@@ -190,9 +190,15 @@ else:
 
 
 #dropna / fillna--------------------------------------------------------
+<<<<<<< HEAD
 want_drop_nans = True#выбрать здесь
 
 if want_drop_nans is True:
+=======
+want_drop_nans = True
+
+if want_drop_nans is False:
+>>>>>>> 676915aaf6a1fc28323c6ed0742d628ff6cbc0a4
     df_drn = df_sm.dropna(axis=0).astype(int)
     #print("удалены nan \n\n",  df_drn, stars)
 else:
