@@ -116,8 +116,8 @@ df_of_file_2 = pd.read_csv(file_2_name + ".csv")
 #print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
 
 # задать названия колонок
-hamburger1 = "в " + file_1_name
-hamburger2 = "в " + file_2_name
+hamburger1 = "in " + file_1_name
+hamburger2 = "in " + file_2_name
 df_of_file_1.columns = ["СЛОВО", hamburger1]
 df_of_file_2.columns = ["СЛОВО", hamburger2]
 
@@ -223,18 +223,19 @@ rows_names_all = df_rot_cot.index
 columns_names_all = df_rot_cot.columns
 
 rows_names_red = rows_names_all.drop("col_totals")
-#columns_names_red = "expected " + columns_names_all.drop("row_totals")
-columns_names_red = columns_names_all.drop("row_totals")
+columns_names_red = "expected " + columns_names_all.drop("row_totals")
 
 df_exp = pd.DataFrame(exp_ndarr) #НЕокругл-exp_ndarr / округл-exp_ndarr_r
 
 df_exp.index = rows_names_red
 df_exp.columns = columns_names_red
-print("expected df \n\n",  df_exp, stars)
+#print("expected df \n\n",  df_exp, stars)
 
 #create observed_df
 df_obs = df_rot_cot.iloc[0:amount_of_rows, 0:amount_of_columns]
 print("observed df \n\n",  df_obs, stars)
+
+print("expected df \n\n",  df_exp, stars)
 
 #chi
 statistic, pvalue, dof, expected_freq = stats.chi2_contingency(observed = df_obs)
