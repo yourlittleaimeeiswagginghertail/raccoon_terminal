@@ -182,27 +182,27 @@ select_all_rows = False# выбрать здесь
 
 if select_all_rows is False:
     cactus = 23 #сколько строчек взять = сколько слов взять
-    df_sm = merged_df_hamb_ind_tr.head(cactus)
+    df_all_or_small = merged_df_hamb_ind_tr.head(cactus)
 else:
-    df_sm = merged_df_hamb_ind_tr
+    df_all_or_small = merged_df_hamb_ind_tr
 
-#print("small", '\n\n',  df_sm, stars)
+#print("small", '\n\n',  df_all_or_small, stars)
 
 
 #dropna / fillna--------------------------------------------------------
 want_drop_nans = False# выбрать здесь
 
 if want_drop_nans is True:
-    df_drn = df_sm.dropna(axis=0).astype(int)
-    #print("удалены nan \n\n",  df_drn, stars)
+    df_drn_or_filn = df_all_or_small.dropna(axis=0).astype(int)
+    #print("удалены nan \n\n",  df_drn_or_filn, stars)
 else:
-    df_drn = df_sm.fillna(0).astype(int) #заменяю nan на ноль
-    #print("ЗАМЕНЕНЫ nan \n\n",  df_drn, stars)
+    df_drn_or_filn = df_all_or_small.fillna(0).astype(int) #заменяю nan на ноль
+    #print("ЗАМЕНЕНЫ nan \n\n",  df_drn_or_filn, stars)
 
 
 #row totals--------------------------------------------------------------
-df_rot = df_drn.copy()
-df_rot['row_totals'] = df_drn.sum(axis=1)
+df_rot = df_drn_or_filn.copy()
+df_rot['row_totals'] = df_drn_or_filn.sum(axis=1)
 #print("row totals \n\n",  df_rot, stars)
 
 #col totals
