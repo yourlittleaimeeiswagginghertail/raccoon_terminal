@@ -190,9 +190,30 @@ df_rot['row_totals'] = df_drn.sum(axis=1)
 #print("row totals \n\n",  df_rot, stars)
 
 #col totals
-df_cot = df_rot.copy()
-df_cot.loc['col_totals']= df_rot.sum(axis=0)
-print("col totals \n\n",  df_cot, stars)
+df_rot_cot = df_rot.copy()
+df_rot_cot.loc['col_totals']= df_rot.sum(axis=0)
+print("col totals \n\n",  df_rot_cot, stars)
+
+#ndarray_expected
+amount_of_rows = len(df_rot_cot.index) - 1 #отнимаю строку "col_totals"
+amount_of_columns = len(df_rot_cot.columns) - 1 #отнимаю колонку "row_totals"
+totaltotal = df_rot_cot.iloc[amount_of_rows][amount_of_columns] #использую эти переменные, так как индекс на 1 меньше
+
+exp_ndarr = np.outer(df_rot_cot["row_totals"][0:amount_of_rows], df_rot_cot.loc["col_totals"][0:amount_of_columns])/totaltotal
+exp_ndarr_r = exp_ndarr.round(2)
+
+#ndarray_expected to df
+rows_names_all = df_rot_cot.index
+columns_names_all = df_rot_cot.columns
+
+rows_names_red = rows_names_all.drop("col_totals")
+columns_names_red = "expected " + columns_names_all.drop("row_totals")
+
+df_exp = pd.DataFrame(exp_ndarr_r)
+
+df_exp.index = rows_names_red
+df_exp.columns = columns_names_red
+print("expected \n\n",  df_exp, stars)
 
 
 '''
