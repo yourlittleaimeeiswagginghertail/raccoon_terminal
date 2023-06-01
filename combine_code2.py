@@ -178,7 +178,7 @@ merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 
 
 #select small_df / all_rows--------------------------------------------
-select_all_rows = False# выбрать здесь
+select_all_rows = True# выбрать здесь
 
 if select_all_rows is False:
     cactus = 23 #сколько строчек взять = сколько слов взять
@@ -190,7 +190,7 @@ else:
 
 
 #dropna / fillna--------------------------------------------------------
-want_drop_nans = False# выбрать здесь
+want_drop_nans = True# выбрать здесь
 
 if want_drop_nans is True:
     df_drn_or_filn = df_all_or_small.dropna(axis=0).astype(int)
@@ -244,10 +244,19 @@ print("pvalue",pvalue)
 print("dof",dof)
 #print("expected_freq\n",expected_freq)
 if pvalue <= 0.05:
-    print("reject H0,", "различаются", stars)
+    print("reject H0, ", "различаются", stars)
 else:
     print("мы не обнаружили значимых различий", stars)
 
+
+from scipy.stats.distributions import chi2
+inv = chi2.ppf(0.95, dof)
+if statistic > inv:
+    print("reject H0,", "H1 = встречаемость слов зависит от файла", stars)
+else:
+    print("встречаемость слов НЕ зависит от файла. independent.")
+    print("not enough evidence to suggest _file_ and _words_ are dependent (at the 5% level of significance)", stars)
+    
 '''
 # выделить распределения от заданного индекса до заданного индекса
 def select_distr(line_of_mdf, startind1, endind1):
