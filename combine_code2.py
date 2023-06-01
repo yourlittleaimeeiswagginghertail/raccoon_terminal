@@ -181,8 +181,11 @@ merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 select_all_rows = False# выбрать здесь
 
 if select_all_rows is False:
+    start_row = 100 #с какой срочки начать
     cactus = 23 #сколько строчек взять = сколько слов взять
-    df_all_or_small = merged_df_hamb_ind_tr.head(cactus)
+    end_row = start_row + cactus
+    #df_all_or_small = merged_df_hamb_ind_tr.head(cactus)
+    df_all_or_small = merged_df_hamb_ind_tr.iloc[start_row:end_row]
 else:
     df_all_or_small = merged_df_hamb_ind_tr
 
