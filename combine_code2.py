@@ -178,13 +178,12 @@ merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 
 
 #select small_df / all_rows--------------------------------------------
-select_all_rows = False# выбрать здесь
+select_all_rows = input("Выбрать все строчки таблицы? Введите yes/no: ")
 
-if select_all_rows is False:
-    start_row = 100 #с какой срочки начать
-    cactus = 23 #сколько строчек взять = сколько слов взять
+if select_all_rows == "no":
+    start_row = int(input("С какой строчки таблицы начать? Введите число: "))
+    cactus = int(input("Сколько строчек(=слов) взять? Введите число: "))
     end_row = start_row + cactus
-    #df_all_or_small = merged_df_hamb_ind_tr.head(cactus)
     df_all_or_small = merged_df_hamb_ind_tr.iloc[start_row:end_row]
 else:
     df_all_or_small = merged_df_hamb_ind_tr
@@ -193,9 +192,9 @@ else:
 
 
 #dropna / fillna--------------------------------------------------------
-want_drop_nans = True# выбрать здесь
+want_drop_nans = input("Удалить nans или заменить на ноль? Введите delete/fill: ")
 
-if want_drop_nans is True:
+if want_drop_nans == "delete":
     df_drn_or_filn = df_all_or_small.dropna(axis=0).astype(int)
     #print("удалены nan \n\n",  df_drn_or_filn, stars)
 else:
@@ -261,7 +260,7 @@ else:
     print("not enough evidence to suggest _file_ and _words_ are dependent (at the 5% level of significance)", stars)
 
 
-if select_all_rows is False:
+if select_all_rows == "no":
     #bar plot
     df_obs.plot(kind="bar")
     plt.show()
