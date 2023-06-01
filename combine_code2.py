@@ -178,7 +178,7 @@ merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
 
 
 #select small_df / all_rows--------------------------------------------
-select_all_rows = True# выбрать здесь
+select_all_rows = False# выбрать здесь
 
 if select_all_rows is False:
     cactus = 23 #сколько строчек взять = сколько слов взять
@@ -256,7 +256,25 @@ if statistic > inv:
 else:
     print("встречаемость слов НЕ зависит от файла. independent.")
     print("not enough evidence to suggest _file_ and _words_ are dependent (at the 5% level of significance)", stars)
-    
+
+
+if select_all_rows is False:
+    #bar plot
+    df_obs.plot(kind="bar")
+    plt.show()
+
+#plot
+plt.plot(df_obs[hamburger1], color="blue", label="obs. distrib. " + hamburger1)
+plt.plot(df_obs[hamburger2], color="red", label="obs. distrib. " + hamburger2)
+plt.legend()
+plt.show()
+
+
+#fig, ax = plt.subplots()
+#ax.bar(df_obs.index, df_obs[hamburger1])
+#plt.xticks(rotation=30)
+#plt.show()
+
 '''
 # выделить распределения от заданного индекса до заданного индекса
 def select_distr(line_of_mdf, startind1, endind1):
