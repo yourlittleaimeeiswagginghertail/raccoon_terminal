@@ -192,33 +192,33 @@ else:
 df_sort_or_not.to_csv("df_sort_or_not.csv")
 
 
+# dropna / fillna--------------------------------------------------------
+want_drop_nans = input("Удалить nans или заменить на ноль? Введите delete/fill: ")
+
+if want_drop_nans == "delete":
+    df_drn_or_filn = df_sort_or_not.dropna(axis=0).astype(int)
+    # print("удалены nan \n\n",  df_drn_or_filn, stars)
+else:
+    df_drn_or_filn = df_sort_or_not.fillna(0).astype(int)  # заменяю nan на ноль
+    # print("ЗАМЕНЕНЫ nan \n\n",  df_drn_or_filn, stars)
+
 # select small_df / all_rows--------------------------------------------
-select_all_rows = input("Всего строчек: "+str(len(df_sort_or_not.index))+". Выбрать все строчки таблицы? Введите yes/no: ")
+select_all_rows = input("Всего строчек: "+str(len(df_drn_or_filn.index))+". Выбрать все строчки таблицы? Введите yes/no: ")
 
 if select_all_rows == "no":
     start_row = int(input("С какой строчки таблицы начать? Введите число: "))
     cactus = int(input("Сколько строчек(=слов) взять? Введите число: "))
     end_row = start_row + cactus
-    df_all_or_small = df_sort_or_not.iloc[start_row:end_row]
+    df_all_or_small = df_drn_or_filn.iloc[start_row:end_row]
 else:
-    df_all_or_small = df_sort_or_not
+    df_all_or_small = df_drn_or_filn
 
 # print("small", '\n\n',  df_all_or_small, stars)
 
 
-# dropna / fillna--------------------------------------------------------
-want_drop_nans = input("Удалить nans или заменить на ноль? Введите delete/fill: ")
-
-if want_drop_nans == "delete":
-    df_drn_or_filn = df_all_or_small.dropna(axis=0).astype(int)
-    # print("удалены nan \n\n",  df_drn_or_filn, stars)
-else:
-    df_drn_or_filn = df_all_or_small.fillna(0).astype(int)  # заменяю nan на ноль
-    # print("ЗАМЕНЕНЫ nan \n\n",  df_drn_or_filn, stars)
-
 # row totals--------------------------------------------------------------
-df_rot = df_drn_or_filn.copy()
-df_rot['row_totals'] = df_drn_or_filn.sum(axis=1)
+df_rot = df_all_or_small.copy()
+df_rot['row_totals'] = df_all_or_small.sum(axis=1)
 # print("row totals \n\n",  df_rot, stars)
 
 # col totals
