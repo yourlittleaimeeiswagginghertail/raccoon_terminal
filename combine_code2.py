@@ -85,11 +85,17 @@ for current_file in source_files:
     # https://www.w3resource.com/numpy/string-operations/index.php
     abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
 
-    my_dict1 = {":": "", ".": "", ",": "", "(": "", ")": "",
+    my_dict1 = {
+                ":": "", ".": "", ",": "", "(": "", ")": "",
                 "&": "", "[": "", "]": "", "±": "", ">": "",
-                "<": "", " ": "", "=": "", "±": "", ";": "",
-                "+": "", "“": "", "”": "", "~": "", "{": "",
-                "}": "", "\n": "", }  # "%" : "" , "'s" : "" ,
+                "<": "", " ": "", "=": "", ";": "",
+                "+": "", "“": "", "”": "", "~": "",
+                "{": "", "}": "", "0": "", "1": "", "2": "", "3": "", "4": "",
+                "5": "", "6": "", "7": "", "8": "", "9": "", "%": "", 
+                "\n": "",
+                }
+
+    # "%" : "" , "'s" : "" ,
     my_table1 = "monkey".maketrans(my_dict1)
     abst_n_titl_wordsndarray1_cl = np.char.translate(abst_n_titl_wordsndarray1, my_table1, deletechars=None)
 
