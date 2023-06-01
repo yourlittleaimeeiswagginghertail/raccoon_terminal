@@ -41,7 +41,7 @@ for current_file in source_files:
                 all_abstracts_words = all_abstracts_words + row_cat
             else:
                 condition2 = "else2"
-    #print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words))
+    # print("в файле", current_file, "кол-во слов во всех абстрактах:", len(all_abstracts_words))
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get abstracts   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   get titles   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -73,12 +73,12 @@ for current_file in source_files:
                 liwialtiwo = liwialtiwo + liwiwofrobli  # сохраняю в общий список
             else:
                 condition3 = "else3"
-    #print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo))
+    # print("в файле", current_file, "кол-во слов в заголовках:", len(liwialtiwo))
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   get titles   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   summation   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     abstracts_AND_titles_words = all_abstracts_words + liwialtiwo
-    #print("в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words), '\n')
+    # print("в файле", current_file, "кол-во слов в названиях И абстрактах:", len(abstracts_AND_titles_words), '\n')
 
     # очистка слов в list от всех символов
     # https://www.educative.io/answers/what-is-the-numpychartranslate-function-in-python
@@ -86,29 +86,29 @@ for current_file in source_files:
     abst_n_titl_wordsndarray1 = np.array(abstracts_AND_titles_words)
 
     my_dict1 = {
-                ":": "", ".": "", ",": "", "(": "", ")": "",
-                "&": "", "[": "", "]": "", "±": "", ">": "",
-                "<": "", " ": "", "=": "", ";": "",
-                "+": "", "“": "", "”": "", "~": "",
-                "{": "", "}": "", "0": "", "1": "", "2": "", "3": "", "4": "",
-                "5": "", "6": "", "7": "", "8": "", "9": "", "%": "", 
-                "\n": "",
-                }
+        ":": "", ".": "", ",": "", "(": "", ")": "",
+        "&": "", "[": "", "]": "", "±": "", ">": "",
+        "<": "", " ": "", "=": "", ";": "",
+        "+": "", "“": "", "”": "", "~": "",
+        "{": "", "}": "", "0": "", "1": "", "2": "", "3": "", "4": "",
+        "5": "", "6": "", "7": "", "8": "", "9": "", "%": "",
+        "\n": "", "·": "",
+    }
+    # - /
 
-    # "%" : "" , "'s" : "" ,
     my_table1 = "monkey".maketrans(my_dict1)
     abst_n_titl_wordsndarray1_cl = np.char.translate(abst_n_titl_wordsndarray1, my_table1, deletechars=None)
 
     # сделать все буквы маленькими
     abst_n_titl_wordsndarray1_cl_lo = np.char.lower(abst_n_titl_wordsndarray1_cl)
-    #print("ndarray со всеми словами заглавий и абстрактов файла", current_file, type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
+    # print("ndarray со всеми словами заглавий и абстрактов файла", current_file, type(abst_n_titl_wordsndarray1_cl_lo), "содержит:", abst_n_titl_wordsndarray1_cl_lo.dtype, '\n')
 
     from collections import Counter
 
     words_repeat1 = dict(Counter(abst_n_titl_wordsndarray1_cl_lo))
 
     df1 = pd.DataFrame.from_dict(words_repeat1, orient='index')
-    #print("датафрейм для файла", current_file, '-> сохранение в csv \n', df1.head(), stars)
+    # print("датафрейм для файла", current_file, '-> сохранение в csv \n', df1.head(), stars)
     df1.to_csv(str(current_file) + ".csv")
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑   summation   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 # end_of_file
@@ -118,8 +118,8 @@ for current_file in source_files:
 # create df
 df_of_file_1 = pd.read_csv(file_1_name + ".csv")
 df_of_file_2 = pd.read_csv(file_2_name + ".csv")
-#print("вертикальный датафрейм файла_1 \n", df_of_file_1.head(), stars)
-#print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
+# print("вертикальный датафрейм файла_1 \n", df_of_file_1.head(), stars)
+# print("вертикальный датафрейм файла_2 \n", df_of_file_2.head(), stars)
 
 # задать названия колонок
 hamburger1 = "in " + file_1_name
@@ -131,11 +131,11 @@ df_of_file_2.columns = ["СЛОВО", hamburger2]
 #
 df_of_file_1_tr = df_of_file_1.transpose()
 df_of_file_1_tr.to_csv(file_1_name + "_tr.csv")
-#print("горизонтальный датафрейм файла_1 -> в csv \n", df_of_file_1_tr.head(), stars)
+# print("горизонтальный датафрейм файла_1 -> в csv \n", df_of_file_1_tr.head(), stars)
 #
 df_of_file_2_tr = df_of_file_2.transpose()
 df_of_file_2_tr.to_csv(file_2_name + "_tr.csv")
-#print("горизонтальный датафрейм файла_2 -> в csv \n", df_of_file_2_tr.head(), stars)
+# print("горизонтальный датафрейм файла_2 -> в csv \n", df_of_file_2_tr.head(), stars)
 
 # отредактировать таблицы - вынести колонки
 #
@@ -165,99 +165,108 @@ df_of_file_2_tr_col = pd.read_csv(file_2_name + "_tr_col.csv")
 
 # объединение датафреймов
 merged_df = pd.concat([df_of_file_1_tr_col, df_of_file_2_tr_col])
-#print("объединенные датафреймы -> csv \n", merged_df, stars)
-#merged_df.to_csv("merged_df.csv")
+# print("объединенные датафреймы -> csv \n", merged_df, stars)
+# merged_df.to_csv("merged_df.csv")
 
 # удалить первую колонку, так как в ней вместо числа содержится текст: hamburger1, hamburger2
 merged_df_hamb = merged_df.drop("СЛОВО", axis=1)
-#print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n\n',  merged_df_hamb, stars)
-#merged_df_hamb.to_csv("merged_df_hamb.csv")
+# print("удалена колонка содержащая", '->'+hamburger1+'<-', '\n\n',  merged_df_hamb, stars)
+# merged_df_hamb.to_csv("merged_df_hamb.csv")
 
-#задать названия индексов
+# задать названия индексов
 merged_df_hamb_ind = merged_df_hamb.set_axis([hamburger1, hamburger2], axis='index')
-#print("названы индексы \n\n",  merged_df_hamb_ind, stars)
-#merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
+# print("названы индексы \n\n",  merged_df_hamb_ind, stars)
+# merged_df_hamb_ind.to_csv("merged_df_hamb_ind.csv")
 
-#снова перевернуть (теперь уже объединенный датафрейм)
+# снова перевернуть (теперь уже объединенный датафрейм)
 merged_df_hamb_ind_tr = merged_df_hamb_ind.transpose()
-#print("объединенный перевернутый \n\n",  merged_df_hamb_ind_tr, stars)
+# print("объединенный перевернутый \n\n",  merged_df_hamb_ind_tr, stars)
+
+# сортировать по убыванию
+want_sort = False#выбрать здесь
+if want_sort is True:
+    df_sort_or_not = merged_df_hamb_ind_tr.sort_values(by=[hamburger2], ascending=False)
+    # print("сортированный \n\n",  df_sort_or_not, stars)
+else:
+    df_sort_or_not = merged_df_hamb_ind_tr
+df_sort_or_not.to_csv("df_sort_or_not.csv")
 
 
-#select small_df / all_rows--------------------------------------------
-select_all_rows = input("Выбрать все строчки таблицы? Введите yes/no: ")
+# select small_df / all_rows--------------------------------------------
+select_all_rows = input("Всего строчек: "+str(len(df_sort_or_not.index))+". Выбрать все строчки таблицы? Введите yes/no: ")
 
 if select_all_rows == "no":
     start_row = int(input("С какой строчки таблицы начать? Введите число: "))
     cactus = int(input("Сколько строчек(=слов) взять? Введите число: "))
     end_row = start_row + cactus
-    df_all_or_small = merged_df_hamb_ind_tr.iloc[start_row:end_row]
+    df_all_or_small = df_sort_or_not.iloc[start_row:end_row]
 else:
-    df_all_or_small = merged_df_hamb_ind_tr
+    df_all_or_small = df_sort_or_not
 
-#print("small", '\n\n',  df_all_or_small, stars)
+# print("small", '\n\n',  df_all_or_small, stars)
 
 
-#dropna / fillna--------------------------------------------------------
+# dropna / fillna--------------------------------------------------------
 want_drop_nans = input("Удалить nans или заменить на ноль? Введите delete/fill: ")
 
 if want_drop_nans == "delete":
     df_drn_or_filn = df_all_or_small.dropna(axis=0).astype(int)
-    #print("удалены nan \n\n",  df_drn_or_filn, stars)
+    # print("удалены nan \n\n",  df_drn_or_filn, stars)
 else:
-    df_drn_or_filn = df_all_or_small.fillna(0).astype(int) #заменяю nan на ноль
-    #print("ЗАМЕНЕНЫ nan \n\n",  df_drn_or_filn, stars)
+    df_drn_or_filn = df_all_or_small.fillna(0).astype(int)  # заменяю nan на ноль
+    # print("ЗАМЕНЕНЫ nan \n\n",  df_drn_or_filn, stars)
 
-
-#row totals--------------------------------------------------------------
+# row totals--------------------------------------------------------------
 df_rot = df_drn_or_filn.copy()
 df_rot['row_totals'] = df_drn_or_filn.sum(axis=1)
-#print("row totals \n\n",  df_rot, stars)
+# print("row totals \n\n",  df_rot, stars)
 
-#col totals
+# col totals
 df_rot_cot = df_rot.copy()
-df_rot_cot.loc['col_totals']= df_rot.sum(axis=0)
-#print("col totals \n\n",  df_rot_cot, stars)
+df_rot_cot.loc['col_totals'] = df_rot.sum(axis=0)
+# print("col totals \n\n",  df_rot_cot, stars)
 
-#ndarray_expected
-amount_of_rows = len(df_rot_cot.index) - 1 #отнимаю строку "col_totals"
-amount_of_columns = len(df_rot_cot.columns) - 1 #отнимаю колонку "row_totals"
-totaltotal = df_rot_cot.iloc[amount_of_rows][amount_of_columns] #использую эти переменные, так как индекс на 1 меньше
+# ndarray_expected
+amount_of_rows = len(df_rot_cot.index) - 1  # отнимаю строку "col_totals"
+amount_of_columns = len(df_rot_cot.columns) - 1  # отнимаю колонку "row_totals"
+totaltotal = df_rot_cot.iloc[amount_of_rows][amount_of_columns]  # использую эти переменные, так как индекс на 1 меньше
 
-exp_ndarr = np.outer(df_rot_cot["row_totals"][0:amount_of_rows], df_rot_cot.loc["col_totals"][0:amount_of_columns])/totaltotal
+exp_ndarr = np.outer(df_rot_cot["row_totals"][0:amount_of_rows],
+                     df_rot_cot.loc["col_totals"][0:amount_of_columns]) / totaltotal
 exp_ndarr_r = exp_ndarr.round(2)
 
-#ndarray_expected ----> df
+# ndarray_expected ----> df
 rows_names_all = df_rot_cot.index
 columns_names_all = df_rot_cot.columns
 
 rows_names_red = rows_names_all.drop("col_totals")
 columns_names_red = "expected " + columns_names_all.drop("row_totals")
 
-df_exp = pd.DataFrame(exp_ndarr) #НЕокругл-exp_ndarr / округл-exp_ndarr_r
+df_exp = pd.DataFrame(exp_ndarr)  # НЕокругл-exp_ndarr / округл-exp_ndarr_r
 
 df_exp.index = rows_names_red
 df_exp.columns = columns_names_red
-#print("expected df \n\n",  df_exp, stars)
+# print("expected df \n\n",  df_exp, stars)
 
-#create observed_df
+# create observed_df
 df_obs = df_rot_cot.iloc[0:amount_of_rows, 0:amount_of_columns]
-print("observed df \n\n",  df_obs, stars)
+print("observed df \n\n", df_obs, stars)
 
-print("expected df \n\n",  df_exp, stars)
+print("expected df \n\n", df_exp, stars)
 
-#chi
-statistic, pvalue, dof, expected_freq = stats.chi2_contingency(observed = df_obs)
-print("statistic",statistic)
-print("pvalue",pvalue)
-print("dof",dof)
-#print("expected_freq\n",expected_freq)
+# chi
+statistic, pvalue, dof, expected_freq = stats.chi2_contingency(observed=df_obs)
+print("statistic", statistic)
+print("pvalue", pvalue)
+print("dof", dof)
+# print("expected_freq\n",expected_freq)
 if pvalue <= 0.05:
     print("reject H0, ", "различаются", stars)
 else:
     print("мы не обнаружили значимых различий", stars)
 
-
 from scipy.stats.distributions import chi2
+
 inv = chi2.ppf(0.95, dof)
 if statistic > inv:
     print("reject H0,", "H1 = встречаемость слов зависит от файла", stars)
@@ -265,23 +274,21 @@ else:
     print("встречаемость слов НЕ зависит от файла. independent.")
     print("not enough evidence to suggest _file_ and _words_ are dependent (at the 5% level of significance)", stars)
 
-
 if select_all_rows == "no":
-    #bar plot
+    # bar plot
     df_obs.plot(kind="bar")
     plt.show()
 
-#plot
+# plot
 plt.plot(df_obs[hamburger1], color="blue", label="obs. distrib. " + hamburger1)
 plt.plot(df_obs[hamburger2], color="red", label="obs. distrib. " + hamburger2)
 plt.legend()
 plt.show()
 
-
-#fig, ax = plt.subplots()
-#ax.bar(df_obs.index, df_obs[hamburger1])
-#plt.xticks(rotation=30)
-#plt.show()
+# fig, ax = plt.subplots()
+# ax.bar(df_obs.index, df_obs[hamburger1])
+# plt.xticks(rotation=30)
+# plt.show()
 
 '''
 # выделить распределения от заданного индекса до заданного индекса
@@ -341,6 +348,7 @@ plt.legend()
 plt.show()
 
 '''
+
 
 
 
