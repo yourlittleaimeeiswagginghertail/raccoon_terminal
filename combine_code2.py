@@ -283,10 +283,11 @@ if select_all_rows == "no":
 x = df_obs.index
 y1 = df_obs[hamburger1]
 y2 = df_obs[hamburger2]
-plt.plot(x, y1, color="blue", label="obs. distrib. " + hamburger1)
-plt.plot(x, y2, color="red", label="obs. distrib. " + hamburger2)
+plt.plot(x, y1, color="blue", label="obs. distrib. " + hamburger1, alpha=0.3)
+plt.plot(x, y2, color="red", label="obs. distrib. " + hamburger2, alpha=0.3)
 
-plt.fill_between(x, y1, y2, color="red")
+plt.fill_between(x, y1, color="blue", alpha=0.3)
+plt.fill_between(x, y2, color="red", alpha=0.3)
 
 plt.legend()
 plt.show()
