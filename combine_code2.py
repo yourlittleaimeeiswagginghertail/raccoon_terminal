@@ -92,7 +92,7 @@ for current_file in source_files:
         "+": "", "“": "", "”": "", "~": "",
         "{": "", "}": "", "0": "", "1": "", "2": "", "3": "", "4": "",
         "5": "", "6": "", "7": "", "8": "", "9": "", "%": "",
-        "\n": "", "·": "","-": " ", 
+        "\n": "", "·": "", 
     }
     # - /
 
@@ -294,6 +294,17 @@ plt.xticks(rotation=85)
 plt.legend()
 plt.show()
 
+#standart deviation
+df_stand = df_obs
+
+for col_name in [hamburger1, hamburger2]:
+    column = df_stand[col_name]
+    mu = np.average(column)
+    sigma = np.std(column)
+    df_stand[col_name] = column[ (column>=(mu-sigma))&(column<=(mu+sigma)) ]
+
+df_stand_drn = df_stand.dropna()
+print("df after standart deviation \n\n", df_stand_drn, stars)
 
 
 
