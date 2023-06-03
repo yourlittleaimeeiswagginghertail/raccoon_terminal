@@ -294,27 +294,18 @@ plt.xticks(rotation=85)
 plt.legend()
 plt.show()
 
-#standart deviation FIRST
+#standart deviation
 df_stand = df_obs
 
-for col_name in [hamburger1, hamburger2]:
+for col_name in [hamburger1,hamburger2,hamburger1,hamburger2]:
     column = df_stand[col_name]
     mu = np.average(column)
     sigma = np.std(column)
     df_stand[col_name] = column[ (column>=(mu-sigma))&(column<=(mu+sigma)) ]
-df_stand_drn = df_stand.dropna()
-print("df after standart deviation FIRST \n\n", df_stand_drn, stars)
+    df_stand_drn = df_stand.dropna()
+    df_stand = df_stand_drn#для новой петли
 
-#standart deviation SECOND
-df_stand = df_stand_drn
-
-for col_name in [hamburger1, hamburger2]:
-    column = df_stand[col_name]
-    mu = np.average(column)
-    sigma = np.std(column)
-    df_stand[col_name] = column[ (column>=(mu-sigma))&(column<=(mu+sigma)) ]
-df_stand_drn = df_stand.dropna()
-print("df after standart deviation SECOND \n\n", df_stand_drn, stars)
+print("df after standart deviation \n\n", df_stand_drn, stars)
 
 
 
