@@ -300,10 +300,51 @@ for col_name in [hamburger1,hamburger2,hamburger1,hamburger2]:
     column = df_stand[col_name]
     mu = np.average(column)
     sigma = np.std(column)
-    df_stand[col_name] = column[ column<=(mu+2*sigma) ]
+    df_stand[col_name] = column[ column<=(mu+2.3*sigma) ]
     df_stand_drn = df_stand.dropna()
     df_stand = df_stand_drn#для новой петли
-print("df after standart deviation \n\n", df_stand_drn, stars)
+print("df after standart deviation \n\n", df_stand, stars)
 
+#повтор кода##############################################################
+df_obs = df_stand
 
+# chi
+statistic, pvalue, dof, expected_freq = stats.chi2_contingency(observed=df_obs)
+print("statistic", statistic)
+print("pvalue", pvalue)
+print("dof", dof)
+# print("expected_freq\n",expected_freq)
+if pvalue <= 0.05:
+    print("reject H0, ", "различаются", stars)
+else:
+    print("мы не обнаружили значимых различий", stars)
+
+from scipy.stats.distributions import chi2
+
+inv = chi2.ppf(0.95, dof)
+if statistic > inv:
+    print("reject H0,", "H1 = встречаемость слов зависит от файла", stars)
+else:
+    print("встречаемость слов НЕ зависит от файла. independent.")
+    print("not enough evidence to suggest _file_ and _words_ are dependent (at the 5% level of significance)", stars)
+
+#bar plot
+if select_all_rows == "no":
+    df_obs.plot(kind="bar")
+    plt.show()
+
+#line plot
+x = df_obs.index
+y1 = df_obs[hamburger1]
+y2 = df_obs[hamburger2]
+plt.plot(x, y1, color="blue", label="obs. distrib. " + hamburger1, alpha=0.3)
+plt.plot(x, y2, color="red", label="obs. distrib. " + hamburger2, alpha=0.3)
+
+plt.fill_between(x, y1, color="blue", alpha=0.3)
+plt.fill_between(x, y2, color="red", alpha=0.3)
+
+plt.xticks(rotation=85)
+
+plt.legend()
+plt.show()
 
