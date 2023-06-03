@@ -296,12 +296,13 @@ plt.show()
 
 #standart deviation
 df_stand = df_obs
-for col_name in [hamburger1,hamburger2,hamburger1,hamburger2]:
+for col_name in [hamburger1,hamburger2, hamburger1]:
     column = df_stand[col_name]
     mu = np.average(column)
     sigma = np.std(column)
-    df_stand[col_name] = column[ column<=(mu+2.3*sigma) ]
-    df_stand_drn = df_stand.dropna()
+    df_stand[col_name] = column[ column<=(mu+2*sigma) ]
+    print("удалено всё, что встречается чаще", int(round(mu+2*sigma, 0)), "раз")
+    df_stand_drn = df_stand.dropna().astype(int)
     df_stand = df_stand_drn#для новой петли
 print("df after standart deviation \n\n", df_stand, stars)
 
