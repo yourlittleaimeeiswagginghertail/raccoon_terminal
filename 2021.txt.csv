@@ -3,8 +3,8 @@ abstract,33
 lysosomal,4
 integral,1
 membrane,1
-protein,1
-limp,1
+protein ,1
+limp ,1
 encoded,1
 by,36
 the,443
@@ -31,7 +31,7 @@ genetic,3
 studies,8
 including,8
 large,4
-genomewide,1
+genome wide,1
 aim,3
 current,2
 study,37
@@ -44,9 +44,9 @@ associated,12
 russia,5
 were,70
 genotyped,1
-a,102
+a,101
 total,2
-,361
+,351
 patients,115
 positive,3
 fpd,2
@@ -58,14 +58,14 @@ controls,6
 also,13
 gba,5
 mutations,4
-pdgba,1
+pd gba,1
 asymptomatic,1
 mutation,1
 carriers,1
-gbacarriers,3
+gba carriers,3
 expression,13
 measured,4
-realtime,3
+real time,3
 pcr,1
 cd,2
 blood,9
@@ -94,7 +94,7 @@ onset,3
 aao,2
 level,8
 decreased,6
-gbapd,5
+gba pd,5
 compared,12
 padjusted,3
 respectively,8
@@ -114,7 +114,7 @@ independent,3
 buspirone,9
 partial,1
 agonist,5
-htar,3
+ htar,3
 due,6
 potential,6
 antinociceptive,1
@@ -125,10 +125,10 @@ abdominal,5
 pain,14
 treatment,23
 ibs,1
-painrelated,5
+pain related,5
 effects,14
 mediated,2
-htars,1
+ htars,1
 located,2
 within,9
 nucleus,2
@@ -143,7 +143,7 @@ our,9
 evaluate,5
 using,25
 model,8
-urethaneanesthetized,1
+urethane anesthetized,1
 rats,11
 two,6
 types,4
@@ -163,10 +163,10 @@ revealed,6
 – mg kg−,1
 iv,1
 complex,4
-time,9
-dosedepended,1
+time ,1
+dose depended,1
 action,3
-crdinduced,1
+crd induced,1
 neuron,2
 responses,15
 inhibits,1
@@ -174,17 +174,17 @@ inverts,1
 dose,8
 effect,13
 attenuates,1
-crdevoked,1
+crd evoked,1
 completely,2
 blocked,1
 an,28
-intracerebroventricular,1
+intra cerebroventricular,1
 administration,1
 way,1
 change,3
 this,32
 supraspinal,1
-hta,1
+ hta,1
 receptors,6
 however,9
 its,12
@@ -195,7 +195,7 @@ we,35
 proposed,3
 that,33
 involved,7
-anti,1
+anti ,1
 pronociceptive,1
 background,7
 microrna,1
@@ -209,10 +209,10 @@ cad,2
 expressions,5
 myocardial,8
 serum,8
-mirnaа,7
-mirna,12
+mirna а,7
+mirna ,9
 method,5
-crosssectional,5
+cross sectional,5
 observational,2
 comprised,2
 subjects,3
@@ -220,7 +220,9 @@ subjects,3
 men,1
 right,2
 atrial,2
-mirnaa,4
+mirna a,4
+mirna,3
+ a,1
 referred,1
 elective,1
 bypass,2
@@ -264,12 +266,12 @@ decision,1
 tree,1
 established,1
 multivessel,1
-fivefold,1
+five fold,1
 if,3
 ci,7
 conclusions,5
 both,9
-noncad,1
+non cad,1
 corresponds,1
 strongly,1
 correlated,1
@@ -282,8 +284,8 @@ carbene,2
 complexes,3
 synthesized,1
 via,3
-cispdclcnxyl,1
-benzothiazolamines,1
+cis pdclcnxyl,1
+benzo  thiazol  amines,1
 structurally,1
 characterized,6
 every,3
@@ -299,12 +301,12 @@ diaminocarbene,1
 species,2
 showed,7
 it,7
-firstorder,1
+first order,1
 occurs,1
 intramolecularly,1
 hammett,1
 function,6
-electronwithdrawing,1
+electron withdrawing,1
 substituents,1
 benzothiazole,1
 moiety,1
@@ -334,7 +336,7 @@ kinetic,1
 mass,2
 spectrometric,1
 allowed,1
-ratedetermining,1
+rate determining,1
 step,2
 breaking,1
 carbon–nitrogen,1
@@ -358,7 +360,7 @@ dysfunction,3
 vessels,3
 motor,1
 disruption,1
-endotheliumderived,1
+endothelium derived,1
 factors,3
 imbalance,1
 morphological,1
@@ -377,7 +379,7 @@ methods,9
 male,1
 wistar,1
 fed,3
-highfat,1
+high fat,1
 diet,1
  weeks,1
 followed,2
@@ -391,10 +393,10 @@ glucose,5
 tolerance,2
 test,2
 findings,7
-dosedependent,1
+dose dependent,1
 contraction,1
 increase,9
-thirdorder,1
+third order,1
 mesenteric,3
 arterioles,1
 response,13
@@ -402,22 +404,23 @@ serotonin,1
 phenylephrine,1
 exhibited,1
 decrease,2
-acetylcholinedependent,2
+acetylcholine dependent,2
 relaxation,2
 guanylate,1
 cyclase,1
+time,8
 femoral,2
 arteries,3
 tendency,1
 plasma,1
 analysis,14
-low,9
+low,7
 bioavailable,1
 nitric,5
 oxide,5
 high,9
 levels,9
-endothelin,1
+endothelin ,1
 ros,1
 significance,2
 knowledge,1
@@ -442,7 +445,7 @@ clinical,9
 use,24
 describes,1
 outcomes,13
-nonsmall,1
+non small,1
 cell,7
 lung,6
 cancer,11
@@ -482,7 +485,7 @@ adverse,8
 them,4
 benefit,3
 from,30
-noadverseevents,1
+no adverse events,1
 users,1
 strikingly,1
 lower,4
@@ -509,28 +512,28 @@ size,9
 tested,2
 rat,3
 evaluated,4
-noreflow,3
+no reflow,3
 phenomenon,1
 caused,2
 assigned,4
 into,3
 without,5
-shamoperated,1
+sham operated,1
 ileal,1
 transposition,1
-rouxeny,1
+roux en y,1
 gastric,1
 sleeve,2
 gastrectomy,2
-glucagonlike,2
-peptide,2
+glucagon like,2
+peptide ,2
 insulin,1
 six,5
 weeks,3
 after,20
 animals,2
 subjected,1
-ischemiareperfusion,1
+ischemia reperfusion,1
 histochemical,2
 determination,1
 zone,6
@@ -555,16 +558,16 @@ limitation,1
 alone,2
 surgeries,1
 reversed,2
-tdminduced,3
+tdm induced,3
 enhanced,1
 contractile,1
-hydroxytryptamine,2
+ hydroxytryptamine,2
 synthase,3
 contribution,2
-endotheliumdependent,2
+endothelium dependent,2
 vasodilatation,2
 reduction,12
-infarctlimiting,1
+infarct limiting,1
 augmented,2
 contractility,1
 typical,1
@@ -577,10 +580,10 @@ cardiovascular,1
 diseases,1
 present,4
 investigates,2
-eventrelated,3
+event related,3
 oscillations,6
 underlying,1
-motiononset,2
+motion onset,2
 mor,8
 sounds,2
 moving,1
@@ -599,12 +602,12 @@ velocity,4
 spectral,3
 perturbation,2
 ersp,3
-intertrial,3
+inter trial,3
 phase,18
 coherence,5
 itc,2
 calculated,1
-timefrequency,2
+time frequency,2
 decomposition,2
 signals,3
 slow,2
@@ -613,7 +616,7 @@ magnitude,1
 cn,1
 cp,1
 components,2
-deltatoalpha,1
+delta to alpha,1
 power,4
 remained,3
 up,1
@@ -623,12 +626,12 @@ gradual,1
 spatial,8
 did,4
 induce,2
-noncoherent,1
+non coherent,1
 conversely,1
 abrupt,1
 displacement,1
 induced,1
-thetaalpha,1
+theta alpha,1
 consistency,1
 generated,1
 resetting,1
@@ -642,7 +645,7 @@ thought,1
 full,1
 glycogen,8
 molecule,4
-βparticle,2
+β particle,2
 spherical,1
 shape,1
 concentric,1
@@ -657,7 +660,7 @@ structure,5
 remains,1
 poorly,1
 understood,1
-βparticles,1
+β particles,1
 hepatocytes,2
 starved,2
 situ,2
@@ -705,9 +708,9 @@ complement,3
 reduced,3
 relapse,12
 placebo,8
-antiaquaporin,1
+anti aquaporin ,1
 immunoglobulin,2
-gpositive,2
+g positive,2
 aqp,8
 neuromyelitis,4
 optica,4
@@ -721,10 +724,10 @@ efficacy,3
 safety,6
 analyses,4
 asian,10
-openlabel,5
+open label,5
 extension,3
 ole,3
-doubleblind,2
+double blind,2
 randomized,6
 randomly,3
 receive,4
@@ -750,7 +753,7 @@ hazard,2
 ratio,3
 confidence,2
 interval,2
-relapsefree,1
+relapse free,1
 upper,1
 respiratory,7
 tract,1
@@ -765,7 +768,7 @@ profile,3
 similar,7
 benefits,2
 maintained,2
-longterm,3
+long term,3
 registration,3
 clinicaltrialsgov,3
 identifiers,1
@@ -918,7 +921,7 @@ platelet,1
 aggregation,1
 binding,3
 hsa,1
-cyto,1
+cyto ,1
 genotoxicity,1
 antiradical,1
 interest,2
@@ -941,7 +944,7 @@ bacteria,1
 immobilisation,1
 drugs,4
 theranostics,1
-tnfα,8
+tnf α,8
 inflammatory,1
 cytokine,2
 stem,4
@@ -967,11 +970,11 @@ compare,2
 before,3
 pretreatment,2
 diclofenac,1
-lngnitro,1
+l ng nitro,1
 arginine,1
 methyl,1
 ester,1
-lname,1
+l name,1
 nonspecific,1
 anaesthetised,1
 rebreathing,1
@@ -980,16 +983,16 @@ normoxia,1
 hypoxia,1
 each,6
 believe,1
-nosrelated,1
-crosstalk,1
+nos related,1
+cross talk,1
 mediates,1
 underlies,1
 inflammation,2
-hlahaploidentical,1
+hla haploidentical,1
 transplantation,4
-haplohct,4
-posttransplantationcyclophosphamide,1
-ptcy,5
+haplo hct,4
+post transplantation cyclophosphamide,1
+pt cy,5
 feasible,1
 procedure,2
 children,3
@@ -1000,25 +1003,28 @@ lymphoblastic,3
 leukemia,7
 lacking,2
 years,6
-followup,4
+follow up,4
 cr,12
-day,6
+day,3
 bone,5
 marrow,3
 bm,2
 source,4
 cumulative,5
 incidence,5
+ day,2
 engraftment,2
-graftversushost,3
+day ,1
+graft versus host,3
 gvhd,6
 grade,12
-iiiv,2
-year,7
+ii iv,2
+ year,4
 chronic,10
 nonrelapse,2
 nrm,2
 transplanted,2
+year,3
 multivariable,1
 hr  ,4
 hct,1
@@ -1031,7 +1037,7 @@ remain,2
 important,2
 improved,2
 summary,3
-covid,5
+covid ,5
 pandemic,8
 having,3
 profound,1
@@ -1068,7 +1074,7 @@ countries’,1
 ministries,1
 police,1
 agencies,2
-governmentrun,1
+government run,1
 statistics,3
 equivalents,1
 translated,1
@@ -1101,7 +1107,7 @@ relaxed,1
 rule,2
 populations,1
 interrupted,2
-timeseries,2
+time series,2
 trend,1
 suicides,5
 march,2
@@ -1112,10 +1118,10 @@ derived,2
 observed,12
 april,1
 primary,7
-highincome,4
+high income,4
 five,2
-uppermiddleincome,2
-wholecountry,1
+upper middle income,2
+whole country,1
 ten,1
 rate,6
 ratios,1
@@ -1156,18 +1162,18 @@ multiple,1
 largely,1
 unchanged,1
 declined,1
-prepandemic,1
+pre pandemic,1
 period,2
 need,1
 vigilant,1
 poised,1
 respond,1
 situation,1
-longerterm,1
+longer term,1
 economic,1
 unfold,1
 funding,3
-hivpositive,3
+hiv positive,3
 inject,2
 pwid,4
 experience,1
@@ -1194,7 +1200,7 @@ risks,1
 improve,2
 treatment’,1
 script,1
-communitybased,1
+community based,1
 form,2
 acceptance,1
 commitment,1
@@ -1221,7 +1227,7 @@ usual,2
 psychological,1
 flexibility,1
 handle,1
-stigmarelated,1
+stigma related,1
 expectations,1
 emotions,2
 experiences,1
@@ -1268,7 +1274,7 @@ macrophages,3
 patient,6
 monocytic,1
 pbmc,1
-fold,5
+ fold,5
 untreated,1
 days,8
 cultivation,1
@@ -1293,7 +1299,7 @@ energy,1
 close,1
 vicinity,1
 residue,1
-pbmcderived,1
+pbmc derived,1
 assessing,1
 rationale,2
 hemodialysis,2
@@ -1320,8 +1326,9 @@ september ,2
 analytical,2
 descriptive,2
 participated,1
-countryspecific,1
+country specific,1
 iqr,4
+ ,10
 per,4
 pmp,3
 global,2
@@ -1334,11 +1341,11 @@ hours,1
 times,2
 weekly,1
 generally,2
-lowincome,4
+low income,4
 home,1
-patientreported,2
+patient reported,2
  monitoring,3
-smallsolute,1
+small solute,1
 clearance,1
 mineral,1
 markers,3
@@ -1362,13 +1369,14 @@ desirability,1
 limited,2
 collection,1
 preventing,1
-indepth,2
+in depth,2
 reveal,1
 substantial,1
 variations,1
 lowest,1
 evident,1
-lowermiddle–income,1
+low ,2
+lower middle–income,1
 prognosis,1
 refractory,6
 induction,2
@@ -1383,13 +1391,13 @@ widely,1
 cured,1
 preclinical,1
 indicate,2
-posttransplantation,2
+post transplantation,2
 cyclophosphamide,2
 bendamustine,2
 ptb,9
 prophylaxis,4
 regimen,3
-graftversusleukemia,1
+graft versus leukemia,1
 gvl,3
 establish,1
 optimal,2
@@ -1402,7 +1410,7 @@ myeloablative,1
 conditioning,2
 fludarabine,1
 busulfan,1
-singleagent,2
+single agent,2
 subsequent,2
 combination,3
 tacrolimus,2
@@ -1454,27 +1462,27 @@ intravascular,1
 coagulation,1
 nervous,1
 toxicity,5
-hlamismatched,1
+hla mismatched,1
 classic,1
 severe,2
 survivors,1
 immunosuppression,2
 relatively,1
-threeyear,1
-eventfree,1
+three year,1
+event free,1
 relapses,2
 statistically,3
 mg/kg,1
 promising,2
 augment,1
-crsassociated,1
+crs associated,1
 necessitates,1
 routine,1
 application,1
 cannot,1
 recommended,1
 ameliorates,1
-hlamatched,1
+hla matched,1
 allografts,1
 biological,2
 require,1
@@ -1486,7 +1494,7 @@ scz,7
 deficits,1
 visual,8
 contrast,4
-brainderived,1
+brain derived,1
 neurotropic,1
 bdnf,5
 measure,2
@@ -1498,11 +1506,11 @@ like,1
 perception,1
 investigated,1
 relationship,1
-firstepisode,5
-thirtynine,1
+first episode,5
+thirty nine,1
 healthy,2
 sensitivity,3
-mid,1
+mid ,1
 except,2
 middle,2
 correlations,1
@@ -1511,7 +1519,7 @@ mostly,1
 females,1
 support,1
 alterations,1
-magno,1
+magno ,1
 parvocellular,1
 functioning,1
 ii,1
@@ -1524,7 +1532,7 @@ disorders,2
 purpose,1
 analyze,1
 biochemical,1
-diseasefree,5
+disease free,5
 bdfs,4
 late,3
 prostate,6
@@ -1550,15 +1558,15 @@ excluded,1
 prospectively,1
 collected,2
 mean,2
-prostatespecific,1
+prostate specific,1
 antigen,2
 psa,2
 value,1
 μg/l,2
-lowrisk,1
+low risk,1
 favorable,3
 unfavorable,2
-intermediaterisk,3
+intermediate risk,3
 underwent,3
 neoadjuvant,1
 hormonal,2
@@ -1583,7 +1591,7 @@ schedules,1
 serious,4
 gi,1
 gu,1
-cajalretzius,4
+cajal retzius,4
 transient,1
 elements,1
 developing,1
@@ -1591,7 +1599,7 @@ cerebral,2
 cortex,3
 express,2
 characteristic,1
-heavychain,2
+heavy chain,2
 neurofilaments,2
 participating,1
 construction,1
@@ -1600,9 +1608,9 @@ believed,1
 feature,1
 human’s,1
 stain,1
-smi,2
+smi ,2
 antibody,1
-nonphosphorylated,1
+non phosphorylated,1
 horizontally,1
 oriented,1
 soma,1
@@ -1614,7 +1622,7 @@ cats,1
 aged,1
 postnatal,1
 dii,1
-welldeveloped,1
+well developed,1
 parallel,1
 vertical,1
 branches,1
@@ -1674,7 +1682,7 @@ vasomotor,1
 rhinitis,1
 divided,1
 consisted,1
-laserturbinectomy,2
+laser turbinectomy,2
 pathology,1
 dynamic,1
 observation,2
@@ -1684,12 +1692,12 @@ anterior,1
 rhinomanometry,1
 when,1
 subgroups,5
-tcriterion,1
+t criterion,1
 samples,1
 nose,1
 scale,3
 student's,1
-ttest,1
+t test,1
 perform,1
 subjectively,1
 noted,1
@@ -1698,11 +1706,11 @@ indicates,1
 regulation,3
 airflow,1
 trace,2
-amineassociated,2
+amine associated,2
 taars,2
 class,1
 g,1
-proteincoupled,1
+protein coupled,1
 detect,1
 biogenic,1
 amines,1
@@ -1710,7 +1718,7 @@ products,1
 decarboxylation,1
 acids,1
 majority,1
-taartaar,1
+taar taar,1
 described,1
 olfactory,3
 epithelium,1
@@ -1724,9 +1732,9 @@ projection,1
 mouse,1
 line,1
 knockout,2
-taarko,3
+taar ko,3
 mice,5
-betagalactosidase,2
+beta galactosidase,2
 mapping,1
 dopamine,5
 striatal,2
@@ -1767,7 +1775,7 @@ parkinson's,2
 hemispheric,1
 asymmetry,4
 erps,1
-lowfrequency,1
+low frequency,1
 oscillatory,3
 hemispheres,1
 stimuli,1
@@ -1787,7 +1795,7 @@ goal,1
 find,1
 lateralization,3
 consistent,1
-righthemispheric,1
+right hemispheric,1
 dominance,2
 contralateral,1
 neglect,2
@@ -1798,16 +1806,16 @@ stronger,1
 contralaterality,1
 left,1
 corresponding,1
-deltaalpha,1
+delta alpha,1
 attention,1
 consistently,3
 how,1
 pattern,1
 interrelated,1
-motionrelated,1
-singletrial,2
+motion related,1
+single trial,2
 antibodies,1
-aquaporin,1
+aquaporin ,1
 water,1
 trigger,1
 cascade,1
@@ -1815,15 +1823,15 @@ implicated,1
 astrocyte,1
 injury,1
 demonstrated,2
-antiaqp,1
+anti aqp,1
 reducing,3
 across,4
 clinically,2
 relevant,2
-timetoevent,1
+time to event,1
 adults,1
  mg/ weeks,1
-stabledose,1
+stable dose,1
 ist,4
 permitted,1
 rituximab,4
@@ -1844,7 +1852,7 @@ another,2
 infection,2
 regardless,1
 wide,1
-trismalonate,1
+tris malonate,1
 c,1
 cf,1
 great,1
@@ -1856,7 +1864,7 @@ means,1
 improving,1
 crop,1
 yield,1
-watersoluble,1
+water soluble,1
 derivatives,1
 physiological,2
 plant,3
@@ -1910,7 +1918,7 @@ delivery,2
 outcome,4
 n,4
 nephrologists,1
-nonnephrologist,1
+non nephrologist,1
 physicians,1
 professionals,1
 administrators/policy,1
@@ -1919,12 +1927,12 @@ servants,1
 others,1
 responded,1
 questions,2
-pdrelated,1
+pd related,1
 africa,2
 modality,1
 for≤,1
 newly,1
-outofpocket,1
+out of pocket,1
 expenses,1
 incurred,1
 asia,2
@@ -1938,7 +1946,7 @@ explanations,1
 underpinning,1
 lack,2
 granular,1
-inter,1
+inter ,1
 intraregional,1
 disparities,1
 greatest,1
@@ -1947,7 +1955,7 @@ effectiveness,1
 regimens,5
 dydrogesterone,5
 management,1
-endometriosisrelated,1
+endometriosis related,1
 pelvic,7
 twenty,1
 gynecology,1
@@ -1966,7 +1974,7 @@ prolonged,4
 cyclical,4
 continuously,1
 cutoff,1
-point,1
+ point,1
 numerical,1
 rating,1
 marked,2
@@ -1977,9 +1985,9 @@ analgesics,1
 required,1
 severity,2
 sexual,4
-wellbeing,2
-healthrelated,1
-qualityoflife,1
+well being,2
+health related,1
+quality of life,1
 a favorable,1
 reactions,1
 pronounced,2
@@ -2119,13 +2127,13 @@ needed,1
 optimise,1
 surgical,1
 resection,2
-earlystage,2
-nonsmallcell,2
+early stage,2
+non small cell,2
 nsclc,4
 atezolizumab,8
 best,6
 supportive,6
-platinumbased,2
+platinum based,2
 impower,4
 randomised,2
 multicentre,2
@@ -2147,21 +2155,21 @@ joint,1
 committee,1
 staging,1
 edition,1
-permutedblock,1
+permuted block,1
 block,1
 cycles,2
 regular,1
 scans,1
 endpoint,1
-investigatorassessed,1
+investigator assessed,1
 hierarchically,1
 ii–iiia,6
 whose,3
-pdl,3
+pd l,3
 sp,1
 then,1
 finally,1
-intentiontotreat,1
+intention to treat,1
 itt,2
 ib–iiia,2
 recruiting,1
@@ -2169,42 +2177,42 @@ oct,1
 whom,1
 randomisation,1
 hr,2
-atezolizumabrelated,1
+atezolizumab related,1
 offers,1
 f,1
-hoffmannla,1
+hoffmann la,1
 roche,1
 genentech,1
 genetics,1
-buspironedependent,1
+buspirone dependent,1
 mechanism,1
 diaminocarbenepdii,1
-regionspecific,1
+region specific,1
 tone,1
 opposite,1
 acetylcholine,1
 carcinomas,1
 distinct,1
-singlecenter,1
+single center,1
 cytochemical,1
-antiaquaporiniggpositive,1
+anti aquaporin igg positive,1
 estimation,1
 differential,1
 electrophysiological,1
 nanocomposite,1
 mediate,1
 unmanipulated,1
-posttransplant,1
+post transplant,1
 pediatric,1
 trends,1
 preliminary,1
 addressing,1
 increases,1
 restores,1
-patientderived,1
+patient derived,1
 parkinsonism,1
-doseranging,1
-canceryear,1
+dose ranging,1
+cancer  year,1
 labeling,1
 feline,1
 auditory,1

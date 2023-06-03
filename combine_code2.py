@@ -92,7 +92,7 @@ for current_file in source_files:
         "+": "", "“": "", "”": "", "~": "",
         "{": "", "}": "", "0": "", "1": "", "2": "", "3": "", "4": "",
         "5": "", "6": "", "7": "", "8": "", "9": "", "%": "",
-        "\n": "", "·": "","-": "", 
+        "\n": "", "·": "","-": " ", 
     }
     # - /
 
@@ -288,6 +288,8 @@ plt.plot(x, y2, color="red", label="obs. distrib. " + hamburger2, alpha=0.3)
 
 plt.fill_between(x, y1, color="blue", alpha=0.3)
 plt.fill_between(x, y2, color="red", alpha=0.3)
+
+plt.xticks(rotation=85)
 
 plt.legend()
 plt.show()
