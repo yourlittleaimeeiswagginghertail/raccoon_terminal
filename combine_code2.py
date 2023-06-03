@@ -92,7 +92,7 @@ for current_file in source_files:
         "+": "", "“": "", "”": "", "~": "",
         "{": "", "}": "", "0": "", "1": "", "2": "", "3": "", "4": "",
         "5": "", "6": "", "7": "", "8": "", "9": "", "%": "",
-        "\n": "", "·": "",
+        "\n": "", "·": "","-": "", 
     }
     # - /
 
@@ -274,80 +274,19 @@ else:
     print("встречаемость слов НЕ зависит от файла. independent.")
     print("not enough evidence to suggest _file_ and _words_ are dependent (at the 5% level of significance)", stars)
 
+#bar plot
 if select_all_rows == "no":
-    # bar plot
     df_obs.plot(kind="bar")
     plt.show()
 
-# plot
+#line plot
 plt.plot(df_obs[hamburger1], color="blue", label="obs. distrib. " + hamburger1)
 plt.plot(df_obs[hamburger2], color="red", label="obs. distrib. " + hamburger2)
 plt.legend()
 plt.show()
 
-# fig, ax = plt.subplots()
-# ax.bar(df_obs.index, df_obs[hamburger1])
-# plt.xticks(rotation=30)
-# plt.show()
 
-'''
-# выделить распределения от заданного индекса до заданного индекса
-def select_distr(line_of_mdf, startind1, endind1):
-    distr_of_line_ser = merged_df_hamb_ind.iloc[line_of_mdf]
-    distr_of_line_ndar = distr_of_line_ser.to_numpy()
-    return distr_of_line_ndar[startind1:endind1]
 
-si1 = 850 ###
-ei1 = si1+30 ###
-distr_of_file_1_fin = select_distr(0, si1, ei1)
-distr_of_file_2_fin = select_distr(1, si1, ei1)
-print("распределение_of_file_1:", distr_of_file_1_fin, '\n', "распределение_of_file_2", distr_of_file_2_fin, stars)
-
-# коэф на который нужно уменьшить каждое число,
-# чтобы сумма слов была одинаковая
-# слова распределяются так_1 и так_2
-distr_of_file_1_s = sum(distr_of_file_1_fin)
-distr_of_file_2_s = sum(distr_of_file_2_fin)
-avgsum = (distr_of_file_1_s + distr_of_file_2_s) / 2
-print(distr_of_file_1_s, distr_of_file_2_s, avgsum, '\n')
-#
-coef_for_file_1 = avgsum / distr_of_file_1_s  # коэф для distr_of_file_1
-coef_for_file_2 = avgsum / distr_of_file_2_s  # коэф для distr_of_file_2
-print(coef_for_file_1, coef_for_file_2)
-#
-distr_of_file_1_coef = distr_of_file_1_fin * coef_for_file_1
-distr_of_file_2_coef = distr_of_file_2_fin * coef_for_file_2
-#
-print("распределение_" + file_1_name + "_коэф:", distr_of_file_1_coef)
-print("распределение_" + file_2_name + "_коэф:", distr_of_file_2_coef, stars)
-# так округлять: _____r = np.around(___.astype(np.double), 2)
-
-statistic_chi1, pvalue_chi1 = chisquare(distr_of_file_1_coef, distr_of_file_2_coef)
-print("chisquare", statistic_chi1, pvalue_chi1)
-if pvalue_chi1 <= 0.05:
-    print("reject H0,", "различаются", stars)
-else:
-    print("мы не обнаружили значимых различий", stars)
-
-statistic_spear1, pvalue_spear1 = stats.spearmanr(distr_of_file_1_coef, distr_of_file_2_coef)
-print("spearman", statistic_spear1, pvalue_spear1)
-if pvalue_spear1 < 0.05:
-    print("есть доказательства связи", stars)
-else:
-    print("нет доказательств связи", stars)
-
-plot_real = False ###
-if plot_real is True:
-    plt.plot(distr_of_file_1_fin, color="blue", label="distribution of " + file_1_name + " real")
-    plt.plot(distr_of_file_2_fin, color="red", label="distribution of " + file_2_name + " real")
-else:
-    plt.plot(distr_of_file_1_coef, color="blue", label="distribution of " + file_1_name + " coef")
-    plt.plot(distr_of_file_2_coef, color="red", label="distribution of " + file_2_name + " coef")
-
-plt.legend()
-plt.show()
-
-'''
 
 
 
