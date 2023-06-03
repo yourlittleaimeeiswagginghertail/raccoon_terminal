@@ -280,13 +280,16 @@ if select_all_rows == "no":
     plt.show()
 
 #line plot
-plt.plot(df_obs[hamburger1], color="blue", label="obs. distrib. " + hamburger1)
-plt.plot(df_obs[hamburger2], color="red", label="obs. distrib. " + hamburger2)
+x = df_obs.index
+y1 = df_obs[hamburger1]
+y2 = df_obs[hamburger2]
+plt.plot(x, y1, color="blue", label="obs. distrib. " + hamburger1)
+plt.plot(x, y2, color="red", label="obs. distrib. " + hamburger2)
+
+plt.fill_between(x, y1, y2, color="red")
+
 plt.legend()
 plt.show()
-
-
-
 
 
 
